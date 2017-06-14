@@ -16,5 +16,6 @@ Week | Day | Date | Topics in Focus | Course Materials
 4 | Mon | 2017-07-24 | TBA | TBA
 4 | Wed | 2017-07-26 | TBA | TBA
 5 | Mon | 2017-07-31 | TBA | TBA
-5 | Wed | 2017-08-02 | TBA | TBA
+5 | Wed | 2017-08-02 | N/A | Retrospective
+5 | Wed | 2017-08-02 | N/A | Final Exam Preparation
 6 | Mon | 2017-08-07 | N/A | [Final Exam](/exams/final/exam.md)

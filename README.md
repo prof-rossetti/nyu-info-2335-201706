@@ -28,27 +28,6 @@ TBA
 
 
 
-## Learning Community
-
-The maximum enrollment for this section is 50 students.
-
-Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub](https://github.com/s2t2))
- will be administering the course and teaching all course material.
- If you have a question about assignments, projects, or anything covered in class,
- send a direct message to `@prof-rossetti` on Slack
- or email him at [mrossett@stern.nyu.edu](mailto:mrossett@stern.nyu.edu).
- The professor aims to provide an average Slack response time of 1-2 business days and an average email response time of 3-4 business days. If emailing the professor, please use your university-issued email address.
-
-Mike Zhu will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
-
-
-
-
-
-
-## Evaluation
-
-TBA
 
 
 
@@ -127,7 +106,26 @@ Each student is expected to achieve proficiency running Python scripts via the [
 
 
 
+## Learning Community
 
+The maximum enrollment for this section is 50 students.
+
+Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub](https://github.com/s2t2))
+ will be administering the course and teaching all course material.
+ If you have a question about assignments, projects, or anything covered in class,
+ send a direct message to `@prof-rossetti` on Slack
+ or email him at [mrossett@stern.nyu.edu](mailto:mrossett@stern.nyu.edu).
+ The professor aims to provide an average Slack response time of 1-2 business days and an average email response time of 3-4 business days. If emailing the professor, please use your university-issued email address.
+
+Mike Zhu will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
+
+
+
+
+
+## Evaluation
+
+TBA
 
 
 

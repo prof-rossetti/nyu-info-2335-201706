@@ -1,9 +1,5 @@
 # Schedule
 
-This document lists topics and technologies in focus during each class, as well as due dates for all assignments, projects, and exams.
-
-The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement.
-
 Week | Day | Date | Topics in Focus | Course Materials
 --- | --- | --- | --- | ---
 0 | Wed | 2017-06-28 | TBA | [Development Environment Setup](/exercises/development-environment-setup/exercise.md)

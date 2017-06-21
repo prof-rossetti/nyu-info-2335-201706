@@ -117,7 +117,7 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
  or email him at [mrossett@stern.nyu.edu](mailto:mrossett@stern.nyu.edu).
  The professor aims to provide an average Slack response time of 1-2 business days and an average email response time of 3-4 business days. If emailing the professor, please use your university-issued email address.
 
-Mike Zhu will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
+Mike Zhu ([Github](https://github.com/mz888)) will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
 
 
 

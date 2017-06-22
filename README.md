@@ -40,26 +40,6 @@ TBA
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Materials
 
 In general, students should expect to not pay any money to obtain course materials or use course-recommended services.
@@ -96,16 +76,6 @@ Each student is expected to achieve proficiency using a Git client of choice. By
 
 Each student is expected to achieve proficiency running Python scripts via the [Python command-line utility](https://www.python.org/) and managing Python packages using the [Pip command-line utility](https://pypi.python.org/pypi/pip).
 
-
-
-
-
-
-
-
-
-
-
 ## Learning Community
 
 The maximum enrollment for this section is 50 students.
@@ -119,22 +89,30 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
 
 Mike Zhu ([Github](https://github.com/mz888)) will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
 
+## Student Evaluation
 
+Student performance will be evaluated by assignments, projects, and a final exam. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted.
 
-
-
-## Evaluation
-
-TBA
-
-
-
+item | category | weight | due date
+--- | --- | ---
+[Student Survey](https://goo.gl/forms/3KhJOMl7db4XNErZ2) | Assignment | 2.5% | TBA
+[Submit a Pull Request](/assignments/pull-request/assignment.md) | Assignment | 2.5% | TBA
+[Meetups](/assignments/meetups/assignment.md) | Assignment | 5% | TBA
+Program I | Assignment | 5% | TBA
+Program II | Assignment | 7.5% | TBA
+[Program III (Shopping Cart)](/assignments/shopping-cart/assignment.md) | Assignment | 7.5% | TBA
+[CRUD Application](/assignments/crud-application/assignment.md) | Assignment | 10% | TBA
+[API Client](/assignments/api-client/assignment.md) | Assignment | 15% | TBA
+[Freestyle](/projects/freestyle/project.md) | Project | 20% | TBA
+[Final Exam](/exams/final/exam.md) | Exam | 25% | TBA
 
 ## Operations
 
 ### Communication (Slack)
 
 All course communications will be directed to members of the `#2335` channel on Slack. Students should join the course [Slack team](https://nyu-info-2335-70.slack.com/) at the beginning of the semester when invited by the professor.
+
+> REFERENCE: [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :smiley:
 
 ### Collaboration (GitHub)
 
@@ -150,25 +128,17 @@ The [Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%4
 
 ### Schedule
 
-The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class, as well as due dates for all assignments, projects, and exams. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement via Slack.
+The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement via Slack.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## [Policies](/POLICIES.md)
+### [Policies](/POLICIES.md)
 
 All members of the learning community agree to abide by the [policies](/POLICIES.md) described herein.
+
+
+
+
+
+
+
 
 ## [License](/LICENSE.md)

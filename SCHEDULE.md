@@ -6,12 +6,12 @@ Activity | Weight | Due Date
 --- | --- | ---
 [Student Survey](/assignments/survey/assignment.md) | 2.5% | 2017-06-28
 [Pull Request](/assignments/pull-request/assignment.md) | 5% | 2017-06-28
-Program I - TBA | 5% | TBA
-Program II - Shopping Cart | 7.5% | TBA
+Program - TBA | 5% | TBA
+Shopping Cart | 7.5% | TBA
 Business Process Analysis | 10% | TBA
-Program III - CRUD Application | 10% | TBA
+CRUD Application | 10% | TBA
 Project Requirements | 5% | TBA
-Program IV - API Client | 12.5% | TBA
+API Client | 12.5% | TBA
 Project Implementation | 10% | 2017-08-02
 [Meetups](/assignments/meetups/assignment.md) | 7.5% | 2017-08-04
 [Final Exam](/exams/final/exam.md) | 25% | 2017-08-07

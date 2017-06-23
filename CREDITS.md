@@ -12,6 +12,7 @@
   + [NYU Data Bootcamp](https://github.com/NYUDataBootcamp)
   + [NYU Principles of Urban Informatics](https://github.com/fedhere/PUI2016_fb55)
   + [Think Python](http://greenteapress.com/thinkpython2/html/index.html)
+  + [Lynda Python Essential Training](https://www.lynda.com/Python-tutorials/Python-3-Essential-Training/62226-2.html)
 
 ## NYU Services
 

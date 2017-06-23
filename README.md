@@ -1,4 +1,4 @@
-# INFO 2335 - Programming in Python and Fundamentals of Software Development
+# INFO-GB.2335.70 - Programming in Python and Fundamentals of Software Development
 
 This repository contains resources for instructing a graduate business school course on programming and software development.
 
@@ -89,22 +89,15 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
 
 Mike Zhu ([Github](https://github.com/mz888)) will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
 
-## Student Evaluation
+## Learning Activities
 
-Student performance will be evaluated by assignments, projects, and a final exam. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted.
+Student performance will be evaluated by assignments, project(s), and a final exam. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted. The final exam will be held on the last day of class. See the [Schedule](/SCHEDULE.md) for up-to-date information about the due-dates and weights of all learning activities.
 
-item | category | weight | due date
---- | --- | ---
-[Student Survey](https://goo.gl/forms/3KhJOMl7db4XNErZ2) | Assignment | 2.5% | TBA
-[Submit a Pull Request](/assignments/pull-request/assignment.md) | Assignment | 2.5% | TBA
-[Meetups](/assignments/meetups/assignment.md) | Assignment | 5% | TBA
-Program I | Assignment | 5% | TBA
-Program II | Assignment | 7.5% | TBA
-[Program III (Shopping Cart)](/assignments/shopping-cart/assignment.md) | Assignment | 7.5% | TBA
-[CRUD Application](/assignments/crud-application/assignment.md) | Assignment | 10% | TBA
-[API Client](/assignments/api-client/assignment.md) | Assignment | 15% | TBA
-[Freestyle](/projects/freestyle/project.md) | Project | 20% | TBA
-[Final Exam](/exams/final/exam.md) | Exam | 25% | TBA
+category | collective weight
+--- | ---
+Assignments | 65%
+Projects | 20%
+Exams | 25%
 
 ## Operations
 

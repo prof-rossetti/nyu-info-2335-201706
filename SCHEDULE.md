@@ -1,7 +1,7 @@
 # Schedule
 
 Class Id | Date | Topic(s) in Focus | Course Material(s)
---- | --- | --- | --- | ---
+--- | --- | --- | ---
 W-1 | 2017-06-28 | TBA | [Development Environment Setup](/exercises/development-environment-setup/exercise.md)
 M-2 | 2017-07-03 | TBA | TBA
 W-3 | 2017-07-05 | TBA | TBA

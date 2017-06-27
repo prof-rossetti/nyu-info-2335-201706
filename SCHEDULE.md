@@ -3,15 +3,17 @@
 ### Class 1 - Wednesday 2017-06-28
 
   + Course Operations:
-    + Slack Team
-    + GitHub Repository
-    + Student Survey
-    + Timesheets
+    + [NYU Classes Site](https://newclasses.nyu.edu/portal/site/35d63f1f-36de-4caf-bf8b-d950377ec68f)
+    + [Slack Team](https://nyu-info-2335-70.slack.com/)
+    + [GitHub Repository](https://github.com/prof-rossetti/nyu-info-2335-70-201706)
+    + [Student Survey](/assignments/survey/assignment.md)
+    + [Student Timesheets](/assignments/timesheets/assignment.md)
   + [Intro to Information Systems](/notes/information-systems/notes.md)
   + [Intro to Software](/notes/software/notes.md)
-  + Intro to Version Control
-  + Installing a Text Editor
-  + Installing Python
+  + [Intro to Version Control](/notes/version-control.md)
+  + Software Development Tools:
+    + [Text Editors](/notes/text-editors/notes.md)
+    + Programming Languages ([Installing Python](/notes/installing-python/notes.md))
 
 ### Class 2 - Monday 2017-07-03
 

@@ -6,7 +6,7 @@
 
 ## Instructions
 
-Before you participate in this course, please take a few moments to fill-out the [student semester survey](https://goo.gl/forms/3KhJOMl7db4XNErZ2). Your responses help the instructors tailor the course to fit your experiences and expectations.
+Before you participate in this course, please take a few moments to fill-out the [student survey](https://goo.gl/forms/3KhJOMl7db4XNErZ2). Your responses help the instructors tailor the course to fit your experiences and expectations.
 
 ## Evaluation
 

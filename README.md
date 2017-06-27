@@ -6,9 +6,18 @@ See the [contributor's guide](/CONTRIBUTING.md) for instructions on how to add o
 
 ## Identification
 
-university | school | department | term | course | section | credits
---- | --- | --- | --- | --- | --- | ---
-[New York University (NYU)](http://www.nyu.edu/) | [Stern School of Business](http://www.stern.nyu.edu/) | [Information Systems (INFO)](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept) | [2017 Summer Session II](http://www.stern.nyu.edu/portal-partners/registrar/academic-calendars/summer-2017-calendar) | Programming In Python and Fundamentals of Software Development (2335) | Monday and Wednesday nights (70) in KMC 4-60 | 3
+&nbsp; | &nbsp;
+--- | ---
+University | [New York University (NYU)](http://www.nyu.edu/)
+School | [Stern School of Business](http://www.stern.nyu.edu/)
+Department | [Department of Information, Operations, and Management Sciences (IOMS)](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept) - Information Systems (INFO)
+Term | [2017 Summer Session II](http://www.stern.nyu.edu/portal-partners/registrar/academic-calendars/summer-2017-calendar)
+Course | Programming In Python and Fundamentals of Software Development (GB.2335)
+Section | Monday and Wednesday nights from 6pm to 9pm (70)
+Room | KMC 4-60
+Credits | 3
+
+
 
 ## Description
 
@@ -52,9 +61,7 @@ No textbook is required to accompany this course,
 
 ### Computers
 
-Each student should have access to a personal computer during class. The computer should allow installation of Python, third-party packages, and other software such as a text editor. It should have enough processing power to run several programs at once, thus some netbooks may prove problematic. Mac and Windows operating systems should both provide a suitable development environment, however students with Windows computers may face additional and/or alternate instructions.
-
-Any student who doesn't own a personal computer may [loan a laptop from the library](https://library.nyu.edu/services/computing/on-campus/laptop-loans/), but may need to re-install relevant software before each class.
+Each student should have access to a personal computer during class. The computer should allow installation of Python, third-party packages, and other software such as a text editor. It should have enough processing power to run all these programs, thus some netbooks may prove problematic. Mac and Windows operating systems should both provide a suitable development environment, however students with Windows computers may face additional and/or alternate instructions. Any student who doesn't own a personal computer may [loan a laptop from the library](https://library.nyu.edu/services/computing/on-campus/laptop-loans/), but may need to re-install relevant software before each class.
 
 #### Computer Software
 
@@ -95,12 +102,6 @@ Student performance will be evaluated by assignments, project(s), and a final ex
 
 ## Operations
 
-### Communication (Slack)
-
-All course communications will be directed to members of the `#2335` channel on Slack. Students should join the course [Slack team](https://nyu-info-2335-70.slack.com/) at the beginning of the semester when invited by the professor.
-
-> REFERENCE: [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :smiley:
-
 ### Collaboration (GitHub)
 
 All course materials exist in the course [GitHub repository](https://github.com/prof-rossetti/nyu-info-2335-70-201706). Over the course of the semester, students will be expected to submit assignments and projects using a personal GitHub account. Any student who would like to keep these academic activities private may use an anonymous GitHub account not associated with his or her identity.
@@ -108,6 +109,12 @@ All course materials exist in the course [GitHub repository](https://github.com/
 Students should expect to view the course materials online, and may "clone" or download the repository on a periodic basis to access course materials offline.
 
 Additionally, to submit assignments and projects over the course of the semester, students will be expected to "fork" the repository, keep their forks up-to-date, and submit "pull requests" as instructed by the professor.
+
+### Communication (Slack)
+
+All students should join the course [Slack team](https://nyu-info-2335-70.slack.com/) at the beginning of the semester when invited by the professor. All course communications will be directed to members of the `#2335` channel. Students may optionally join the `#2335-dev` channel to subscribe to a feed of updates to this course repository. The professor may create additional channels to serve assignment-specific purposes or facilitate affinity group communications.
+
+> REFERENCE: [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :smiley:
 
 ### Calendar
 
@@ -117,9 +124,9 @@ The [Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%4
 
 The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement via Slack.
 
-### [Policies](/POLICIES.md)
+### Policies
 
-All members of the learning community agree to abide by the [policies](/POLICIES.md) described herein.
+All members of the learning community agree to abide by the [Policies](/POLICIES.md) described herein.
 
 
 

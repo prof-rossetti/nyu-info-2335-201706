@@ -5,12 +5,12 @@
   + Course Operations:
     + [NYU Classes Site](https://newclasses.nyu.edu/portal/site/35d63f1f-36de-4caf-bf8b-d950377ec68f)
     + [Slack Team](https://nyu-info-2335-70.slack.com/)
+    + [Google Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%40gmail.com&ctz=America/New_York)
     + [GitHub Repository](https://github.com/prof-rossetti/nyu-info-2335-70-201706)
     + [Student Survey](/assignments/survey/assignment.md)
     + [Student Timesheets](/assignments/timesheets/assignment.md)
   + [Intro to Information Systems](/notes/information-systems/notes.md)
   + [Intro to Software](/notes/software/notes.md)
-  + [Intro to Version Control](/notes/version-control.md)
   + Software Development Tools:
     + [Text Editors](/notes/text-editors/notes.md)
     + Programming Languages ([Installing Python](/notes/installing-python/notes.md))
@@ -18,7 +18,7 @@
 ### Class 2 - Monday 2017-07-03
 
   + Command-line Computing
-  + Intro to Git
+  + Intro to Git and Version Control
   + Python Scripting, Logging, and Debugging
   + Python Datatypes, Variables, and Functions
 

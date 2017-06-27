@@ -2,6 +2,11 @@
 
 ### Class 1 - Wednesday 2017-06-28
 
+  + Course Operations:
+    + Slack Team
+    + GitHub Repository
+    + Student Survey
+    + Timesheets
   + [Intro to Information Systems](/notes/information-systems/notes.md)
   + [Intro to Software](/notes/software/notes.md)
   + Intro to Version Control

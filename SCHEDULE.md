@@ -1,32 +1,18 @@
 # Schedule
 
-## Learning Activities
-
-Activity | Weight | Due Date
---- | --- | ---
-[Student Survey](/assignments/survey/assignment.md) | 2.5% | 2017-06-28
-[Pull Request](/assignments/pull-request/assignment.md) | 5% | 2017-06-28
-Program - TBA | 5% | TBA
-Shopping Cart | 7.5% | TBA
-Business Process Analysis | 10% | TBA
-CRUD Application | 10% | TBA
-Project Requirements | 5% | TBA
-API Client | 12.5% | TBA
-Project Implementation | 10% | 2017-08-02
-[Meetups](/assignments/meetups/assignment.md) | 7.5% | 2017-08-04
-[Final Exam](/exams/final/exam.md) | 25% | 2017-08-07
-
-## Classes
-
 ### Class 1 - Wednesday 2017-06-28
 
-  + Intro to Software Development within a Business Context
-  + Software Version Control
+  + [Intro to Information Systems](/notes/information-systems/notes.md)
+  + [Intro to Software](/notes/software/notes.md)
+  + Intro to Version Control
+  + Installing a Text Editor
   + Installing Python
-  + Python Scripting, Logging, and Debugging
 
 ### Class 2 - Monday 2017-07-03
 
+  + Command-line Computing
+  + Intro to Git
+  + Python Scripting, Logging, and Debugging
   + Python Datatypes, Variables, and Functions
 
 ### Class 3 - Wednesday 2017-07-05
@@ -41,27 +27,27 @@ Project Implementation | 10% | 2017-08-02
 
 ### Class 5 - Wednesday 2017-07-12
 
-  + Software Planning, Analysis, and Design
+  + TBA
 
 ### Class 6 - Monday 2017-07-17
 
-+ TBA - Student Support
+  + TBA
 
 ### Class 7 - Wednesday 2017-07-19
 
-+ TBA - Student Support
+  + TBA
 
 ### Class 8 - Monday 2017-07-24
 
-+ TBA - Student Support
+  + TBA
 
 ### Class 9 - Wednesday 2017-07-26
 
-+ TBA - Student Support
+  + TBA
 
 ### Class 10 - Monday 2017-07-31
 
-  + TBA - Student Support
+  + TBA
 
 ### Class 11 - Wednesday 2017-08-02
 

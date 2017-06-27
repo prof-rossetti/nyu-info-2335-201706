@@ -10,3 +10,13 @@ Discussion Topics:
     + Tech vs non-tech examples?
     + Commercially successful examples? :moneybag: :moneybag: :moneybag:
   + How do Information Systems provide value to businesses and organizations?
+
+Key Terms and Concepts:
+
+  + Information System
+  + Information Input
+  + Information Output
+  + Hardware
+  + Software
+  + Computer Network
+  + Database

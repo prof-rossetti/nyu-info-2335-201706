@@ -8,7 +8,7 @@
 
 ## Instructions
 
-Search [meetup.com](http://www.meetup.com/) for business, startup, and/or technology-related events in the New York City area. Focus on Python and/or software-related events if possible.
+Search [meetup.com](http://www.meetup.com/) for business, startup, and/or technology-related events in the New York City area. Focus on Python and/or software-related events if possible. You are encouraged to post links to interesting events in the `#meetups` Slack channel.
 
 Attend two events over the course of the semester.
 

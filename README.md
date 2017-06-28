@@ -67,7 +67,7 @@ Mike Zhu ([Github](https://github.com/mz888)) will be providing instructional as
 
 ## Learning Activities
 
-Student performance will be evaluated by assignments, projects, and a final exam. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted. The final exam will be held on the last day of class. See the [Activities](/SCHEDULE.md) page for up-to-date information about the due-dates and weights of all learning activities.
+Student performance will be evaluated by assignments, projects, and a final exam. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted. The final exam will be held on the last day of class. See the [Activities](/ACTIVITIES.md) page for up-to-date information about the due-dates and weights of all learning activities.
 
 
 

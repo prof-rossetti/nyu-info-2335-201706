@@ -25,7 +25,7 @@ Projects are collectively worth 50% of the final grade.
 
 Activity | Weight | Due Date
 --- | --- | ---
-[Brushing Teeth](/assignments/brushing-teeth/assignment.md) | 4% | 2017-07-02
+[Brushing Teeth](/assignments/brushing-teeth/assignment.md) | 4% | 2017-07-03
 Shopping Cart | 6% | TBA
 CRUD App | 8% | TBA
 API Client | 12% | TBA

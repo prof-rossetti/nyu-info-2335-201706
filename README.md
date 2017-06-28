@@ -2,22 +2,11 @@
 
 This repository contains resources for instructing a graduate business school course on programming and software development.
 
+University | School | Department | Term | Course | Section | Credits
+--- | --- | --- | --- | --- | --- | ---
+[New York University (NYU)](http://www.nyu.edu/) | [Stern School of Business](http://www.stern.nyu.edu/) | [Department of Information, Operations, and Management Sciences (IOMS)](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept) - Information Systems (INFO) | [2017 Summer Session II](http://www.stern.nyu.edu/portal-partners/registrar/academic-calendars/summer-2017-calendar) | Programming In Python and Fundamentals of Software Development (GB.2335) | Monday and Wednesday nights from 6pm to 9pm (70) | 3
+
 See the [contributor's guide](/CONTRIBUTING.md) for instructions on how to add or revise repository content.
-
-## Identification
-
-&nbsp; | &nbsp;
---- | ---
-University | [New York University (NYU)](http://www.nyu.edu/)
-School | [Stern School of Business](http://www.stern.nyu.edu/)
-Department | [Department of Information, Operations, and Management Sciences (IOMS)](http://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/ioms-dept) - Information Systems (INFO)
-Term | [2017 Summer Session II](http://www.stern.nyu.edu/portal-partners/registrar/academic-calendars/summer-2017-calendar)
-Course | Programming In Python and Fundamentals of Software Development (GB.2335)
-Section | Monday and Wednesday nights from 6pm to 9pm (70)
-Room | KMC 4-60
-Credits | 3
-
-
 
 ## Description
 
@@ -25,12 +14,23 @@ Credits | 3
 
 ## Scope
 
-TBA
+  + The Role of Application Software in Business and Organizations
+  + Software Development Tools, Practices, and Methodologies
+  + Programming Languages and Frameworks, with focus on Python
 
 ## Objectives
 
-TBA
-
+  1. Become proficient in writing, debugging, testing, and executing Python scripts.
+  2. Describe the ecosystem of tools and technologies used to plan, develop, and maintain computer-based information systems.
+  3. Participate in all phases of the systems development lifecycle, and describe the difference between traditional "waterfall" and agile methodologies.
+  4. Discuss security and privacy considerations relevant in designing and managing computer-based information systems.
+  1. Describe the differences between functional and object-oriented programming.
+  5. Participate in, and describe the advantages of software version control.
+  6. Describe the advantages and disadvantages of open source software.
+  7. Participate in, and describe the advantages and disadvantages of test-driven development.
+  8. Gain marketable programming skills and build an online portfolio consisting of multiple programming projects.
+  9. Network with industry professionals.
+  9. Have fun!
 
 
 
@@ -54,31 +54,48 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
 
 Mike Zhu ([Github](https://github.com/mz888)) will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
 
+## Learning Activities
+
+Student performance will be evaluated by assignments, projects, and a final exam. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted. The final exam will be held on the last day of class. See the [Activities](/SCHEDULE.md) page for up-to-date information about the due-dates and weights of all learning activities.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ## Materials
 
-In general, students should expect to not pay any money to obtain course materials or use course-recommended services.
-
 ### Textbooks
 
 No textbook is required to accompany this course,
  however students will be expected to read significant quantities of online documentation
- from a variety of sources. Helpful sources of information include:
+ from a variety of sources.
+
+Some helpful Python resources include:
 
   + [Python Documentation](https://docs.python.org/3/reference/index.html)
+  + [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+  + [Think Python](http://greenteapress.com/thinkpython2/html/index.html)
+  + [Lynda Python Essential Training](https://www.lynda.com/Python-tutorials/Python-3-Essential-Training/62226-2.html)
 
 For perspective on contemporary software development attitudes, students may optionally read the following books:
 
   + [Rework](https://books.google.com/books/about/ReWork.html?id=ClszWsFKluoC&hl=en), by David Heinemeier Hansson and Jason Fried
-  + [The 4-Hour Work Week](http://www.goodreads.com/book/show/368593.The_4_Hour_Workweek) by Tim Ferriss
+  + [The 4-Hour Work Week](http://www.goodreads.com/book/show/368593.The_4_Hour_Workweek), by Tim Ferriss
 
 ### Computers
 
 Each student should have access to a personal computer during class.
 
-The computer should allow installation of Python, third-party packages, and other software such as a text editor. It should have enough processing power to run all these programs, thus netbooks, tablets, and two-in-ones may prove problematic. Mac and Windows operating systems should both provide a suitable development environment, however students with Windows computers may face additional and/or alternate instructions.
+The computer should allow installation of Python, third-party packages, and other software such as a text editor. It should have enough processing power to run all these programs, thus netbooks, tablets, and two-in-ones may prove problematic. Both Mac and Windows operating systems should provide a suitable development environment. Students with Windows computers may face additional and/or alternate instructions.
 
 Any student who doesn't own a personal computer may inquire about [loaning a laptop from the library](https://library.nyu.edu/services/computing/on-campus/laptop-loans/).
 
@@ -106,9 +123,6 @@ Each student is expected to achieve proficiency running Python scripts via the [
 
 
 
-## Learning Activities
-
-Student performance will be evaluated by assignments, projects, and a final exam. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted. The final exam will be held on the last day of class. See the [Activities](/SCHEDULE.md) page for up-to-date information about the due-dates and weights of all learning activities.
 
 
 

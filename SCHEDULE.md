@@ -4,6 +4,7 @@
 
   + Course Operations:
     + [NYU Classes Site](https://newclasses.nyu.edu/portal/site/35d63f1f-36de-4caf-bf8b-d950377ec68f)
+    + [NYU Mediasite](http://nyustern.mediasite.com/Mediasite/Catalog/Full/0596bdd2fa024ef4b22f26aa4aa6075a21)
     + [Slack Team](https://nyu-info-2335-70.slack.com/)
     + [Google Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%40gmail.com&ctz=America/New_York)
     + [GitHub Repository](https://github.com/prof-rossetti/nyu-info-2335-70-201706)

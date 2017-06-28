@@ -2,24 +2,24 @@
 
 ### Class 1 - Wednesday 2017-06-28
 
-  + Course Operations:
-    + [NYU Classes Site](https://newclasses.nyu.edu/portal/site/35d63f1f-36de-4caf-bf8b-d950377ec68f)
-    + [NYU Mediasite](http://nyustern.mediasite.com/Mediasite/Catalog/Full/0596bdd2fa024ef4b22f26aa4aa6075a21)
-    + [Slack Team](https://nyu-info-2335-70.slack.com/)
-    + [Google Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%40gmail.com&ctz=America/New_York)
-    + [GitHub Repository](https://github.com/prof-rossetti/nyu-info-2335-70-201706)
-    + [Student Survey](/assignments/survey/assignment.md)
-    + [Student Timesheets](/assignments/timesheets/assignment.md)
-  + [Intro to Information Systems](/notes/information-systems/notes.md)
-  + [Intro to Software](/notes/software/notes.md)
-  + Software Development Tools:
-    + [Text Editors](/notes/text-editors/notes.md)
-    + Programming Languages ([Installing Python](/notes/installing-python/notes.md))
+In-class:
+
+  + [Student Survey](/assignments/survey/assignment.md)
+  + [Install a Text Editor](https://atom.io/)
+  + [Introduction to Course Operations](/README.md)
+  + [Introduction to Information Systems](/notes/information-systems/notes.md)
+  + [Introduction to Software](/notes/software/notes.md)
+  + [Human Software](/projects/human-software/project.md)
+  + [Install Python](/notes/python/installation.md)
+
+Homework:
+
+  + [Introduction to Git and Version Control](/notes/git/notes.md)
+  + [Version Control Exercise](/exercises/version-control/exercise.md)
 
 ### Class 2 - Monday 2017-07-03
 
-  + Command-line Computing
-  + Intro to Git and Version Control
+  + [Command-line Computing](/exercises/command-line-computing/exercise.md)
   + Python Scripting, Logging, and Debugging
   + Python Datatypes, Variables, and Functions
 

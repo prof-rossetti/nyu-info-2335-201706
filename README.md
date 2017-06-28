@@ -8,6 +8,15 @@ University | School | Department | Term | Course | Section | Credits
 
 See the [contributor's guide](/CONTRIBUTING.md) for instructions on how to add or revise repository content.
 
+Helpful Links:
+
+  + [NYU Classes Site](https://newclasses.nyu.edu/portal/site/35d63f1f-36de-4caf-bf8b-d950377ec68f)
+  + [NYU Mediasite](http://nyustern.mediasite.com/Mediasite/Catalog/Full/0596bdd2fa024ef4b22f26aa4aa6075a21)
+  + [Slack Team](https://nyu-info-2335-70.slack.com/)
+  + [Google Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%40gmail.com&ctz=America/New_York)
+  + [GitHub Repository](https://github.com/prof-rossetti/nyu-info-2335-70-201706)
+  + [Student Timesheets](/assignments/timesheets/assignment.md)
+
 ## Description
 
 > This course represents an opportunity for students to learn how to code, regardless of whether or not they possess prior programming experience. The Python programming language will be introduced with a progression of concepts from basic to intermediate. Students will then design and implement practical applications of the Python programming language ranging from basic scripts to intermediate programs. Throughout the semester, students will be immersed in contemporary software development practices and should emerge with marketable technology-related knowledge and skills. Prerequisites: N/A.

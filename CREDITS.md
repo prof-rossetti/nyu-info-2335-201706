@@ -21,6 +21,7 @@
   + [NYU Faculty](https://www.nyu.edu/faculty.html)
   + [Adding TA Permissions in NYU Classes](https://nyu.service-now.com/servicelink/kb_search.do?id=KB0010347)
   + [NYU Classroom Reservations](https://virtualems.stern.nyu.edu/BrowseReservations.aspx)
+  + [NYU Schools and Colleges](https://www.nyu.edu/academics/schools-and-colleges.html)
 
 ## Configuring Mediasite in NYU Classes
 

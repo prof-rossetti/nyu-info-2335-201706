@@ -43,7 +43,7 @@ See the [contributor's guide](/CONTRIBUTING.md) for instructions on how to add o
 
 ## Learning Community
 
-The maximum enrollment for this section is 50 students. Enrolled students represent a variety of gradue programs of study, however more than 70% are in the Stern School of Business.
+The maximum enrollment for this section is 50 students. Enrolled students represent a variety of graduate programs of study, however as of the first day of class, roughly 75% are in the Stern School of Business.
 
 ![A pie chart showing 72% of enrolled students are in the Stern School of Business.](/enrolled-students-per-school.png)
 

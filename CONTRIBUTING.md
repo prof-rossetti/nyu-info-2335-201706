@@ -22,7 +22,7 @@ To revise content, use a Git Client of choice. Refer to the instructions below d
 
 Add or revise files using the online interface. For example:
 
-![](/admin/revising-fork-content.gif)
+![A screencast depicting the user creating a new file via the GitHub online interface.](/admin/revising-fork-content.gif)
 
 ### Via Git CLI
 
@@ -86,7 +86,7 @@ You should now be able to view your changes reflected online in your own fork.
 
 After your fork contains the changes you'd like to be included in the course repository, create a Pull Request (PR) using the GitHub online interface. For example:
 
-![](/admin/submitting-pull-request.gif)
+![A screencast depicting a user submitting a Pull Request via the GitHub online interface.](/admin/submitting-pull-request.gif)
 
 In the PR message, describe what changes you made and why.
 

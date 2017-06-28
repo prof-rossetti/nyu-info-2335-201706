@@ -13,10 +13,10 @@ Discussion Topics:
 
 Key Terms and Concepts:
 
-  + Information System
-  + Information Input
-  + Information Output
-  + Hardware
-  + Software
-  + Computer Network
-  + Database
+  + **Information System**
+  + **Information Input**
+  + **Information Output**
+  + **Hardware**
+  + **Software**
+  + **Computer Network**
+  + **Database**

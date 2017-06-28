@@ -10,8 +10,8 @@ Discussion Topics:
 
 Key Terms and Concepts:
 
-  + Application Software
-  + Operating System Software
-  + Proprietary Software
-  + Open Source Software
-  + Programming Language
+  + **Application Software**
+  + **Operating System Software**
+  + **Proprietary Software**
+  + **Open Source Software**
+  + **Programming Language**

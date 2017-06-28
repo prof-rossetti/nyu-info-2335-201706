@@ -104,6 +104,8 @@ type C:\Users\YOUR_USERNAME\Desktop\my_folder\my_message.txt | clip
 
 ### Further Exploration
 
+Optionally explore additional command-line interfaces, if you're curious.
+
 #### Internet Computing
 
 Trace the route traveled by a network request:
@@ -126,4 +128,4 @@ curl http://www.google.com
 curl https://raw.githubusercontent.com/debate-watch/twenty_sixteen/master/lib/twenty_sixteen/candidates.json
 ````
 
-You may need to execute these commands from within the downloaded directory. See ["Installing cURL on Windows"](https://github.com/SCSU-CSC-Department/201701-csc-443-01/issues/13#issuecomment-285919861) for more support.
+You may need to execute these commands from within the downloaded directory. See ["Installing cURL on Windows"](http://stackoverflow.com/questions/9507353/how-do-i-install-set-up-and-use-curl-on-a-windows) for more support.

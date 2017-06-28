@@ -20,7 +20,7 @@ Download Python from the [Python website](https://www.python.org/downloads/).
 
 ## Mac OS
 
-Use the [Homebrew](https://brew.sh/) package manager to install Python.
+You may download Python from the [Python website](https://www.python.org/downloads/), but you are encouraged to use the [Homebrew](https://brew.sh/) package manager to install it.
 
 Check to see if Homebrew is installed:
 
@@ -39,10 +39,4 @@ Install Python and follow any post-installation instructions:
 ```` sh
 brew install python
 brew linkapss python
-````
-
-Check to ensure Python is installed, and open a shell:
-
-```` sh
-which python
 ````

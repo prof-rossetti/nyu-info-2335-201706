@@ -9,8 +9,8 @@ Save and share documents using the [Git](https://git-scm.com/) version control s
 ## Objectives
 
   1. Familiarize yourself with fundamental concepts of document version control.
-  + Learn the Git version control system.
-  + Practice using a Git client of choice.
+  1. Learn the Git version control system.
+  1. Practice using a Git client of choice.
 
 ## Instructions
 

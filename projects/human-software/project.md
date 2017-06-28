@@ -5,18 +5,20 @@ Provide instructions for how a human could perform various processes of interest
 ## Objectives
 
   1. Practice writing software in English.
-  1. Practice using GitHub to contribute to open source software.
+  1. Practice contributing to open source software.
   1. Practice version control.
 
 ## Instructions
 
 Pick two processes or activities you engage in on a daily basis. One should be the process of brushing your teeth. The other is your choice.
 
+For each process, write instructions in English to communicate to another human, perhaps even a child, how to perform that process.
+
 ## Submission Instructions
 
 Add a new file called `YOUR_GITHUB_USERNAME.md` to the [submissions directory](/projects/human-software/submissions), where `YOUR_GITHUB_USERNAME` is your GitHub username. The file should contain your written instructions, separated by process. For example, you might want to use the following template:
 
-    # Human Instructions
+    # Human Software
 
     Author: YOUR_GITHUB_USERNAME
 

@@ -108,11 +108,13 @@ pbcopy < ~/Desktop/my_folder/my_message.txt
 
 There are many other utilities to use from the command-line.
 
-Make your computer speak:
+First, turn up the volume on your computer, then make it speak:
 
 ```` sh
 say "Hello, I am your computer. Let's be friends."
 ````
+
+Optionally explore additional command-line interfaces, if you're curious.
 
 #### Internet Computing
 
@@ -135,6 +137,5 @@ Request the contents of a webpage:
 ```` sh
 curl google.com
 curl http://www.google.com
-curl http://hypem.com/playlist/popular/3day/json/1/data.js
 curl https://raw.githubusercontent.com/debate-watch/twenty_sixteen/master/lib/twenty_sixteen/candidates.json
 ````

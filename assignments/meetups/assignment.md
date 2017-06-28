@@ -8,7 +8,7 @@
 
 ## Instructions
 
-Search [meetup.com](http://www.meetup.com/) for business, startup, and/or technology-related events in the New York City area. Focus on Python and/or software-related events if possible. You are encouraged to post links to interesting events in the `#meetups` Slack channel.
+Search [meetup.com](http://www.meetup.com/) for, or otherwise identify business, startup, and/or technology-related events in the New York City area. Focus on Python and/or software-related events if possible. You are encouraged to post links to interesting events in the `#meetups` Slack channel.
 
 Attend two events over the course of the semester.
 
@@ -43,9 +43,9 @@ Else no credit.
 ## Alternate Assignment - Informational Interviews
 
 If the idea of attending business and technology community events makes you uncomfortable, or if your schedule prohibits you from attending two events before the end of the semester,
- you have another option. You may substitute each meetup event with an informational interview of some active member from the business and technology community.
+ you have another option. You may substitute each meetup event with an informational interview of some active member within the business and technology community.
 
-After the interview(s), write a short (2-3 page) summary of your experiences,
+After each interview, write a short (1-2 page) summary of your experiences,
 to address at least the following questions:
 
 + Which professionals did you interview? Include their contact info and a description of their professional roles/duties.

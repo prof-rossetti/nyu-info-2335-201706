@@ -8,7 +8,7 @@ University | School | Department | Term | Course | Section | Credits
 
 See the [contributor's guide](/CONTRIBUTING.md) for instructions on how to add or revise repository content.
 
-Helpful Links:
+Bookmark-worthy Links:
 
   + [NYU Classes Site](https://newclasses.nyu.edu/portal/site/35d63f1f-36de-4caf-bf8b-d950377ec68f)
   + [NYU Mediasite](http://nyustern.mediasite.com/Mediasite/Catalog/Full/0596bdd2fa024ef4b22f26aa4aa6075a21)
@@ -34,8 +34,8 @@ Helpful Links:
   3. Participate in all phases of the systems development lifecycle, and describe the difference between traditional "waterfall" and agile methodologies.
   4. Discuss security and privacy considerations relevant in designing and managing computer-based information systems.
   1. Describe the differences between functional and object-oriented programming.
-  5. Participate in, and describe the advantages of software version control.
-  6. Describe the advantages and disadvantages of open source software.
+  5. Participate in, and describe the advantages and disadvantages of software version control.
+  6. Participate in, and describe the advantages and disadvantages of open source software.
   7. Participate in, and describe the advantages and disadvantages of test-driven development.
   8. Gain marketable programming skills and build an online portfolio consisting of multiple programming projects.
   9. Network with industry professionals.
@@ -61,7 +61,7 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
  If you have a question about assignments, projects, or anything covered in class,
  send a direct message to `@prof-rossetti` on Slack
  or email him at [mrossett@stern.nyu.edu](mailto:mrossett@stern.nyu.edu).
- The professor aims to provide an average Slack response time of 1-2 business days and an average email response time of 3-4 business days. If emailing the professor, please use your university-issued email address.
+ The professor aims to provide an average Slack response time of 1-2 business days and an average email response time of 3-4 business days. If emailing the professor, please use your university-issued email address. If requesting a LinkedIn connection, the professor usually waits to accept them until the end of the semester.
 
 Mike Zhu ([Github](https://github.com/mz888)) will be providing instructional assistance as the course's Teaching Fellow (TF). To contact him, send a direct message to `@mz909` on Slack or email him at [mz909@nyu.edu](mailto:mz909@nyu.edu).
 
@@ -84,7 +84,7 @@ Student performance will be evaluated by assignments, projects, and a final exam
 
 ## Materials
 
-### Textbooks
+### Texts
 
 No textbook is required to accompany this course,
  however students will be expected to read significant quantities of online documentation
@@ -97,10 +97,9 @@ Some helpful Python resources include:
   + [Think Python](http://greenteapress.com/thinkpython2/html/index.html)
   + [Lynda Python Essential Training](https://www.lynda.com/Python-tutorials/Python-3-Essential-Training/62226-2.html)
 
-For perspective on contemporary software development attitudes, students may optionally read the following books:
+For perspective on contemporary software development attitudes, students may optionally read the following book:
 
   + [Rework](https://books.google.com/books/about/ReWork.html?id=ClszWsFKluoC&hl=en), by David Heinemeier Hansson and Jason Fried
-  + [The 4-Hour Work Week](http://www.goodreads.com/book/show/368593.The_4_Hour_Workweek), by Tim Ferriss
 
 ### Computers
 

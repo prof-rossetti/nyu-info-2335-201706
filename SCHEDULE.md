@@ -2,10 +2,13 @@
 
 ### Class 1 - Wednesday 2017-06-28
 
-In-class:
+Before class, or at the beginning of class:
 
   + [Student Survey](/assignments/survey/assignment.md)
   + [Install a Text Editor](https://atom.io/)
+
+In-class:
+
   + [Introduction to Course Operations](/README.md)
   + [Introduction to Information Systems](/notes/information-systems/notes.md)
   + [Introduction to Software](/notes/software/notes.md)

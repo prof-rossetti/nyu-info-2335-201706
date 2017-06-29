@@ -20,7 +20,7 @@ Git is a command-line utility. Whereas GitHub is an online platform - a social n
 
 > GitHub is a development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside millions of other developers. - [GitHub website](https://github.com/)
 
-GitHub and competitor [BitBucket](https://bitbucket.org/product)) both use Git paradigms and technologies.
+GitHub and competitor [BitBucket](https://bitbucket.org/product) both use Git paradigms and technologies.
 
 GitHub is **the** place to find and explore the world's leading open source code projects. It also provides robust project management features to help you collaborate with other developers.
 

@@ -5,7 +5,6 @@
 Before class, or at the beginning of class:
 
   + [Student Survey](/assignments/survey/assignment.md)
-  + [Install a Text Editor](https://atom.io/)
 
 In-class:
 
@@ -13,18 +12,25 @@ In-class:
   + [Introduction to Information Systems](/notes/information-systems/notes.md)
   + [Introduction to Software](/notes/software/notes.md)
   + [Human Software](/projects/human-software/project.md)
-  + [Install Python](/notes/python/installation.md)
 
 Homework:
 
-  + [Introduction to Git and Version Control](/notes/git/notes.md)
-  + [Version Control Exercise](/exercises/version-control/exercise.md)
+  + [Install a Text Editor](https://atom.io/)
 
 ### Class 2 - Monday 2017-07-03
 
+In-Class:
+
   + [Command-line Computing](/exercises/command-line-computing/exercise.md)
+  + [Introduction to Git and Version Control](/notes/git/notes.md)
+  + Install and Configure Git CLI
+  + [Install Python](/notes/python/installation.md)
   + Python Scripting, Logging, and Debugging
   + Python Datatypes, Variables, and Functions
+
+Homework:
+
+  + [Version Control Exercise](/exercises/version-control/exercise.md)
 
 ### Class 3 - Wednesday 2017-07-05
 

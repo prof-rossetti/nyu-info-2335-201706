@@ -24,7 +24,7 @@ In-Class:
   + [Command-line Computing](/exercises/command-line-computing/exercise.md)
   + [Introduction to Git and Version Control](/notes/git/notes.md)
   + Install and Configure Git CLI
-  + [Install Python](/notes/python/installation.md)
+  + [Install Python](/notes/programming-languages/python/installation.md)
   + Python Scripting, Logging, and Debugging
   + Python Datatypes, Variables, and Functions
 

@@ -15,8 +15,8 @@ The most relevant boolean operator is the equality operator ("Is this equal to t
 
 ```` js
 true == true //=> true
-true == false //=> true
-false == false //=> false
+true == false //=> false
+false == false //=> true
 ````
 
 Also relevant is the inequality operator ("Is this not equal to that?"):

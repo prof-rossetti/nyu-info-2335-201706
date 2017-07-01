@@ -18,6 +18,7 @@ Python can be run on the "server-side" (i.e. on your computer or some other serv
     + [Booleans](datatypes/booleans.md)
     + [Strings](datatypes/strings.md)
     + [Numbers](datatypes/numbers.md)
+    + [Dates and Times](/datatypes/dates-and-times.md)
     + [Arrays, a.k.a Lists](datatypes/lists.md)
     + [Objects, a.k.a Dictionaries](datatypes/dictionaries.md)
   + [Control Flow](/control-flow.md)

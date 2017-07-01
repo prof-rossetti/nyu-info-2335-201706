@@ -20,7 +20,7 @@ doStuff() // NOTE: the trailing parentheses are important. If they are omitted, 
 
 You might see some functions invoked by themselves (e.g. `doStuff()`) while others are invoked on objects (e.g. `someObject.doSomethingElse()`).
 
-Many of the examples below involve invoking built-in functions on certain types of objects. To find a comprehensive list of functions available to be called on any given type of object, reference the documentation for that type of object.
+Many of the examples in this language overview involve invoking built-in functions on certain types of objects. To find a comprehensive list of functions available to be called on any given type of object, reference the documentation for that type of object.
 
 ### Parameters
 

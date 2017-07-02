@@ -35,3 +35,7 @@
     + http://apple.stackexchange.com/a/213305/94120
     + https://www.cnet.com/how-to/record-your-computers-screen-with-audio-on-a-mac/
     + https://github.com/mattingalls/Soundflower/releases/tag/2.0b2
+
+## Course Material
+
+  + [Installing Python 3 using Homebrew](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/)

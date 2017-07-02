@@ -52,6 +52,15 @@ git checkout master # to make sure you are on the master branch (if you are usin
 git pull upstream master
 ````
 
+If something unexpected is happening and you would like to overwrite your fork based on the current state of the upstream course repository, forcibly pull from the course repository:
+
+```` sh
+git fetch upstream
+git checkout master
+git reset --hard upstream/master
+git push origin master --force
+````
+
 #### Revising Content
 
 Add or revise files using a text editor (e.g. Atom):

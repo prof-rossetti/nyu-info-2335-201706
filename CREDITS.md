@@ -39,3 +39,4 @@
 ## Course Material
 
   + [Installing Python 3 using Homebrew](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/)
+  + [Forcibly pulling from upstream remote](https://stackoverflow.com/a/9646323/670433)

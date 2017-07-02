@@ -32,7 +32,7 @@ Clone your fork to your local machine:
 
 ```` sh
 cd ~/Desktop # or some other directory where you'd like to download the repository
-git clone git@github.com:YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git # feel free to use the SSH version instead only if you've done this kind of thing before
 cd nyu-info-2335-70-201706/
 ````
 

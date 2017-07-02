@@ -11,7 +11,7 @@ In-class:
   + [Introduction to Course Operations](/README.md)
   + [Introduction to Information Systems](/notes/information-systems/notes.md)
   + [Introduction to Software](/notes/software/notes.md)
-  + [Human Software](/projects/human-software/project.md)
+  + ["Human Software" Project](/projects/human-software/project.md)
 
 Homework:
 
@@ -19,18 +19,20 @@ Homework:
 
 ### Class 2 - Monday 2017-07-03
 
-In-Class:
+Before class, or at the beginning of class:
 
-  + [Command-line Computing](/exercises/command-line-computing/exercise.md)
-  + [Introduction to Git and Version Control](/notes/git/notes.md)
-  + Install and Configure Git CLI
+  + [Submit "Human Software" Project](/projects/human-software/project.md#submission-instructions)
+
+In-class:
+
+  + ["Command-line Computing" Exercise](/exercises/command-line-computing/exercise.md)
+  + ["Version Control" Exercise](/exercises/version-control/exercise.md)
   + [Install Python](/notes/programming-languages/python/installation.md)
-  + Python Scripting, Logging, and Debugging
-  + Python Datatypes, Variables, and Functions
+  + [Python Language Overview](/notes/programming-languages/python/notes.md)
 
 Homework:
 
-  + [Version Control Exercise](/exercises/version-control/exercise.md)
+  + ["Shopping Cart" Project](/projects/shopping-cart/project.md) - [Checkpoint I](#TODO)
 
 ### Class 3 - Wednesday 2017-07-05
 

@@ -4,7 +4,7 @@
 
 ### Values
 
-Reference: https://docs.python.org/2/library/stdtypes.html#boolean-values.
+Reference: https://docs.python.org/3/library/stdtypes.html#boolean-values.
 
 In Python, `True` and `False` are reserved words which indicate boolean values.
 
@@ -17,8 +17,9 @@ False #> False
 
 Reference:
 
-  + https://docs.python.org/2/library/stdtypes.html#boolean-operations-and-or-not
-  + https://docs.python.org/2/library/stdtypes.html#comparisons
+  + https://docs.python.org/3/library/stdtypes.html#truth-value-testing
+  + https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not
+  + https://docs.python.org/3/library/stdtypes.html#comparisons
 
 It is common to evaluate the combination of multiple boolean conditions. The keywords `and` and `or` are reserved for this purpose. The `and` operator will return `True` only if all values are `True`, whereas the `or` operator will return `True` if any of the values are `True`:
 

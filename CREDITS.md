@@ -41,3 +41,4 @@
   + [Installing Python 3 using Homebrew](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/)
   + [Forcibly pulling from upstream remote](https://stackoverflow.com/a/9646323/670433)
   + [Debugging in Python](http://daguar.github.io/2014/06/05/just-dropped-in-interactive-coding-in-ruby-python-javascript/)
+  + [Initializing new Pip Project](http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/)

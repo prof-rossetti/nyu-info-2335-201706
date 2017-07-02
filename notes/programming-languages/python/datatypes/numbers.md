@@ -49,3 +49,4 @@ Also reference the numeric functionality of these built-in Python modules:
 
   + [`math`](../modules/math.md)
   + [`random`](../modules/random.md)
+  + [`statistics`](../modules/statistics.md)

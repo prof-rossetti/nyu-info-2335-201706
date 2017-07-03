@@ -2,7 +2,7 @@
 
 ## Logging
 
-Output, or "log" an object using the `print` statement. This works from inside an interpreter or a script. When scripting, you will be able to see the logs from the command-line when the script executes.
+Output, or "log" an object by passing it as a parameter into a `print()` statement. Printing works from inside an interactive shell as well as inside a script. If scripting, when the script executes you will see the printed logs output onto the command-line.
 
 ```python
 print("HELLO WORLD") #> HELLO WORLD

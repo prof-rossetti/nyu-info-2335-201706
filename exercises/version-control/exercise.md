@@ -38,7 +38,7 @@ If it is installed, you should be able to run `git` from the command-line.
 
 ### Access Course Repository
 
-Assuming you have already forked the course repository during the "Human Software" project, once you have installed Git, you should be able to clone your fork to your local machine. For instructions, reference the ["Git CLI" section of the Contributor's Guide](CONTRIBUTING.md#via-git-cli).
+Assuming you have already forked the course repository during the "Human Software" project, once you have installed Git, you should be able to clone your fork to your local machine. For instructions, reference the ["Git CLI" section of the Contributor's Guide](/CONTRIBUTING.md#via-git-cli).
 
 
 

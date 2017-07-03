@@ -14,3 +14,16 @@ my_dict = {"a":1, "b":2, "c":3}
 ```
 
 If you try to reference a variable that has not yet been defined, you will see an error like `NameError: name 'my_var' is not defined`.
+
+Don't be surprised if a variable's value changes. It is common to overwrite a variable's value by re-assigning it or manipulating it in some way:
+
+```python
+a = 1
+print(a) #> 1
+
+a = 2
+print(a) #> 2
+
+a = a+1
+print(a) #> 3
+```

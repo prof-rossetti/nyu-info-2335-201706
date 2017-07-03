@@ -45,6 +45,6 @@ See the subsections below for more information about the most prevalent data typ
 
 ## Further Exploration
 
-Pass an object into the `dir()` function to see what methods you can call on it.
+Pass an object into the `dir()` function to see what methods you can call on that object.
 
 Pass an object into the `help()` function to view documentation for that type of object.

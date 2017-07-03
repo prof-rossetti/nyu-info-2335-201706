@@ -4,6 +4,8 @@
 
 Reference: https://docs.python.org/3/library/math.html.
 
+The `math` module contains helpful numeric functions:
+
 ```python
 import math # load the module to avoid `NameError: name 'math' is not defined`
 

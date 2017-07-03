@@ -9,16 +9,18 @@ Reference:
   + https://docs.python.org/3/tutorial/datastructures.html#dictionaries
   + https://docs.python.org/3/tutorial/datastructures.html#looping-techniques
 
+Many programming languages provide an "associative array" datatype  which provides an opportunity to create objects with named attributes. In this way, an associative array is similar to a row in a CSV-formatted spreadsheet or a record in a database, where the associative array's "keys" represent the column names and its "values" represent the cell values. associative arrays are said to have "key/value" pairs, where the "key" represents the name of the attribute and the "value" represents the attribute's value.
 
-Python dictionaries comprise curly braces (`{}`) containing one or more key/value pairs, with the key separated from the value by a colon (`:`) and each key/value pair separated by a comma (`,`). In this respect they resemble JavaScript's "Object" datatype and Ruby's "Hash" datatype.
+Python's implementation of the associative array concept is known as a "dictionary". A Python dictionary comprises curly braces (`{}`) containing one or more key/value pairs, with each key separated from its value by a colon (`:`) and each key/value pair separated by a comma (`,`).
+
+If you are familiar with JavaScript "Objects" (JSON) or Ruby "Hashes", the concept is the same. If you need to convert a Python dictionary to JSON, reference the [`json` module](../modules.json.md).
 
 ```python
 {}
-{a:1, b:2, c:3}
-{a:1, b:2, c:3, fruits:["apple","banana","pear"]} // objects can contain arrays
-{first:"Santa", last:"Claus", message:"Ho Ho Ho"}
+{"a":1, "b":2, "c":3}
+{"a":1, "b":2, "c":3, "fruits":["apple","banana","pear"]} # dictionaries can contain lists
+{"first":"Santa", "last":"Claus", "message":"Ho Ho Ho"}
 ```
-If you need to convert a Python dictionary to JSON, reference the [`json` module](../modules.json.md).
 
 Access individual object elements by their key:
 

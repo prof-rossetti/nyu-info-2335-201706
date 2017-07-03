@@ -139,7 +139,7 @@ arr #> [1, 2, 3, 4]
 arr2 #> [100, 200, 300, 400]
 ```
 
-Arrays can be looped "in-place" using Python's built-in `map()` function. The `map()` function takes two parameters. The first parameter is the name of a pre-defined function to perform on each item in the list. The function should accept a single parameter representing a single list item. The second parameter is the actual list to be operated on.
+Lists can be looped "in-place" using Python's built-in `map()` function. The `map()` function takes two parameters. The first parameter is the name of a pre-defined function to perform on each item in the list. The function should accept a single parameter representing a single list item. The second parameter is the actual list to be operated on.
 
 ```python
 arr = [1, 2, 3, 4]
@@ -218,7 +218,7 @@ list(filter(greater_than_two, arr)) #> [4, 8, 16]
 list(filter(really_big, arr)) #> []
 ```
 
-> Note: the `filter()` function returns an Array, even if it is empty or only contains one item.
+> Note: the `filter()` function returns a list, even if it is empty or only contains one item.
 
 If your list is full of [dictionaries](dictionaries.md), you can `filter()` based on their attribute values:
 

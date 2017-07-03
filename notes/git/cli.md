@@ -1,5 +1,7 @@
 ### Git Command Line Utility
 
+This document provides a general reference for common tasks using the Git Command-line Interface (CLI).
+
 #### Initializing a Local Repository
 
 Navigate to an existing directory, then check to see if that directory is a Git repository by running one of the Git commands, for example:

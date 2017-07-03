@@ -14,6 +14,10 @@ type(False) #> <type 'bool'>
 type(None) #> <type 'NoneType'>
 type({"a":1, "b":2, "c":3}) #> <type 'dict'>
 type([1,2,3]) #> <type 'list'>
+
+"Hello".__class__.__name__ #> 'str'
+{"a":1}.__class__.__name__ #> 'dict'
+[1,2,3].__class__.__name__ #> 'list'
 ```
 
 Here are a few examples of how to convert between datatypes:

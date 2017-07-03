@@ -32,41 +32,42 @@ In-class:
 
 Homework:
 
-  + ["Shopping Cart" Project](/projects/shopping-cart/project.md) - [Checkpoint I](#TODO)
+  + ["Python" Exercise](/exercises/python/exercise.md)
 
 ### Class 3 - Wednesday 2017-07-05
 
+  + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
+
+### Class 4 - Monday 2017-07-10
+
+  + Code Review and Refactoring
   + Object-oriented Programming
   + Python Classes and Inheritance
 
-### Class 4 - Monday 2017-07-10
+### Class 5 - Wednesday 2017-07-12
 
   + Software Testing
   + Python Tests
 
-### Class 5 - Wednesday 2017-07-12
-
-  + TBA
-
 ### Class 6 - Monday 2017-07-17
 
-  + TBA
+  + Survey of Open Source Python Packages
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + TBA
+  + Survey of Open Source Python Packages (cont'd)
 
 ### Class 8 - Monday 2017-07-24
 
-  + TBA
+  + TBA - Freestyle Project Support
 
 ### Class 9 - Wednesday 2017-07-26
 
-  + TBA
+  + TBA - Freestyle Project Support
 
 ### Class 10 - Monday 2017-07-31
 
-  + TBA
+  + TBA - Freestyle Project Support
 
 ### Class 11 - Wednesday 2017-08-02
 

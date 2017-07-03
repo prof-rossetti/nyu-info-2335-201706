@@ -31,5 +31,4 @@ Author: asingal1
 9)	Continue doing this until you have slid the floss through all the top teeth in your mouth you were able to reach.
 10)	Once all the reachable top teeth are done, move onto the bottom teeth. In this case, slide down until you touch the gum before sliding back up and out.
 11)	Once all reachable bottom teeth are done, unwrap the floss from around your fingers and discard the floss.
-12)	Rinse your mouth with water 2 times or more, as needed. 
-
+12)	Rinse your mouth with water 2 times or more, as needed.

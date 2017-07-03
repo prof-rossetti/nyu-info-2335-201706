@@ -4,6 +4,10 @@
 
 Reference: http://ipython.readthedocs.io/en/stable/interactive/tutorial.html.
 
+Source: https://github.com/ipython/ipython.
+
+> NOTE: The `ipython` module only works with Python 3.x.
+
 Once you have learned how to install modules using the `pip` package manager, you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
 
 First install `ipython`, if necessary:
@@ -15,7 +19,7 @@ pip install ipython
 After installing `ipython`, you can drop an interactive break-point on any line of code by inserting an `embed()` statement. Once you run the script, it will stop at the break-point to allow further investigation.
 
 ```python
-from IPython import embed
+from IPython import embed # the capitalization of IPython matters
 
 for i in [1, 2, 3, 4, 5]:
     print(i)

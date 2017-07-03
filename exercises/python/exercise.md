@@ -88,6 +88,10 @@ Create a new directory on your desktop called "python-practice" and navigate the
 # Mac OS:
 mkdir ~/Desktop/python-practice
 cd ~/Desktop/python-practice
+
+# Windows OS:
+mkdir C:\Users\YOUR_USERNAME\Desktop\python-practice
+cd C:\Users\YOUR_USERNAME\Desktop\python-practice
 ```
 
 Initialize a new Git repository there:

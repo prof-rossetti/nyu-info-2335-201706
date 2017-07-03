@@ -45,6 +45,12 @@ round(4.49, 1) #> 4.5
 round(4.49, 2) #> 4.49
 ```
 
+Use [string formatting](https://docs.python.org/3.4/library/string.html#string-formatting) to control how numbers will display when printed:
+
+```python
+'the price is ${0:.2f}'.format(6.5) #> 'the price is $6.50'
+```
+
 Also reference the numeric functionality of these built-in Python modules:
 
   + [`math`](../modules/math.md)

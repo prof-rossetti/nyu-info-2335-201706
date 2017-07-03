@@ -2,6 +2,10 @@
 
 ## Functions
 
+Reference:
+
+  + https://docs.python.org/3/tutorial/controlflow.html
+
 Like in other languages, Python functions must first be defined before they can be invoked (or called).
 
 Define a function:

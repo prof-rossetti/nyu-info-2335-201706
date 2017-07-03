@@ -112,6 +112,7 @@ Reference:
 
   + https://docs.python.org/3/tutorial/datastructures.html?#list-comprehensions
   + https://docs.python.org/3/tutorial/datastructures.html?highlight=lists#list-comprehensions
+  + https://docs.python.org/3/tutorial/controlflow.html#for-statements
 
 A list can be iterated, or "looped" using a `for ... in ...` statement:
 

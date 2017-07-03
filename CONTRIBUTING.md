@@ -32,7 +32,7 @@ Clone your fork to your local machine:
 
 ```` sh
 cd ~/Desktop # or some other directory where you'd like to download the repository
-git clone git@github.com:YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git # feel free to use the SSH version instead only if you've done this kind of thing before
 cd nyu-info-2335-70-201706/
 ````
 
@@ -50,6 +50,15 @@ If the course repository has changed since you last interacted with it, update y
 git branch # to see which branch you are on (if you are using branches)
 git checkout master # to make sure you are on the master branch (if you are using branches)
 git pull upstream master
+````
+
+If something unexpected is happening and you would like to overwrite your fork based on the current state of the upstream course repository, forcibly pull from the course repository:
+
+```` sh
+git fetch upstream
+git checkout master
+git reset --hard upstream/master
+git push origin master --force
 ````
 
 #### Revising Content

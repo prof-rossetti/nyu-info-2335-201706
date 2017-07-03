@@ -1,3 +1,0 @@
-# Python Programming Language
-
-TBA

@@ -254,3 +254,17 @@ list(filter(from_new_york, teams)) #> [{...}, {...}]
 list(filter(from_new_haven, teams)) #> [{...}]
 list(filter(from_new_something, teams)) #> [{...}, {...}, {...}]
 ```
+
+If you need to implement complex filtering conditions, consider using a list comprehension instead:
+
+```python
+teams = [
+    {"city": "New York", "name": "Yankees"},
+    {"city": "New York", "name": "Mets"},
+    {"city": "Boston", "name": "Red Sox"},
+    {"city": "New Haven", "name": "Ravens"}
+]
+
+new_york_teams = [obj for obj in teams if obj["city"] == "New York"]
+new_york_teams #> [{...}, {...}]
+```

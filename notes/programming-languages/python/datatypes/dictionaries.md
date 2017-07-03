@@ -18,6 +18,7 @@ Python dictionaries comprise curly braces (`{}`) containing one or more key/valu
 {a:1, b:2, c:3, fruits:["apple","banana","pear"]} // objects can contain arrays
 {first:"Santa", last:"Claus", message:"Ho Ho Ho"}
 ```
+If you need to convert a Python dictionary to JSON, reference the [`json` module](../modules.json.md).
 
 Access individual object elements by their key:
 

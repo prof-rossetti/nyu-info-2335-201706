@@ -36,3 +36,11 @@ See the subsections below for more information about the most prevalent data typ
   + [Dates and Times](/datatypes/dates-and-times.md)
   + [Arrays, a.k.a "Lists"](datatypes/lists.md)
   + [Objects, a.k.a "Dictionaries"](datatypes/dictionaries.md)
+
+<hr>
+
+## Further Exploration
+
+Pass an object into the `dir()` function to see what methods you can call on it.
+
+Pass an object into the `help()` function to view documentation for that type of object.

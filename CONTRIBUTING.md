@@ -40,7 +40,7 @@ If this is the first time you are downloading the fork, also add a remote to tra
 
 ```` sh
 git remote -v # lists all current remotes. you should see "origin" here pointing to your fork.
-git remote add upstream git@github.com:prof-rossetti/nyu-info-2335-70-201706.git
+git remote add upstream https://github.com/prof-rossetti/nyu-info-2335-70-201706.git # or use the SSH version if you are used to doing that.
 git remote -v # you should now also see an "upstream" remote pointing to the original course repository.
 ````
 

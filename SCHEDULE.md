@@ -11,7 +11,7 @@ In-class:
   + [Introduction to Course Operations](/README.md)
   + [Introduction to Information Systems](/notes/information-systems/notes.md)
   + [Introduction to Software](/notes/software/notes.md)
-  + [Human Software](/projects/human-software/project.md)
+  + ["Human Software" Project](/projects/human-software/project.md)
 
 Homework:
 
@@ -19,52 +19,55 @@ Homework:
 
 ### Class 2 - Monday 2017-07-03
 
-In-Class:
+Before class, or at the beginning of class:
 
-  + [Command-line Computing](/exercises/command-line-computing/exercise.md)
-  + [Introduction to Git and Version Control](/notes/git/notes.md)
-  + Install and Configure Git CLI
-  + [Install Python](/notes/python/installation.md)
-  + Python Scripting, Logging, and Debugging
-  + Python Datatypes, Variables, and Functions
+  + [Submit "Human Software" Project](/projects/human-software/project.md#submission-instructions)
+
+In-class:
+
+  + ["Command-line Computing" Exercise](/exercises/command-line-computing/exercise.md)
+  + ["Version Control" Exercise](/exercises/version-control/exercise.md)
+  + [Install Python](/notes/programming-languages/python/installation.md)
+  + [Python Language Overview](/notes/programming-languages/python/notes.md)
 
 Homework:
 
-  + [Version Control Exercise](/exercises/version-control/exercise.md)
+  + ["Python" Exercise](/exercises/python/exercise.md)
 
 ### Class 3 - Wednesday 2017-07-05
 
+  + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
+
+### Class 4 - Monday 2017-07-10
+
+  + Code Review and Refactoring
   + Object-oriented Programming
   + Python Classes and Inheritance
 
-### Class 4 - Monday 2017-07-10
+### Class 5 - Wednesday 2017-07-12
 
   + Software Testing
   + Python Tests
 
-### Class 5 - Wednesday 2017-07-12
-
-  + TBA
-
 ### Class 6 - Monday 2017-07-17
 
-  + TBA
+  + Survey of Open Source Python Packages
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + TBA
+  + Survey of Open Source Python Packages (cont'd)
 
 ### Class 8 - Monday 2017-07-24
 
-  + TBA
+  + TBA - Freestyle Project Support
 
 ### Class 9 - Wednesday 2017-07-26
 
-  + TBA
+  + TBA - Freestyle Project Support
 
 ### Class 10 - Monday 2017-07-31
 
-  + TBA
+  + TBA - Freestyle Project Support
 
 ### Class 11 - Wednesday 2017-08-02
 

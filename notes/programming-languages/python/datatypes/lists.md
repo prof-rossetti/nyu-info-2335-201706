@@ -255,7 +255,7 @@ list(filter(from_new_haven, teams)) #> [{...}]
 list(filter(from_new_something, teams)) #> [{...}, {...}, {...}]
 ```
 
-If you need to implement complex filtering conditions, consider using a list comprehension instead:
+If you need to implement complex filtering conditions, consider using a list comprehension, or consider writing out your function the long way:
 
 ```python
 teams = [
@@ -265,6 +265,18 @@ teams = [
     {"city": "New Haven", "name": "Ravens"}
 ]
 
-new_york_teams = [obj for obj in teams if obj["city"] == "New York"]
-new_york_teams #> [{...}, {...}]
+# using a list comprehension
+def teams_from(city):
+  return [team for team in teams if team["city"] == city]
+
+# the long way
+def teams_from2(city):
+  matches = []
+  for team in teams:
+      if team["city"].upper() == city.upper():
+          matches.append(team)
+  return matches
+
+teams_from("New York")
+teams_from2("New York")
 ```

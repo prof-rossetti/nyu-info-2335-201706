@@ -18,7 +18,7 @@ The store owner agrees! Now its time to write software to mimic the barcode-scan
 
 ## Instructions
 
-TBA - write a program that asks  the following dictionary to represent the store owner's database of products and prices:
+TBA - write a program that asks the user to input one or more product identifiers, then looks up the prices for each, then prints an itemized customer receipt including the total amount owed. The program should use the following dictionary to represent the store owner's database of products and prices:
 
 ```py
 products = [
@@ -47,7 +47,7 @@ products = [
 
 ## Requirements
 
-TBA - a description of desired functionality
+TBA - a detailed description of desired functionality
 
 ## Submission Instructions
 
@@ -57,7 +57,7 @@ Update your fork of the course repository. In the [submissions.csv file](submiss
 
 ## Evaluation
 
-Full credit for presence of a Python program which runs without error and produces the desired functionality .
+Full credit for presence of a Python program which runs without error and produces the desired functionality.
 
 Else half credit for presence of a Python program which doesn't run or doesn't exactly produce the desired functionality.
 

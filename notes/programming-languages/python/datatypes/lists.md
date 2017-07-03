@@ -280,3 +280,5 @@ def teams_from2(city):
 teams_from("New York")
 teams_from2("New York")
 ```
+
+Reference the [`itertools` module](../modules/itertools.md) for additional operations.

@@ -143,6 +143,8 @@ Each student is expected to achieve proficiency running Python scripts via the [
 
 All course materials exist in the course [GitHub repository](https://github.com/prof-rossetti/nyu-info-2335-70-201706). Over the course of the semester, students will be expected to submit assignments and projects using a personal GitHub account. Any student who would like to keep these academic activities private may use an anonymous GitHub account not associated with his or her identity.
 
+> FYI: Student GitHub usernames are expected to differ from NYU-related usernames.
+
 Students should expect to view the course materials online, and may "clone" or download the repository on a periodic basis to access course materials offline.
 
 Additionally, to submit assignments and projects over the course of the semester, students will be expected to "fork" the repository, keep their forks up-to-date, and submit "pull requests" as instructed by the professor.

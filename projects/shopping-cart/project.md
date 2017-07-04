@@ -4,11 +4,13 @@ Your local corner grocery store has hired you to help them modernize their check
 
 Currently, the store affixes a price tag to each grocery item in stock. But the store owner wants to be able to change product prices at any given time. The store owner does not want to wait until all currently-priced items sell-out before being able to charge a different price for that type of item. And if there are any price tags that differ from prices charged at checkout, that would lead to confusion and a poor customer experience.
 
-The store owner describes a desired checkout process which involves a clerk scanning each item's barcode to look up its price. You agree using a barcode scanner would be a helpful process improvement.
+The store owner describes a desired checkout process which involves a clerk scanning each item's barcode to look up its price. You agree using a barcode scanner would be a helpful process improvement. The store owner says the barcode scanners are somewhat expensive, so it would be ideal to test out the process before making a hardware purchase.
 
-The store owner says the barcode scanners are somewhat expensive, so it would be ideal to test out the process before making a hardware purchase. You offer to write a free Python program that can be run on the store's computers, but in order to use it, you ask the store owner to maintain a list of currently-offered products and the current price of each. You also ask the store owner to mark each product with a unique identifier instead of a hard-coded price tag. You explain the identifier can be used to look up the price and any other relevant information associated with any given item.
+You offer to write a Python program that can run on the clerk's computer at the checkout counter. The program will look up the prices of items based on the unique identifier of each. You explain that the store can use this software to process the unique identifiers provided as a result of the barcode-scanning process, if the owner eventually decides to purchases the barcode scanners.
 
-The store owner agrees! Now its time to write software to mimic the barcode-scanning process.
+To provide the program with information inputs, you ask the store owner to maintain a list of currently-offered products and the current price of each. You also ask the store owner to mark each product with a unique identifier instead of a hard-coded price tag. You explain the identifier can be used to look up the price of any given item.
+
+The store owner agrees! Now it's time to write software to mimic the barcode-scanning process.
 
 ## Objectives
 
@@ -18,7 +20,9 @@ The store owner agrees! Now its time to write software to mimic the barcode-scan
 
 ## Instructions
 
-TBA - write a program that asks the user to input one or more product identifiers, then looks up the prices for each, then prints an itemized customer receipt including the total amount owed. The program should use the following dictionary to represent the store owner's database of products and prices:
+TBA - write a program that asks the user to input one or more product identifiers, then looks up the prices for each, then prints an itemized customer receipt including the total amount owed.
+
+The program should use the following dictionary to represent the store owner's database of products and prices:
 
 ```py
 products = [
@@ -47,13 +51,28 @@ products = [
 
 ## Requirements
 
-TBA - a detailed description of desired functionality
+The program should prompt the checkout clerk the input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `"DONE"`.
+
+After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include:
+
+  + A grocery store name of your choice
+  + A grocery store phone number and/or website URL and/or address of choice
+  + The date and time of the beginning of the checkout process, formatted in a human-friendly way
+  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name
+  + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$1.50`), calculated as the sum of their prices
+  + The amount of tax owed, calculated by multiplying the total cost by a New York City sales tax rate of `0.08875`
+  + The total amount owed, formatted as US dollars and cents (e.g. `$1.63`), calculated by adding the total cost of all shopping cart items
+  + A friendly message thanking the customer and/or encouraging the customer to shop again
+
+The program should be able to process multiple shopping cart items of the same type, but does not need to display any groupings or aggregations of those items.
+
+For students desiring optional further exploration, the program should also print the receipt to a new `.txt` file saved somewhere in the project directory, named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531` representing the year, month, day, 24-hour-style hour, minute, second, and milliseconds)
 
 ## Submission Instructions
 
 Push your repository to GitHub.com. Note the URL of your repository.
 
-Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. Commit your changes and submit a Pull Request for your content to be included in this course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. Commit your changes and submit a Pull Request for your content to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
 
 ## Evaluation
 

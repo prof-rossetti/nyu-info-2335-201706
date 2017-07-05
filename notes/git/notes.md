@@ -8,6 +8,8 @@ Source Code: https://github.com/git/git.
 
 Documentation: https://git-scm.com/doc.
 
+Introduction: https://guides.github.com/introduction/flow/.
+
 Command Line Reference Documents (Cheat Sheets):
 
   + https://education.github.com/git-cheat-sheet-education.pdf

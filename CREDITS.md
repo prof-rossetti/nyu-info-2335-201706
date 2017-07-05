@@ -23,9 +23,15 @@
   + [NYU Classroom Reservations](https://virtualems.stern.nyu.edu/BrowseReservations.aspx)
   + [NYU Schools and Colleges](https://www.nyu.edu/academics/schools-and-colleges.html)
 
-## Configuring Mediasite in NYU Classes
+## NYU Stern MediaSite
+
+NYU Classes configuration for instructors:
 
 > Typically, once you request recordings and autoposting, the only other thing you need to do is set the Mediasite tab on your NYU Classes course site to visible via settings > tool order > mediasite. Recordings will show up in this tab a few weeks after you enter the request via virtual EMS.
+
+Registration information for non-Stern students:
+
+> Non-Stern students who have enrolled in a Stern course should automatically have a Stern account generated for them. They can activate their Stern accounts at "start.stern.nyu.edu". Once they've activated their accounts, they will be able to access the MediaSite recordings. Any students having issues either activating their Stern accounts or accessing MediaSite recordings should contact us directly (helpdesk@stern.nyu.edu).
 
 ## Screencasting
 

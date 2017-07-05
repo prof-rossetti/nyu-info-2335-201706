@@ -58,7 +58,7 @@ Information Systems are classified
   and type of information processed.
 
 system type | general functions |  specific example(s)
---- | --- | --- | ---
+--- | --- | ---
 **Operational** (e.g. Transaction Processing Systems (TPS))| Sends and receives data. | An ATM.
 **Managerial** (e.g. Business Intelligence (BI), Management Information Systems (MIS), and some Decision Support Systems (DSS)) | Processes and synthesizes data into information. | A system that produces data dashboards.
 **Executive** (e.g. some Decision Support Systems (DSS), Expert Systems, and Machine Learning) | Processes and synthesizes information into knowledge; emulates human decision-making and judgement processes. | A university's Student Housing Selection System, IBM Watson, Tesla Model S

@@ -2,6 +2,8 @@
 
 Author: alpineghost
 
+##I'm making an edit to clarify that these instructions are for brushing human teeth and the instructions below are for a non electric and non motorized bicycle
+
 ## Brushing Teeth
 
 
@@ -22,7 +24,7 @@ Author: alpineghost
  11. Spit out whatever is in your mouth.
  12. Rinse the toothbrush under water.
  13. Replace the toothbrush in its original place.
- 
+
 ## Changing Inner tube on your bike
 
 
@@ -40,4 +42,3 @@ Author: alpineghost
   12. Check that the valve is aligned and the tire is in place.
   13. Fully inflate the tube to the recommended pressure.
   14. Replace the wheel on the bike.
- 

@@ -20,7 +20,7 @@ The store owner agrees! Now it's time to write software to mimic the barcode-sca
 
 ## Instructions
 
-TBA - write a program that asks the user to input one or more product identifiers, then looks up the prices for each, then prints an itemized customer receipt including the total amount owed.
+Write a program that asks the user to input one or more product identifiers, then looks up the prices for each, then prints an itemized customer receipt including the total amount owed.
 
 The program should use the following dictionary to represent the store owner's database of products and prices:
 

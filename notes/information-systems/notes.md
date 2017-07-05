@@ -41,7 +41,7 @@ An **Information System** processes information inputs into information outputs 
 
 Information systems can perform numeric computations, facilitate communication and collaboration, automate business processes, and more. Information systems provide value to organizations by providing a competitive advantage in terms of cost, quality, speed, accuracy, and/or scale.
 
-Sometimes an information system outputs the same or similar information it receives. But more often it is a system's objective to transform information inputs into more valuable information outputs. Information has different value, depending on where it falls within the following **Information Hierarchy**:
+Sometimes an information system outputs the same or similar information it receives. But more often a system's objective is to transform information inputs into more valuable information outputs. Information has different value, depending on where it falls within the following **Information Hierarchy**:
 
 term | description | example
 --- | --- | ---
@@ -55,7 +55,7 @@ Information Systems are classified
   functionality,
   scope,
   audience,
-  and type of information processed.
+  and type of information processed:
 
 system type | general functions |  specific example(s)
 --- | --- | ---
@@ -63,7 +63,7 @@ system type | general functions |  specific example(s)
 **Managerial** (e.g. Business Intelligence (BI), Management Information Systems (MIS), and some Decision Support Systems (DSS)) | Processes and synthesizes data into information. | A system that produces data dashboards.
 **Executive** (e.g. some Decision Support Systems (DSS), Expert Systems, and Machine Learning) | Processes and synthesizes information into knowledge; emulates human decision-making and judgement processes. | A university's Student Housing Selection System, IBM Watson, Tesla Model S
 
-Information systems may or may not leverage technology.
+Information systems may or may not leverage technology. Examples of non-tech information systems include: a doctor's paper-based patient records system, a deli's paper-based ordering system, and a [tin-can telephone](https://thumbs.dreamstime.com/z/tin-can-telephones-968914.jpg) system.
  A computer-based information system uses
  a related group of computer components working together
  to process information inputs into information outputs

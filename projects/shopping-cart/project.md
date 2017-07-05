@@ -51,7 +51,7 @@ products = [
 
 ## Requirements
 
-The program should prompt the checkout clerk the input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `"DONE"`.
+The program should prompt the checkout clerk the input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `DONE`.
 
 After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include:
 

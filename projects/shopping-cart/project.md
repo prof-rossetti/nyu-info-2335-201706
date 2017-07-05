@@ -66,7 +66,7 @@ After the clerk indicates there are no more items, the program should print a cu
 
 The program should be able to process multiple shopping cart items of the same type, but does not need to display any groupings or aggregations of those items.
 
-For students desiring optional further exploration, the program should also print the receipt to a new `.txt` file saved somewhere in the project directory, named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531` representing the year, month, day, 24-hour-style hour, minute, second, and milliseconds)
+For students desiring optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds, respectively).
 
 ## Submission Instructions
 

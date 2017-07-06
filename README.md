@@ -161,7 +161,7 @@ The [Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%4
 
 ### Schedule
 
-The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement via Slack.
+The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement via NYU Classes. See the [Announcements](/announcements) directory for copies of those announcements.
 
 ### Policies
 

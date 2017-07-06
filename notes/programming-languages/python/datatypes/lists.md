@@ -5,6 +5,7 @@
 Reference:
   + https://docs.python.org/3/library/stdtypes.html#lists
   + https://docs.python.org/3/tutorial/datastructures.html?highlight=lists#more-on-lists
+  + https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 
 A List represents a numbered, ordered collection of items. A List may contain zero or more elements. A list can contain items of any datatype, but as a best practice, all items in a list should share a datatype and structure:
 

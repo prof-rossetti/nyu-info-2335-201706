@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Practicing Python
+# Groceries
 
 Write a Python script to transform an information input into a desired information output.
 
@@ -149,6 +148,17 @@ Steps:
   6. Print the name of each unique department.
   7. Print in alphabetical order the name of each unique department.
   8. Print in alphabetical order the name of each unique department, as well as the number of products associated with that department.
-=======
-The "Python" exercise that used to be here has moved, and is now the ["Groceries" project](/projects/groceries/project.md). Sorry for any confusion.
->>>>>>> 7a48cd959d42dab5f3143812e9418b63ab4e52dd
+
+## Submission Instructions
+
+Push your repository to GitHub.com. Note the URL of your repository.
+
+Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. Commit your changes and submit a Pull Request for your content to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+
+## Evaluation
+
+Full credit for presence of a Python program which runs without error and produces the desired information output.
+
+Else half credit for presence of a Python program which doesn't run or doesn't exactly produce the desired information output.
+
+Else no credit.

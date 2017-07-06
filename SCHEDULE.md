@@ -36,6 +36,7 @@ Homework:
 
 ### Class 3 - Wednesday 2017-07-05
 
+<<<<<<< HEAD
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
 
 ### Class 4 - Monday 2017-07-10
@@ -48,6 +49,20 @@ Homework:
 
   + Software Testing
   + Python Tests
+=======
+  + [Python Language Overview (cont'd)](/notes/programming-languages/python/notes.md)
+  + ["Groceries" Project, formerly known as the "Python" Exercise (con't)](/projects/groceries/project.md)
+
+### Class 4 - Monday 2017-07-10
+
+  + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
+
+### Class 5 - Wednesday 2017-07-12
+
+  + Code Review and Refactoring
+  + Object-oriented Programming
+  + Python Classes and Inheritance
+>>>>>>> 7a48cd959d42dab5f3143812e9418b63ab4e52dd
 
 ### Class 6 - Monday 2017-07-17
 
@@ -59,6 +74,7 @@ Homework:
 
 ### Class 8 - Monday 2017-07-24
 
+<<<<<<< HEAD
   + TBA - Freestyle Project Support
 
 ### Class 9 - Wednesday 2017-07-26
@@ -68,10 +84,23 @@ Homework:
 ### Class 10 - Monday 2017-07-31
 
   + TBA - Freestyle Project Support
+=======
+  + Software Testing
+  + Python Tests
+  + "Freestyle" Project Support
+
+### Class 9 - Wednesday 2017-07-26
+
+  + TBA - "Freestyle" Project Support
+
+### Class 10 - Monday 2017-07-31
+
+  + TBA - "Freestyle" Project Support
+>>>>>>> 7a48cd959d42dab5f3143812e9418b63ab4e52dd
 
 ### Class 11 - Wednesday 2017-08-02
 
-  + Retrospective
+  + "Retrospective" Exercise
   + Final Exam Preparation
 
 ### Class 12 - Monday 2017-08-07

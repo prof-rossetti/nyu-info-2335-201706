@@ -1,5 +1,11 @@
 # Python Language Overview
 
+<<<<<<< HEAD
+=======
+> Python is a programming language that lets you work quickly
+and integrate systems more effectively. - [Python website](https://www.python.org/)
+
+>>>>>>> 7a48cd959d42dab5f3143812e9418b63ab4e52dd
 This index contains links to documents which comprise an overview of the Python programming language.
 
 For in-depth Python documentation, reference:

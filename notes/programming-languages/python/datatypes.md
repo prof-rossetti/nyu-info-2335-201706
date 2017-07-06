@@ -37,7 +37,11 @@ See the subsections below for more information about the most prevalent data typ
   + [Booleans](datatypes/booleans.md)
   + [Strings](datatypes/strings.md)
   + [Numbers](datatypes/numbers.md)
+<<<<<<< HEAD
   + [Dates and Times](/datatypes/dates-and-times.md)
+=======
+  + [Dates and Times](datatypes/dates-and-times.md)
+>>>>>>> 7a48cd959d42dab5f3143812e9418b63ab4e52dd
   + [Arrays, a.k.a "Lists"](datatypes/lists.md)
   + [Objects, a.k.a "Dictionaries"](datatypes/dictionaries.md)
 

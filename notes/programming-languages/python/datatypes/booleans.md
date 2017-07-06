@@ -40,7 +40,11 @@ The most relevant boolean operator is the equality operator, `==`. Its functiona
 ```python
 True == True #> True
 True == False #> False
+<<<<<<< HEAD
 False == False #> False
+=======
+False == False #> True
+>>>>>>> 7a48cd959d42dab5f3143812e9418b63ab4e52dd
 ```
 
 The converse is the inequality operator, `!=`. Its functionality is demonstrated by the phrase, "Is this not equal to that?":

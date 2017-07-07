@@ -2,9 +2,35 @@
 
 ### The `pry` Gem
 
-Reference: http://pryrepl.org/.
+Reference:
 
-If using the `pry` module, drop an interactive break-point on any line of code by inserting a `binding.pry` statement. Once you run the script, it will stop at the break-point to allow further investigation:
+  + http://pryrepl.org/
+  + https://github.com/pry/pry
+
+Once you have learned [how to install gems](../package-management.md), you should be able to to install a gem called `pry`, which provides some useful debugging capabilities.
+
+Install `pry` if necessary:
+
+```shell
+gem list pry # to see if it is already installed
+gem install pry # to install
+```
+
+Use the `pry` gem from the command line to enter into an interactive console, or from within a script to debug it using an interactive console.
+
+#### Interactive Console with `pry`
+
+From the command-line:
+
+```shell
+pry
+#> [1] pry(main)> 2+2
+#> => 4
+#> [2] pry(main)>
+```
+#### Debugging Scripts with `pry`
+
+Drop an interactive break-point onto any line in a Ruby script by inserting a `binding.pry` statement. Once you run the script, it will stop at the break-point to allow further investigation:
 
 ```ruby
 require "pry"

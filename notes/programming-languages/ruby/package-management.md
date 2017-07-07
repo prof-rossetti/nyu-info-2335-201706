@@ -2,18 +2,24 @@
 
 ## Package Management
 
-When you install Ruby, you also get Ruby's native package manager, `gem`. Use `gem` to install and manage third-party Ruby packages.
+When you install Ruby, you also get Ruby's native package manager, `gem`. Use `gem` to install and manage third-party Ruby packages, called "gems".
 
-List packages currently installed:
+List gems currently installed:
 
 ```shell
 gem list
 ```
 
-Install a package (where `my_package` is the name of the package you want to install):
+Find out if a specific gem is currently installed:
 
 ```shell
-gem install my_package
+gem list my_gem # where `my_gem` is the name of the gem in question
+```
+
+Install a gem:
+
+```shell
+gem install my_gem # where `my_gem` is the name of the gem you want to install
 ```
 
 ### Project-specific Package Management

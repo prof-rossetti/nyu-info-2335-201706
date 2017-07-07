@@ -6,8 +6,9 @@ This index contains links to documents which comprise an overview of the Ruby pr
 
 For in-depth Ruby documentation, reference:
 
-  + [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
+  + [Ruby Getting Started Guide](https://www.ruby-lang.org/en/documentation/)
   + [Ruby Tutorial](https://www.ruby-lang.org/en/documentation/quickstart/)
+  + [Ruby Documentation](http://ruby-doc.org/)
   + [Ruby Core Reference](http://ruby-doc.org/core-2.4.1/)
   + [Ruby Standard Library Documentation](http://ruby-doc.org/stdlib-2.4.1/)
 

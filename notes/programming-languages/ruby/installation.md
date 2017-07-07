@@ -12,12 +12,12 @@ where ruby
 
 If Ruby is not installed, follow the OS-specific instructions below to install it.
 
-Once Ruby is installed, you should be able to run `irb` and `gem` from the command-line. And you should be able to run `bundle` from the command line once you have installed it. And you should be able to check the versions of each:
+Once Ruby is installed, you should be able to run `irb` and `gem` from the command-line. And after following the instructions below, you should also be able to run `bundle` from the command line. Additionally, you should be able to check the versions of each:
 
 ```shell
 ruby --version #> ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]
 gem --version #> 2.4.5.1
-bundler --version #> Bundler version 1.13.6
+bundle --version #> Bundler version 1.13.6
 ```
 
 > FYI: `irb` stands for "interactive ruby"

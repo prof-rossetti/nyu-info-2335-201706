@@ -36,4 +36,4 @@ DON'T:
   + `lastName`
   + `firstAndLastName`
 
-Apply these naming conventions to Python (`.py`) files as well.
+Use snake-case for Python (`.py`) files as well.

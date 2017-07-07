@@ -6,6 +6,7 @@ Reference:
 
   + http://ruby-doc.org/core-2.4.1/Module.html#method-i-define_method
   + https://www.ruby-lang.org/en/documentation/quickstart/2/
+  + http://ruby-doc.org/docs/keywords/1.9/Object.html#method-i-def
 
 Use a function to define your own custom, re-usable operation. In Ruby, functions are called "methods". Like in other languages, Ruby functions must first be defined before they can be invoked (or called).
 

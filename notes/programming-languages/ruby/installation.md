@@ -82,7 +82,7 @@ rbenv init
 Use `rbenv` to install a specific version:
 
 ```shell
-rbenv install 2.2.3
+rbenv install 2.4.1
 ```
 
 Check the version you are using:

@@ -8,6 +8,8 @@ Reference:
   + https://ruby-doc.org/stdlib-2.3.1/libdoc/date/rdoc/Time.html
   + https://ruby-doc.org/stdlib-2.3.1/libdoc/date/rdoc/DateTime.html
 
+See also the [`activesupport` gem](../gems/activesupport.md), which provides advanced date and time functionality.
+
 ### The `Time` Class
 
 ```ruby

@@ -66,13 +66,13 @@ do_stuff_with_params("HO! HO! HO!", "Santa", "Claus") #> 'HO! HO! HO!' says Sant
 
 > PRO TIP: if your function uses more than a handful of parameters, especially if some of them are optional, consider re-configuring the function to accept a single hash parameter that contains multiple keys, with the key names corresponding to the names of the original parameters.
 >
->    def do_stuff_with_params(options)
->      puts "'" + options[:message] + "' says " + options[:first_name] + " " + options[:last_name]
->    end
+>     def do_stuff_with_params(options)
+>       puts "'" + options[:message] + "' says " + options[:first_name] + " " + options[:last_name]
+>     end
 >    
->    person = {first_name: "Santa", last_name: "Claus", message: "HO! HO! HO!"}
+>     person = {first_name: "Santa", last_name: "Claus", message: "HO! HO! HO!"}
 >    
->    do_stuff_with_params(person) #> 'HO! HO! HO!' says Santa Claus
+>     do_stuff_with_params(person) #> 'HO! HO! HO!' says Santa Claus
 
 
 

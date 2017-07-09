@@ -2,9 +2,13 @@
 
 ## Syntax and Style
 
+### Indentation
+
+When indenting in Ruby, do so using two spaces.
+
 ### Naming
 
-Always observe lower-case variable and function names. If your variable or function name is comprised of two words, use snake case, not camel-case. As usual, only use title-case for class names.
+Always observe lower-case variable and function names. If your variable or function name is comprised of two words, use snake case, not camel-case. As usual, only use title case for class names.
 
 DO:
 
@@ -12,8 +16,8 @@ DO:
   + `first_name`
   + `last_name`
   + `first_and_last_name`
-  + `Person` - use title-case for classes only
-  + `HonestPerson` - use title-case for classes only
+  + `Human` - use title case for classes only
+  + `SuperHuman` - use title case for classes only
 
 DON'T:
 
@@ -21,4 +25,4 @@ DON'T:
   + `lastName`
   + `firstAndLastName`
 
-Use snake-case for Ruby (`.rb`) files as well.
+Use snake case for Ruby (`.rb`) files as well.

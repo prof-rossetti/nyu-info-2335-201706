@@ -32,8 +32,8 @@ Download Ruby from the [Ruby website](https://www.ruby-lang.org/en/downloads/).
 
 You may download Ruby from the [Ruby website](https://www.ruby-lang.org/en/downloads/), however you are encouraged to use the [Homebrew](https://brew.sh/) package manager to install it via one of two ways:
 
-    1. Direct Installation (for students)
-    2. Managed Installation (for professionals, if you think you may at some time be working on multiple ruby projects that require different versions)
+  1. Direct Installation (for students)
+  2. Managed Installation (for professionals, if you think you may at some time be working on multiple ruby projects that require different versions)
 
 First, check to see if Homebrew is installed:
 

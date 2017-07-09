@@ -58,6 +58,8 @@ Change directories (using relative file path).
 cd my_folder # first re-create this directory if it doesn't exist, else this will trigger an error
 ````
 
+> FYI: Use the command `cd ..` to move "up" one directory relative to the current working directory.
+
 Create a file.
 
 ```` sh

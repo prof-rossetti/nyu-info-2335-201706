@@ -94,21 +94,13 @@ Flatten an array of arrays:
 [[1,2,3,4], [5,6,7], [8,9,10]].flatten #> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-Sort an array:
-
-```ruby
-arr = [6,3,8]
-arr2 = arr.sort #> [3, 6, 8]
-arr3 = arr2.reverse #> [8, 3, 6]
-```
-
 Remove duplicate values in an array:
 
 ```ruby
 [1,2,2,2,3].uniq #> [1, 2, 3]
 ```
 
-Perform randomness-related operations on them:
+Perform randomness-related operations on arrays:
 
 ```ruby
 arr = [1,2,3,4,5,6,7,8,9]
@@ -173,6 +165,35 @@ arr2 = arr.map{|i| i * 100 } #> [100, 200, 300, 400]
 
 
 
+### Sorting
+
+Sort an array:
+
+```ruby
+arr = [6,3,8]
+arr2 = arr.sort #> [3, 6, 8]
+arr3 = arr2.reverse #> [8, 3, 6]
+```
+
+If you have an array full of hashes, sort by hash values:
+
+```ruby
+teams = [
+  {city: "New York", name: "Yankees"},
+  {city: "New York", name: "Mets"},
+  {city: "Boston", name: "Red Sox"},
+  {city: "New Haven", name: "Ravens"}
+]
+
+teams.sort_by{|team| team[:name] } #> [{:city=>"New York", :name=>"Mets"}, {:city=>"New Haven", :name=>"Ravens"}, {:city=>"Boston", :name=>"Red Sox"}, {:city=>"New York", :name=>"Yankees"}]
+
+teams.sort_by{|team| team[:city] } #> [{:city=>"Boston", :name=>"Red Sox"}, {:city=>"New Haven", :name=>"Ravens"}, {:city=>"New York", :name=>"Mets"}, {:city=>"New York", :name=>"Yankees"}]
+
+teams.sort_by{|team| "#{team[:city]}-#{team[:name]}" } #> [{:city=>"Boston", :name=>"Red Sox"}, {:city=>"New Haven", :name=>"Ravens"}, {:city=>"New York", :name=>"Mets"}, {:city=>"New York", :name=>"Yankees"}]
+```
+
+
+
 
 
 
@@ -223,10 +244,10 @@ If your array is full of hashes, you can filter based on their attribute values:
 
 ```ruby
 teams = [
-    {city: "New York", name: "Yankees"},
-    {city: "New York", name: "Mets"},
-    {city: "Boston", name: "Red Sox"},
-    {city: "New Haven", name: "Ravens"}
+  {city: "New York", name: "Yankees"},
+  {city: "New York", name: "Mets"},
+  {city: "Boston", name: "Red Sox"},
+  {city: "New Haven", name: "Ravens"}
 ]
 
 teams.find{|team| team[:name] == "Yankees" } #> {:city=>"New York", :name=>"Yankees"}

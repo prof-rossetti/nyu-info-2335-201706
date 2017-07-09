@@ -23,7 +23,9 @@
   + [NYU Classroom Reservations](https://virtualems.stern.nyu.edu/BrowseReservations.aspx)
   + [NYU Schools and Colleges](https://www.nyu.edu/academics/schools-and-colleges.html)
 
-## Configuring Mediasite in NYU Classes
+## NYU Stern MediaSite
+
+NYU Classes configuration for instructors:
 
 > Typically, once you request recordings and autoposting, the only other thing you need to do is set the Mediasite tab on your NYU Classes course site to visible via settings > tool order > mediasite. Recordings will show up in this tab a few weeks after you enter the request via virtual EMS.
 
@@ -35,3 +37,15 @@
     + http://apple.stackexchange.com/a/213305/94120
     + https://www.cnet.com/how-to/record-your-computers-screen-with-audio-on-a-mac/
     + https://github.com/mattingalls/Soundflower/releases/tag/2.0b2
+
+## Course Material
+
+  + [Installing Python 3 using Homebrew](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/)
+  + [Forcibly pulling from upstream remote](https://stackoverflow.com/a/9646323/670433)
+  + [Debugging in Python](http://daguar.github.io/2014/06/05/just-dropped-in-interactive-coding-in-ruby-python-javascript/)
+  + [Initializing new Pip Project](http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/)
+  + [Mapping Lists in Python 3 (different than Python 2)](https://stackoverflow.com/questions/1303347/getting-a-map-to-return-a-list-in-python-3-x)
+  + [String Formatting](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
+  + [Grouping a List of Dictionaries by Key](https://adiyatmubarak.wordpress.com/2015/10/05/group-list-of-dictionary-data-by-particular-key-in-python/)
+
+> "The Instacart Online Grocery Shopping Dataset 2017", Accessed from https://www.instacart.com/datasets/grocery-shopping-2017 on 2017-07-01.

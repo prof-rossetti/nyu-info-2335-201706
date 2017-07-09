@@ -14,6 +14,7 @@ For in-depth Ruby documentation, reference:
   + [Programming Ruby - The Pragmatic Programmer's Guide](http://ruby-doc.com/docs/ProgrammingRuby/html/index.html)
   + [Ruby Modules](https://ruby-doc.org/core-2.4.1/Module.html)
   + [Ruby Classes](https://ruby-doc.org/core-2.4.1/Class.html)
+  + [Ruby Object Class](http://ruby-doc.org/docs/keywords/1.9/Object.html#method-i-case)
 
 Ruby can be run on the "server-side" (i.e. on your computer or some other server). Get started with Ruby by [installing](installation.md) it onto your computer. Then you should be able to run `irb` from the command-line to access the interactive interpreter. When you are done using the interpreter, shut it down with `exit`. You can alternatively write scripts and execute them from the command-line. For example, `ruby hello.rb`. Use a combination of these methods to follow-along with each of the sections below.
 

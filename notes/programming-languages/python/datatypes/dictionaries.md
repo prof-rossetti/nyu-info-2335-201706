@@ -31,6 +31,8 @@ teams = [
 
 If you are familiar with JavaScript "Objects" (JSON) or Ruby "Hashes", the concept is the same. If you need to convert a Python dictionary to JSON, reference the [`json` module](../modules.json.md).
 
+Example dictionaries:
+
 ```python
 {}
 {"a":1, "b":2, "c":3}
@@ -65,9 +67,9 @@ person = {
     "stops": ["New York", "Denver", "San Francisco"]
 }
 
-person["wife"] = "Mrs. Claus"
+person["wife"] = "Mrs. Claus" # this is mutating
 
-del person["stops"]
+del person["stops"] # this is mutating
 
 person #> {'first': 'Santa', 'last': 'Claus', 'message': 'Ho Ho Ho', 'wife': 'Mrs. Claus'}
 ```

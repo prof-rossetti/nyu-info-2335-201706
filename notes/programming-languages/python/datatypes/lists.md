@@ -6,7 +6,7 @@ Reference:
   + https://docs.python.org/3/library/stdtypes.html#lists
   + https://docs.python.org/3/tutorial/datastructures.html?highlight=lists#more-on-lists
 
-A List represents a numbered, ordered collection of items. A List may contain zero or more elements. A list can contain items of any datatype, but as a best practice, all items in a list should share a datatype and structure:
+A List represents a numbered, ordered collection of items. A List may contain zero or more items. A list can contain items of any datatype, but as a best practice, all items in a list should share a datatype and structure:
 
 ```python
 # DO:

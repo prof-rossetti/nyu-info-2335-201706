@@ -55,14 +55,14 @@ The program should prompt the checkout clerk to input the identifier of each sho
 
 After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include:
 
-  + A grocery store name of your choice
-  + A grocery store phone number and/or website URL and/or address of choice
-  + The date and time of the beginning of the checkout process, formatted in a human-friendly way
-  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name
-  + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$1.50`), calculated as the sum of their prices
-  + The amount of tax owed, calculated by multiplying the total cost by a New York City sales tax rate of `0.08875`
-  + The total amount owed, formatted as US dollars and cents (e.g. `$1.63`), calculated by adding the total cost of all shopping cart items
-  + A friendly message thanking the customer and/or encouraging the customer to shop again
+  + A grocery store name of your choice.
+  + A grocery store phone number and/or website URL and/or address of choice.
+  + The date and time of the beginning of the checkout process, formatted in a human-friendly way.
+  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name.
+  + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$1.50`), calculated as the sum of their prices.
+  + The amount of tax owed, calculated by multiplying the total cost by a New York City sales tax rate of `0.08875`.
+  + The total amount owed, formatted as US dollars and cents (e.g. `$1.63`), calculated by adding the total cost of all shopping cart items.
+  + A friendly message thanking the customer and/or encouraging the customer to shop again.
 
 The program should be able to process multiple shopping cart items of the same type, but does not need to display any groupings or aggregations of those items.
 

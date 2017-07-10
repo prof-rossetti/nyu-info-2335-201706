@@ -37,6 +37,7 @@
 
 ### Class 4 - Monday 2017-07-10
 
+  + [Refresh your Fork](https://github.com/prof-rossetti/nyu-info-2335-70-201706/blob/master/CONTRIBUTING.md#updating-your-fork) so you will be prepared to submit a clean Pull Request representing the "Groceries" Project submission.
   + [Submit "Groceries" Project, formerly known as the "Python" Exercise (con't)](/projects/groceries/project.md#submission-instructions)
 =======
 

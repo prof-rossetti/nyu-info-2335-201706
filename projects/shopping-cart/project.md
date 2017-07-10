@@ -72,6 +72,8 @@ For students desiring optional further exploration, the program should also outp
 
 ### Checkpoints
 
+First set-up a new local Git repository to contain this program (suggested), or choose the same repository you used for the "Groceries" project (acceptable).
+
 When you successfully demonstrate your script's ability to perform one or more component pieces of desired functionality, commit your changes before moving on to the next step. Your history of commit messages might roughly resemble the checkpoint steps below.
 
 #### Checkpoint I - User Inputs

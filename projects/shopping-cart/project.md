@@ -78,7 +78,7 @@ When you successfully demonstrate your script's ability to perform one or more c
 
 #### Checkpoint I - User Inputs
 
-The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done.
+The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done. If you'd rather do the easy parts first, skip this first checkpoint and come back to it after you finish the others.
 
 Steps:
 
@@ -95,13 +95,16 @@ When you have finished this checkpoint, your program should perform like this:
 
 Great job accepting some complicated user inputs and demonstrating your ability to store them in memory. But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
 
-At this time, your script should look something like this:
+If you skipped the first checkpoint, you can start here using a list of hard-coded product identifiers.
+
+At this time, your script might look something like this:
 
 ```python
-products = [] #<--- but actually, that long list of dictionaries from above!
+products = [] #<--- that long list of dictionaries from above!
 
 #
 # some commented-out loop
+# ... representing the result of the first checkpoint (if you did it)
 # ... which accepts user inputs
 # ... and prints the results
 # ... and which we are temporarily ignoring
@@ -119,6 +122,7 @@ Steps:
 
   1. For a single valid product identifier, look up the matching product and print its name and price.
   1. For each valid product identifier in the example list, look up the matching product and print its name and price.
+  1. For each valid product identifier in the example list, look up the matching product and print its name and price, and add its price to a running-total of all prices, then print the running-total after iterating through the entire list.
 
 #### Checkpoint II - Receipt Printing
 

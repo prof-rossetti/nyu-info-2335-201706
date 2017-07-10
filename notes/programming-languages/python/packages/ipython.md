@@ -14,6 +14,10 @@ Once you have learned how to install modules using the `pip` package manager, yo
 First install `ipython`, if necessary:
 
 ```` sh
+# For Homebrew-installed Python 3.x on Mac OS:
+pip3 install ipython
+
+# All others:
 pip install ipython
 ````
 

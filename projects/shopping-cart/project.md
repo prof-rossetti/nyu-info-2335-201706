@@ -12,6 +12,8 @@ To provide the program with information inputs, you ask the store owner to maint
 
 The store owner agrees! Now it's time to write software to mimic the barcode-scanning process.
 
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles and prints a receipt after the user inputs the "DONE" keyword](demo.gif)
+
 ## Objectives
 
   1. Practice writing software in Python.
@@ -46,33 +48,111 @@ products = [
     {"id":18, "name": "Pizza for One Suprema Frozen Pizza", "department": "frozen", "aisle": "frozen pizza", "price": 12.50},
     {"id":19, "name": "Gluten Free Quinoa Three Cheese & Mushroom Blend", "department": "dry goods pasta", "aisle": "grains rice dried goods", "price": 3.99},
     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
-]
+] # Products based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping-2017
 ```
 
-## Requirements
+### Requirements
 
-The program should prompt the checkout clerk the input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `DONE`.
+The program should prompt the checkout clerk to input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `DONE`.
 
-After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include:
+After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include the following components:
 
-  + A grocery store name of your choice
-  + A grocery store phone number and/or website URL and/or address of choice
-  + The date and time of the beginning of the checkout process, formatted in a human-friendly way
-  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name
-  + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$1.50`), calculated as the sum of their prices
-  + The amount of tax owed, calculated by multiplying the total cost by a New York City sales tax rate of `0.08875`
-  + The total amount owed, formatted as US dollars and cents (e.g. `$1.63`), calculated by adding the total cost of all shopping cart items
-  + A friendly message thanking the customer and/or encouraging the customer to shop again
+  + A grocery store name of your choice.
+  + A grocery store phone number and/or website URL and/or address of choice.
+  + The date and time of the beginning of the checkout process, formatted in a human-friendly way.
+  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), optionally sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name.
+  + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$1.50`), calculated as the sum of their prices.
+  + The amount of tax owed, calculated by multiplying the total cost by a New York City sales tax rate of `0.08875`.
+  + The total amount owed, formatted as US dollars and cents (e.g. `$1.63`), calculated by adding the total cost of all shopping cart items.
+  + A friendly message thanking the customer and/or encouraging the customer to shop again.
 
 The program should be able to process multiple shopping cart items of the same type, but does not need to display any groupings or aggregations of those items.
 
-For students desiring optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds, respectively).
+#### Further Exploration
+
+For students desiring optional further exploration, the program should also validate the identifiers input by the clerk, displaying to the clerk a helpful message (e.g. "Hey, are you sure that product identifier is correct? Please try again!") if there are no products matching the given identifier.
+
+For students desiring even more optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds, respectively).
+
+For students desiring even more optional further exploration, add a new product to the list. Name it "Professor Rossetti's Bananas" and assign it other attribute values as desired. Assign it a price of `0.79`, but add another attribute called something like `price_per` to indicate the item is priced per "pound". Update all the other product dictionaries to match the new structure, indicating they are priced per "item". Finally, when running the program, if the clerk inputs the identifier of the bananas (or any other item that is priced by pound), the program should ask the clerk to input the number of pounds (e.g. `2.2`), then the program should calculate the price accordingly.
+
+### Checkpoints
+
+First set-up a new local Git repository to contain this program (suggested), or choose the same repository you used for the "Groceries" project (acceptable).
+
+When you successfully demonstrate your script's ability to perform one or more component pieces of desired functionality, commit your changes before moving on to the next step. Your history of commit messages might roughly resemble the checkpoint steps below.
+
+#### Checkpoint I - User Inputs
+
+The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done. If you'd rather do the easy parts first, skip this first checkpoint and come back to it after you finish the others.
+
+Steps:
+
+  1. Accept a user input value, store it in a variable, and print it. Hint: use the `input()` function.
+  2. One at a time, iteratively accept a user input value, store it in a variable, and print it. Hint: use an infinite `while` loop. Note: you may have to press "control-c" to quit your script.
+  3. One at a time, iteratively accept a user input value, store it in a variable, and print it. But stop the loop if the user inputs the word "DONE". Hint: use an `if` statement in conjunction with the `break` keyword.
+  4. Repeat the previous step, but instead of printing each user input, store them all in a single list. Then print the list after the user is "DONE".
+
+When you have finished this checkpoint, your program should perform like this:
+
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-1-demo.gif)
+
+#### Checkpoint II - Product Lookups
+
+If you already did the first checkpoint, great job capturing and storing the user inputs! But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
+
+If you skipped the first checkpoint, you can start here using a list of hard-coded product identifiers.
+
+At this time, your script might look something like this:
+
+```python
+products = [] #<--- that long list of dictionaries from above!
+
+#
+# some commented-out loop
+# ... representing the result of the first checkpoint (if you did it)
+# ... which accepts user inputs
+# ... and prints the results
+# ... and which we are temporarily ignoring
+# ... (yours will actually be some working python code)
+#
+
+product_ids = [1, 8, 6, 16, 6] # temporary list of valid ids for testing purposes
+
+print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
+
+#TODO: perform product look-ups here!
+```
+
+Steps:
+
+  1. For a single valid product identifier, look up the matching product and print its name and price. Hint: try using a custom function in conjunction with a list comprehension.
+  1. For each valid product identifier in the example list, look up the matching product and print its name and price.
+  1. For each valid product identifier in the example list, look up the matching product and print its name and price, and add its price to a running-total of all prices, then print the running-total after iterating through the entire list. For now, you don't necessarily need to worry about formatting prices as USD.
+
+When you have finished this checkpoint, your program should perform something like this:
+
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-2-demo.gif)
+
+#### Checkpoint III - Receipt Printing
+
+Steps:
+
+  1. For each receipt component listed in the "Requirements" section above (e.g. store name, product prices, taxes, total price, farewell message, etc.), revise your program to print that component. Commit your code after implementing each component in the list.
+
+When you have finished this checkpoint, your program should perform like this:
+
+![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](checkpoint-3-demo.gif)
+
+Once your program prints all required receipt components, it's time to stop using the hard-coded product identifiers. If you already did the first checkpoint, un-comment the code which performs the user input process, otherwise do the first checkpoint now. Afterwards, revise and configure the other parts of the program as necessary to use the list of product identifiers captured during the user input process.
+
+Wow, you are finally done! Nice job. Now it's time to submit your work.
 
 ## Submission Instructions
 
 Push your repository to GitHub.com. Note the URL of your repository.
 
-Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. Commit your changes and submit a Pull Request for your content to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. The CSV file's rows should be ordered alphabetically by GitHub username. Commit your changes and submit a Pull Request for your content to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
 
 ## Evaluation
 

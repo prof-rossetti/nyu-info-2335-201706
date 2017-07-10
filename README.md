@@ -155,13 +155,19 @@ All students should join the course [Slack team](https://nyu-info-2335-70.slack.
 
 > REFERENCE: [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :smiley:
 
+### NYU Stern MediaSite
+
+Audio-visual class recordings are accessible in real-time and on-demand through NYU Stern's MediaSite platform. Links to these videos are also posted to the `#mediasite` channel on Slack.
+
+Non-Stern students should be able to access the MediaSite recordings after activating their Stern accounts at [start.stern.nyu.edu](start.stern.nyu.edu). Any students having issues either activating their Stern accounts or accessing MediaSite recordings should contact the Stern Help Desk at [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).
+
 ### Calendar
 
 The [Calendar](https://calendar.google.com/calendar/embed?src=prof.mj.rossetti%40gmail.com&ctz=America/New_York) provides a high-level overview of the dates and times when this class meets. It reflects the most up-to-date course scheduling information, including class times, instructor office hours, holidays, and more.
 
 ### Schedule
 
-The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement via Slack.
+The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement via NYU Classes. See the [Announcements](/announcements) directory for copies of those announcements.
 
 ### Policies
 

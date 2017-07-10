@@ -49,7 +49,7 @@ products = [
 ]
 ```
 
-## Requirements
+### Requirements
 
 The program should prompt the checkout clerk to input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `DONE`.
 
@@ -69,6 +69,62 @@ The program should be able to process multiple shopping cart items of the same t
 For students desiring optional further exploration, the program should also validate the identifiers input by the clerk, displaying to the clerk a helpful message (e.g. "Hey, are you sure that product identifier is correct? Please try again!") if there are no products matching the given identifier.
 
 For students desiring optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds, respectively).
+
+### Checkpoints
+
+When you successfully demonstrate your script's ability to perform one or more component pieces of desired functionality, commit your changes before moving on to the next step. Your history of commit messages might roughly resemble the checkpoint steps below.
+
+#### Checkpoint I - User Inputs
+
+The user input part of this project is probably the hardest part. This is because it represents something we "know we don't know" how to do. We should try to research and implement this part of the project as soon as possible to relieve our stress and to demonstrate to ourselves it can be done.
+
+Steps:
+
+  1. Accept a user input value, store it in a variable, and print it. Hint: use the `input()` function.
+  2. One at a time, iteratively accept a user input value, store it in a variable, and print it. Hint: use an infinite `while` loop. Note: you may have to press "control-c" to quit your script.
+  3. One at a time, iteratively accept a user input value, store it in a variable, and print it. But stop the loop if the user inputs the word "DONE". Hint: use an `if` statement in conjunction with the `break` keyword.
+  4. Repeat the previous step, but instead of printing each user input, store them all in a single list. Then print the list after the user is "DONE".
+
+When you have finished this checkpoint, your program should perform like this:
+
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-1-demo.gif)
+
+#### Checkpoint II - Product Lookups
+
+Great job accepting some complicated user inputs and demonstrating your ability to store them in memory. But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
+
+At this time, your script should look something like this:
+
+```python
+products = [] #<--- but actually, that long list of dictionaries from above!
+
+#
+# some commented-out loop
+# ... which accepts user inputs
+# ... and prints the results
+# ... and which we are temporarily ignoring
+# ... (yours will actually be some working python code)
+#
+
+product_ids = [1, 8, 6, 16, 6] # temporary list of valid ids for testing purposes
+
+print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
+
+#TODO: perform product look-ups here!
+```
+
+Steps:
+
+  1. For a single valid product identifier, look up the matching product and print its name and price.
+  1. For each valid product identifier in the example list, look up the matching product and print its name and price.
+
+#### Checkpoint II - Receipt Printing
+
+Steps:
+
+  1. TBA
+  1. TBA
+  1. TBA
 
 ## Submission Instructions
 

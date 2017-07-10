@@ -11,9 +11,27 @@ Reference:
 
 Many programming languages provide an "associative array" datatype  which provides an opportunity to create objects with named attributes. In this way, an associative array is similar to a row in a CSV-formatted spreadsheet or a record in a database, where the associative array's "keys" represent the column names and its "values" represent the cell values. associative arrays are said to have "key/value" pairs, where the "key" represents the name of the attribute and the "value" represents the attribute's value.
 
+city | name | league
+--- | --- | ---
+New York | Yankees | major
+New York | Mets | major
+Boston | Red Sox | major
+New Haven | Ravens | minor
+
 Python's implementation of the associative array concept is known as a "dictionary". A Python dictionary comprises curly braces (`{}`) containing one or more key/value pairs, with each key separated from its value by a colon (`:`) and each key/value pair separated by a comma (`,`).
 
+```python
+teams = [
+    {"city": "New York", "name": "Yankees", "league":"major"},
+    {"city": "New York", "name": "Mets", "league":"major"},
+    {"city": "Boston", "name": "Red Sox", "league":"major"},
+    {"city": "New Haven", "name": "Ravens", "league":"minor"}
+]
+```
+
 If you are familiar with JavaScript "Objects" (JSON) or Ruby "Hashes", the concept is the same. If you need to convert a Python dictionary to JSON, reference the [`json` module](../modules.json.md).
+
+Example dictionaries:
 
 ```python
 {}
@@ -49,9 +67,9 @@ person = {
     "stops": ["New York", "Denver", "San Francisco"]
 }
 
-person["wife"] = "Mrs. Claus"
+person["wife"] = "Mrs. Claus" # this is mutating
 
-del person["stops"]
+del person["stops"] # this is mutating
 
 person #> {'first': 'Santa', 'last': 'Claus', 'message': 'Ho Ho Ho', 'wife': 'Mrs. Claus'}
 ```
@@ -83,31 +101,6 @@ for k, v in person.items():
 #> KEY: stops ... VALUE: ['New York', 'Denver', 'San Francisco']
 ```
 
-After you have studied list iteration, mapping, and filtering, if you have a list full of dictionaries, you should be able to sort it based on dictionary values:
+<hr>
 
-```python
-teams = [
-    {"city": "New York", "name": "Yankees"},
-    {"city": "New York", "name": "Mets"},
-    {"city": "Boston", "name": "Red Sox"},
-    {"city": "New Haven", "name": "Ravens"}
-]
-
-def team_name(team):
-    return team["name"]
-
-def sort_by_hometown(team):
-    return team["city"]
-
-def sort_special(team):
-    return team["city"] + "-" + team["name"]
-
-teams2 = sorted(teams, key=team_name)
-teams2 #> [{'city': 'New York', 'name': 'Mets'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New York', 'name': 'Yankees'}]
-
-teams3 = sorted(teams, key=sort_by_hometown)
-teams3 #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Yankees'}, {'city': 'New York', 'name': 'Mets'}]
-
-teams4 = sorted(teams, key=sort_special)
-teams4 #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Mets'}, {'city': 'New York', 'name': 'Yankees'}]
-```
+> Hey, there was some information here about how to sort a list of dictionaries by key, but that information has moved to the [lists](lists.md) reference.

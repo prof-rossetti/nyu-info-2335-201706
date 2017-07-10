@@ -28,10 +28,19 @@ Add or revise files using the online interface. For example:
 
 #### Configuring Remotes
 
+Navigate to your Desktop, or some other directory where you would like to download the course repository:
+
+```shell
+# Mac OS:
+cd ~/Desktop # or some other directory where you'd like to download the repository
+
+# Windows OS:
+cd C:\Users\YOUR_USERNAME\Desktop\ # where YOUR_USERNAME is the name of the user currently operating your local machine
+```
+
 Clone your fork to your local machine:
 
 ```` sh
-cd ~/Desktop # or some other directory where you'd like to download the repository
 git clone https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git # feel free to use the SSH version instead only if you've done this kind of thing before
 cd nyu-info-2335-70-201706/
 ````
@@ -44,7 +53,9 @@ git remote add upstream https://github.com/prof-rossetti/nyu-info-2335-70-201706
 git remote -v # you should now also see an "upstream" remote pointing to the original course repository.
 ````
 
-If the course repository has changed since you last interacted with it, update your local repository by pulling changes from the course repository:
+#### Updating your Fork
+
+If the course repository has changed since you last interacted with it (most situations), update your local repository by pulling changes from the course repository:
 
 ```` sh
 git branch # to see which branch you are on (if you are using branches)
@@ -66,7 +77,7 @@ git push origin master --force
 Add or revise files using a text editor (e.g. Atom):
 
 ```` sh
-atom .
+atom . # this will open the directory in your text editor, allowing you to use to to edit file contents
 ````
 
 Review your changes:

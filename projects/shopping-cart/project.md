@@ -53,7 +53,7 @@ products = [
 
 The program should prompt the checkout clerk to input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `DONE`.
 
-After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include:
+After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include the following components:
 
   + A grocery store name of your choice.
   + A grocery store phone number and/or website URL and/or address of choice.
@@ -97,7 +97,7 @@ When you have finished this checkpoint, your program should perform like this:
 
 #### Checkpoint II - Product Lookups
 
-Great job accepting some complicated user inputs and demonstrating your ability to store them in memory. But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
+If you already did the first checkpoint, great job capturing and storing the user inputs! But now it's time to set that code aside. We will temporarily shift to an approach that uses a hard-coded list of product identifiers instead of the list of product identifiers which resulted from the user input process. We do this to speed-up the iteration cycle between our various development approaches, obviating our need to perform the user input process each time we want to test our program.
 
 If you skipped the first checkpoint, you can start here using a list of hard-coded product identifiers.
 
@@ -124,17 +124,22 @@ print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
 
 Steps:
 
-  1. For a single valid product identifier, look up the matching product and print its name and price.
+  1. For a single valid product identifier, look up the matching product and print its name and price. Hint: try using a custom function in conjunction with a list comprehension.
   1. For each valid product identifier in the example list, look up the matching product and print its name and price.
-  1. For each valid product identifier in the example list, look up the matching product and print its name and price, and add its price to a running-total of all prices, then print the running-total after iterating through the entire list.
+  1. For each valid product identifier in the example list, look up the matching product and print its name and price, and add its price to a running-total of all prices, then print the running-total after iterating through the entire list. For now, you don't necessarily need to worry about formatting prices as USD.
 
-#### Checkpoint II - Receipt Printing
+When you have finished this checkpoint, your program should perform something like this:
+
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles the list and prints it after the user has input the "DONE" keyword](checkpoint-2-demo.gif)
+
+#### Checkpoint III - Receipt Printing
 
 Steps:
 
-  1. TBA
-  1. TBA
-  1. TBA
+  1. For each receipt component listed in the "Requirements" section above (e.g. store name, product prices, taxes, total price, farewell message, etc.), revise your program to print that component. Commit your code after implementing each component in the list.
+  2. Once your program prints all required receipt components, it's time to stop using the hard-coded product identifiers. If you already did the first checkpoint, un-comment the code which performs the user input process, otherwise do the first checkpoint now. Afterwards, revise and configure the other parts of the program as necessary to use the list of product identifiers captured during the user input process.
+
+Wow, you are finally done! Nice job. Now it's time to submit your work.
 
 ## Submission Instructions
 

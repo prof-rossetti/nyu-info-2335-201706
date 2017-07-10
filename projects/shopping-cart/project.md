@@ -72,7 +72,11 @@ For students desiring optional further exploration, the program should also outp
 
 Push your repository to GitHub.com. Note the URL of your repository.
 
+<<<<<<< HEAD
 Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. The CSV file's rows should be ordered alphabetically by GitHub username. Commit your changes and submit a Pull Request for your content to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+=======
+Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the repository URL. Commit your changes and submit a Pull Request for your content to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+>>>>>>> bd6c7600900dad916f80c5bad2a9cde6f8bb3cba
 
 ## Evaluation
 

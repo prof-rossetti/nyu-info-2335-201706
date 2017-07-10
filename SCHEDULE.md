@@ -22,6 +22,7 @@
 
   + [Python Language Overview (cont'd)](/notes/programming-languages/python/notes.md)
   + ["Groceries" Project, formerly known as the "Python" Exercise (con't)](/projects/groceries/project.md)
+<<<<<<< HEAD
 
 
 
@@ -37,10 +38,16 @@
 ### Class 4 - Monday 2017-07-10
 
   + [Submit "Groceries" Project, formerly known as the "Python" Exercise (con't)](/projects/groceries/project.md#submission-instructions)
+=======
+
+### Class 4 - Monday 2017-07-10
+
+>>>>>>> bd6c7600900dad916f80c5bad2a9cde6f8bb3cba
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
 
 ### Class 5 - Wednesday 2017-07-12
 
+<<<<<<< HEAD
   + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions)
   + Reading and Writing to File
   + "CRUD App" Project
@@ -56,6 +63,11 @@
 
 
 
+=======
+  + Code Review and Refactoring
+  + Object-oriented Programming
+  + Python Classes and Inheritance
+>>>>>>> bd6c7600900dad916f80c5bad2a9cde6f8bb3cba
 
 ### Class 6 - Monday 2017-07-17
 
@@ -83,6 +95,7 @@
 
 ### Class 8 - Monday 2017-07-24
 
+<<<<<<< HEAD
   + Code Review and Refactoring
   + Object-oriented Programming
   + Python Classes and Inheritance
@@ -107,6 +120,19 @@
 ### Class 10 - Monday 2017-07-31
 
   + "Freestyle" Project - Implementation Support
+=======
+  + Software Testing
+  + Python Tests
+  + "Freestyle" Project Support
+
+### Class 9 - Wednesday 2017-07-26
+
+  + TBA - "Freestyle" Project Support
+
+### Class 10 - Monday 2017-07-31
+
+  + TBA - "Freestyle" Project Support
+>>>>>>> bd6c7600900dad916f80c5bad2a9cde6f8bb3cba
 
 ### Class 11 - Wednesday 2017-08-02
 

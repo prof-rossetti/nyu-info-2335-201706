@@ -2,7 +2,7 @@
 
 ## Package Management
 
-When you install Python, you also get Python's package manager, `pip`. Use `pip` to install and manage third-party python packages.
+When you install Python, you also get Python's package manager, `pip`. Use `pip` to install and manage third-party Python packages.
 
 List packages currently installed:
 
@@ -27,7 +27,7 @@ cd /path/to/your/project
 pip freeze > requirements.txt
 ```
 
-Then revise the `requirements.txt` file. Write the name of each required python package dependency on a new line, save the file, and exit. For example:
+Then revise the `requirements.txt` file. Write the name of each required Python package dependency on a new line, save the file, and exit. For example:
 
     ipython
     numpy

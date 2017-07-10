@@ -8,7 +8,7 @@ You may see JavaScript statements ended with a trailing semi-colon. In some case
 
 ### Naming
 
-Always observe lower-case variable and function names. If your variable or function name is comprised of two words, use camel-case, not snake case. As usual, only use title-case for class names.
+Always observe lower-case variable and function names. If your variable or function name is comprised of two words, use camel-case, not snake case. As usual, only use title case for class names.
 
 DO:
 
@@ -16,8 +16,8 @@ DO:
   + `firstName`
   + `lastName`
   + `firstAndLastName`
-  + `Person` - use title-case for classes only
-  + `HonestPerson` - use title-case for classes only
+  + `Human` - use title case for classes only
+  + `SuperHuman` - use title case for classes only
 
 DON'T:
 

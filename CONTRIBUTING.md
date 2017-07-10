@@ -53,6 +53,8 @@ git remote add upstream https://github.com/prof-rossetti/nyu-info-2335-70-201706
 git remote -v # you should now also see an "upstream" remote pointing to the original course repository.
 ````
 
+#### Updating your Fork
+
 If the course repository has changed since you last interacted with it (most situations), update your local repository by pulling changes from the course repository:
 
 ```` sh

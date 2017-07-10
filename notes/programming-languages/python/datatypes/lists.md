@@ -6,7 +6,7 @@ Reference:
   + https://docs.python.org/3/library/stdtypes.html#lists
   + https://docs.python.org/3/tutorial/datastructures.html?highlight=lists#more-on-lists
 
-A List represents a numbered, ordered collection of items. A List may contain zero or more elements. A list can contain items of any datatype, but as a best practice, all items in a list should share a datatype and structure:
+A List represents a numbered, ordered collection of items. A List may contain zero or more items. A list can contain items of any datatype, but as a best practice, all items in a list should share a datatype and structure:
 
 ```python
 # DO:
@@ -85,6 +85,18 @@ arr3 = arr + arr2
 arr3 #> ["a", "b", "c", "d", "x", "y", "z"]
 ```
 
+Remove duplicate values in a list by converting it to another datatype called a "Set" and then converting it back to a "List":
+
+```python
+arr = [1,2,2,2,3]
+arr2 = list(set(arr))
+arr2 #> [1, 2, 3]
+
+list(set(["hello", "hello", "hello"])) #> ['hello']
+```
+
+### Sorting
+
 Sort a list:
 
 ```python
@@ -96,15 +108,51 @@ arr.reverse() # this is mutating
 arr #> [8, 6, 3]
 ```
 
-Remove duplicate values in a list by converting it to another datatype called a "Set" and then converting it back to a "List":
+If you have a list of dictionaries, you should be able to sort it based on dictionary values:
 
 ```python
-arr = [1,2,2,2,3]
-arr2 = list(set(arr))
-arr2 #> [1, 2, 3]
+teams = [
+    {"city": "New York", "name": "Yankees"},
+    {"city": "New York", "name": "Mets"},
+    {"city": "Boston", "name": "Red Sox"},
+    {"city": "New Haven", "name": "Ravens"}
+]
 
-list(set(["hello", "hello", "hello"])) #> ['hello']
+def team_name(team):
+    return team["name"]
+
+def sort_by_hometown(team):
+    return team["city"]
+
+def sort_special(team):
+    return team["city"] + "-" + team["name"]
+
+teams2 = sorted(teams, key=team_name)
+teams2 #> [{'city': 'New York', 'name': 'Mets'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New York', 'name': 'Yankees'}]
+
+teams3 = sorted(teams, key=sort_by_hometown)
+teams3 #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Yankees'}, {'city': 'New York', 'name': 'Mets'}]
+
+teams4 = sorted(teams, key=sort_special)
+teams4 #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Mets'}, {'city': 'New York', 'name': 'Yankees'}]
 ```
+
+Alternatively for simple attribute-based sorting, you could use the `operator` module's `itemgetter()` function, for example:
+
+```python
+import operator
+
+teams = [
+    {"city": "New York", "name": "Yankees"},
+    {"city": "New York", "name": "Mets"},
+    {"city": "Boston", "name": "Red Sox"},
+    {"city": "New Haven", "name": "Ravens"}
+]
+
+teams = sorted(teams, key=operator.itemgetter('city'))
+teams #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Yankees'}, {'city': 'New York', 'name': 'Mets'}]
+```
+
 
 ### Iteration
 

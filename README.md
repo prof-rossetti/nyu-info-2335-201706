@@ -159,7 +159,7 @@ All students should join the course [Slack team](https://nyu-info-2335-70.slack.
 
 Audio-visual class recordings are accessible in real-time and on-demand through NYU Stern's MediaSite platform. Links to these videos are also posted to the `#mediasite` channel on Slack.
 
-Non-Stern students should be able to access the MediaSite recordings after activating their Stern accounts at [start.stern.nyu.edu](start.stern.nyu.edu). Any students having issues either activating their Stern accounts or accessing MediaSite recordings should contact the Stern Help Desk at [mailto:helpdesk@stern.nyu.edu](helpdesk@stern.nyu.edu).
+Non-Stern students should be able to access the MediaSite recordings after activating their Stern accounts at [start.stern.nyu.edu](start.stern.nyu.edu). Any students having issues either activating their Stern accounts or accessing MediaSite recordings should contact the Stern Help Desk at [helpdesk@stern.nyu.edu](mailto:helpdesk@stern.nyu.edu).
 
 ### Calendar
 

@@ -51,7 +51,7 @@ products = [
 
 ## Requirements
 
-The program should prompt the checkout clerk the input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `DONE`.
+The program should prompt the checkout clerk to input the identifier of each shopping cart item, one at a time. At any time the clerk should be able to indicate there are no more shopping cart items by inputting the word `DONE`.
 
 After the clerk indicates there are no more items, the program should print a custom receipt on the screen. The receipt should include:
 
@@ -65,6 +65,8 @@ After the clerk indicates there are no more items, the program should print a cu
   + A friendly message thanking the customer and/or encouraging the customer to shop again
 
 The program should be able to process multiple shopping cart items of the same type, but does not need to display any groupings or aggregations of those items.
+
+For students desiring optional further exploration, the program should also validate the identifiers input by the clerk, displaying to the clerk a helpful message (e.g. "Hey, are you sure that product identifier is correct? Please try again!") if there are no products matching the given identifier.
 
 For students desiring optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds, respectively).
 

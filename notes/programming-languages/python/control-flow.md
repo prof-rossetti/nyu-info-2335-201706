@@ -6,7 +6,7 @@
 
 Reference:
 
-  + https://docs.python.org/3/tutorial/controlflow.html#if-statements.
+  + https://docs.python.org/3/tutorial/controlflow.html#if-statements
   + https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 
 Use "If" statements to handle conditional logic (i.e. checking whether or not something is true and responding accordingly).
@@ -31,7 +31,7 @@ if 1 == 2:
     print("YES THIS IS TRUE")
 ```
 
-An "If" statement may be followed by the `else` keyword, followed by a colon (`:`), followed by one or more indented lines which contain statement(s) to be executed if the original condition is not met.
+An "If" statement may include an `else` keyword, followed by a colon (`:`), followed by one or more indented lines which contain statement(s) to be executed if the original condition is not met.
 
 ```python
 if 1 == 2:
@@ -42,7 +42,7 @@ else:
 #> NO THIS IS FALSE
 ```
 
-An "If" statement, regardless of whether or not it contains an `else` keyword, can contain any number of `elsif` keywords, followed by a colon (`:`), followed by one or more indented lines which contain statement(s) to be executed if the condition is met. If there is an `else` keyword, it should come last.
+An "If" statement, regardless of whether or not it contains an `else` keyword, can contain any number of `elsif` keywords, each followed by a colon (`:`), followed by one or more indented lines which contain statement(s) to be executed if the condition is met. If there is an `else` keyword, it should come last.
 
 ```python
 # run this script a few times in a row...

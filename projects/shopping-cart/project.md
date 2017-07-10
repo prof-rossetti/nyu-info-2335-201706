@@ -12,6 +12,8 @@ To provide the program with information inputs, you ask the store owner to maint
 
 The store owner agrees! Now it's time to write software to mimic the barcode-scanning process.
 
+![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles and prints a receipt after the user inputs the "DONE" keyword](demo.gif)
+
 ## Objectives
 
   1. Practice writing software in Python.
@@ -58,7 +60,7 @@ After the clerk indicates there are no more items, the program should print a cu
   + A grocery store name of your choice.
   + A grocery store phone number and/or website URL and/or address of choice.
   + The date and time of the beginning of the checkout process, formatted in a human-friendly way.
-  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name.
+  + The name and price of each shopping cart item, price being formatted as US dollars and cents (e.g. `$1.50`), optionally sorted alphabetically by name, optionally grouped by department and displayed underneath the respective department name.
   + The total cost of all shopping cart items, formatted as US dollars and cents (e.g. `$1.50`), calculated as the sum of their prices.
   + The amount of tax owed, calculated by multiplying the total cost by a New York City sales tax rate of `0.08875`.
   + The total amount owed, formatted as US dollars and cents (e.g. `$1.63`), calculated by adding the total cost of all shopping cart items.
@@ -137,7 +139,12 @@ When you have finished this checkpoint, your program should perform something li
 Steps:
 
   1. For each receipt component listed in the "Requirements" section above (e.g. store name, product prices, taxes, total price, farewell message, etc.), revise your program to print that component. Commit your code after implementing each component in the list.
-  2. Once your program prints all required receipt components, it's time to stop using the hard-coded product identifiers. If you already did the first checkpoint, un-comment the code which performs the user input process, otherwise do the first checkpoint now. Afterwards, revise and configure the other parts of the program as necessary to use the list of product identifiers captured during the user input process.
+
+When you have finished this checkpoint, your program should perform like this:
+
+![a screencast of a user running the python script from a terminal. the prints a receipt without asking for any user inputs](checkpoint-3-demo.gif)
+
+Once your program prints all required receipt components, it's time to stop using the hard-coded product identifiers. If you already did the first checkpoint, un-comment the code which performs the user input process, otherwise do the first checkpoint now. Afterwards, revise and configure the other parts of the program as necessary to use the list of product identifiers captured during the user input process.
 
 Wow, you are finally done! Nice job. Now it's time to submit your work.
 

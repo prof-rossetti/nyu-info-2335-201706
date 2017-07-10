@@ -2,9 +2,10 @@
 
 ### The `ipython` Module
 
-Reference: http://ipython.readthedocs.io/en/stable/interactive/tutorial.html.
+Reference:
 
-Source: https://github.com/ipython/ipython.
+  + http://ipython.readthedocs.io/en/stable/interactive/tutorial.html
+  + https://github.com/ipython/ipython
 
 > NOTE: The `ipython` module only works with Python 3.x.
 
@@ -16,7 +17,27 @@ First install `ipython`, if necessary:
 pip install ipython
 ````
 
-After installing `ipython`, you can drop an interactive break-point on any line of code by inserting an `embed()` statement. Once you run the script, it will stop at the break-point to allow further investigation.
+Use the `ipython` module from the command line to enter into an interactive console, or from within a script to debug it using an interactive console.
+
+#### Interactive Console with `ipython`
+
+From the command-line:
+
+```shell
+ipython
+#> Python 3.6.1 (default, Apr  4 2017, 09:40:51)
+#> Type 'copyright', 'credits' or 'license' for more information
+#> IPython 6.1.0 -- An enhanced Interactive Python. Type '?' for help.
+#>
+#> In [1]: 2+2
+#> Out[1]: 4
+#>
+#> In [2]:
+```
+
+#### Debugging Scripts with `ipython`
+
+Drop an interactive break-point onto any line in a Python script by inserting an `embed()` statement. Once you run the script, it will stop at the break-point to allow further investigation.
 
 ```python
 from IPython import embed # the capitalization of IPython matters

@@ -35,7 +35,7 @@ False or True #> True
 False or False #> False
 ```
 
-The most relevant boolean operator is the equality operator, `==`. Its functionality is demonstrated by the phrase, "Is this equal to that?":
+The most relevant boolean operator is the equality operator, `==`. Its functionality is represented by the phrase, "Is this equal to that?":
 
 ```python
 True == True #> True
@@ -43,7 +43,7 @@ True == False #> False
 False == False #> True
 ```
 
-The converse is the inequality operator, `!=`. Its functionality is demonstrated by the phrase, "Is this not equal to that?":
+The converse is the inequality operator, `!=`. Its functionality is represented by the phrase, "Is this not equal to that?":
 
 ```python
 True != True #> False

@@ -1,4 +1,4 @@
-# Python
+# Python Language Overview
 
 ## Functions
 
@@ -53,7 +53,7 @@ def do_stuff_with_params(message, first_name, last_name):
     print(message, "says", first_name, last_name)
 ```
 
-In this case, `message`, `firstName` and `lastName` are the names of the function's parameters. Invoke it like so:
+In this case, `message`, `first_name` and `last_name` are the names of the function's parameters. Invoke it like so:
 
 ```python
 do_stuff_with_params("HO! HO! HO!", "Santa", "Claus")

@@ -31,6 +31,8 @@ pip3 --version #> pip 9.0.1 from /usr/local/lib/python3.6/site-packages (python 
 
 Download Python 3 from the [Python website](https://www.python.org/downloads/).
 
+Note: Make sure you check the option, "Add Python 3.6 to PATH" when you are installing Python from the downloaded installer. 
+
 ## Mac OS
 
 You may download Python 3 from the [Python website](https://www.python.org/downloads/), but you are encouraged to use the [Homebrew](https://brew.sh/) package manager to install it.

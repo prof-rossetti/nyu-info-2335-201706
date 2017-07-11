@@ -12,4 +12,4 @@ At the end of class I introduced the ["Shopping Cart" project](https://github.co
 
 See you tomorrow night.
 
-- Professor Rossetti
+\- Professor Rossetti

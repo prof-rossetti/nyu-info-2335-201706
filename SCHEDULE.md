@@ -44,6 +44,7 @@
 
   + [Submit "Groceries" Project](/projects/groceries/project.md#submission-instructions)
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
+  + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions)
 
 
 

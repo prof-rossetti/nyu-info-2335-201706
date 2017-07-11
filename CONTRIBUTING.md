@@ -61,9 +61,10 @@ If the course repository has changed since you last interacted with it (most sit
 git branch # to see which branch you are on (if you are using branches)
 git checkout master # to make sure you are on the master branch (if you are using branches)
 git pull upstream master
+git push origin master
 ````
 
-If something unexpected is happening and you would like to overwrite your fork based on the current state of the upstream course repository, forcibly pull from the course repository:
+Alternatively, if something unexpected is happening and you would like to overwrite your fork based on the current state of the upstream course repository, forcibly pull from the course repository, but recognize this may delete any outstanding Pull Requests you have submitted, so perform these operations with care, only when you don't have an outstanding Pull Request waiting to be merged:
 
 ```` sh
 git fetch upstream

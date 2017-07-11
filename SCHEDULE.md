@@ -65,8 +65,9 @@
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + Survey of Open Source Python Packages
-  + "Freestyle" Project - Proposal Support
+  + Code Review and Refactoring
+  + Object-oriented Programming
+  + Python Classes and Inheritance
 
 
 
@@ -83,29 +84,18 @@
 
 ### Class 8 - Monday 2017-07-24
 
-  + Code Review and Refactoring
-  + Object-oriented Programming
-  + Python Classes and Inheritance
-  + "Freestyle" Project - Implementation Support
+  + Survey of Open Source Python Packages
+  + "Freestyle" Project - Proposal Support
 
 ### Class 9 - Wednesday 2017-07-26
 
-  + Software Testing
-  + Python Tests
+  + "Freestyle" Project - Proposal Support
   + "Freestyle" Project - Implementation Support
-
-
-
-
-
-
-
-
-
-
 
 ### Class 10 - Monday 2017-07-31
 
+  + Software Testing
+  + Python Tests
   + "Freestyle" Project - Implementation Support
 
 ### Class 11 - Wednesday 2017-08-02

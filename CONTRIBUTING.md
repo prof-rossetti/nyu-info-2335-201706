@@ -12,7 +12,7 @@ Fork this repository via the GitHub.com interface to create a copy under the own
 
 ![A screencast depicting a user clicking the "Fork" button at the top right of the course repository page.](/admin/forking.gif)
 
-You should now be able to view your fork online at https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.
+You should now be able to view your fork online at `https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706`.
 
 ## Content Revision Process
 

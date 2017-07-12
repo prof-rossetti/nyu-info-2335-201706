@@ -33,9 +33,9 @@ print("THERE ARE " + str(len(products)) + " PRODUCTS:")
 products = sorted(products, key=operator.itemgetter("name"))
 
 
-#for product in products:
-#   price_usd = ' (${0:.2f})'.format(product["price"])
-#   print(" + " + product["name"] + price_usd)
+for product in products:
+   price_usd = ' (${0:.2f})'.format(product["price"])
+   print(" + " + product["name"] + price_usd)
 
 #
 # DEPARTMENTS
@@ -46,12 +46,15 @@ departments = []
 for product in products:
     departments.append(product["department"])
 
-departments = set(departments)
-departments = list(departments)
-departments = sorted(departments)
+unique_departments = set(departments)
+unique_departments = list(unique_departments)
+unique_departments = sorted(unique_departments)
 
 print("--------------")
 print("THERE ARE " + str(len(departments)) + " DEPARTMENTS:")
 
-for department_name in departments:
-    print(" + " + department_name.title())
+
+for department_name in unique_departments:
+    count_of_products = departments.count(department_name)
+    print(" + " + department_name.title() + " (" + str(count_of_products) + " products)")
+#code.interact(local=locals())

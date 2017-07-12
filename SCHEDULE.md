@@ -90,20 +90,18 @@
 
 ### Class 9 - Wednesday 2017-07-26
 
-  + "Freestyle" Project - Proposal Support
+  + Software Testing
+  + Python Tests
   + "Freestyle" Project - Implementation Support
 
 ### Class 10 - Monday 2017-07-31
 
-  + Software Testing
-  + Python Tests
   + "Freestyle" Project - Implementation Support
 
 ### Class 11 - Wednesday 2017-08-02
 
   + "Retrospective" Exercise
   + Final Exam Preparation
-  + "Freestyle" Project - Implementation Support
 
 ### Class 12 - Monday 2017-08-07
 

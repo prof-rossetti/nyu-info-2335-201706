@@ -50,7 +50,7 @@ departments = set(departments)
 departments = list(departments)
 departments = sorted(departments)
 
-print("--------------testing")
+print("--------------")
 print("THERE ARE " + str(len(departments)) + " DEPARTMENTS:")
 
 for department_name in departments:

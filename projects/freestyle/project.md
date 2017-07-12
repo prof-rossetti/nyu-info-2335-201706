@@ -28,7 +28,7 @@ TBA - proposal phase, implementation phase
 
 ### Proposal Phase
 
-TBA - choose one of these or propose your own with similar scope and objectives
+TBA - Choose one of the example projects, below, or optionally propose your own project with similar scope. Project examples include:
 
   + Web-based CRUD Application
   + PDF Scraper
@@ -38,7 +38,11 @@ TBA - choose one of these or propose your own with similar scope and objectives
 
 #### Group Proposals
 
-If you would like to work on this project in groups of two or three total students, the Proposal Form will contain a section for you to optionally specify your group preferences. Note: to avoid confusion, each group member must specify the email addresses of each other member for the proposal to be valid.
+You are encouraged to work on this project by yourself, but you may work on this project in a group of three students maximum.
+
+Note: groups are expected to assume a project scope at least twice as great as the example projects.
+
+If you would like to work on this project in a group, the Proposal Form will contain a section for you to specify your group preferences. For the group proposal to be valid, each group member's submission must specify the email addresses of each other member.
 
 ### Implementation Phase
 
@@ -47,7 +51,7 @@ If you would like to work on this project in groups of two or three total studen
 TBA - repo must include:
 
   + README.md with instructions on how to run the program, including instructions on how to install any dependant packages. README instuctions can assume the reader has already installed python and is using the pip package manager.
-  + sub-directory called `planning` or `requirements` to contain information about system requirements and objectives. including a visual depiction of system information inputs and outputs and a written description of system scope.
+  + sub-directory called `planning` or `requirements` to contain information about system requirements and objectives. including a visual depiction of system information inputs and outputs and a written description of system scope and objectives.
   + python files comprising the program, application, or script
   + optional tests, if included must accompany README instructions on how to run them.
 

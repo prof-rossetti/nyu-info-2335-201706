@@ -10,4 +10,4 @@ At the beginning of next class we will work together to finish and submit the "G
 
 Have a great weekend, and see you on Monday!
 
-- Professor Rossetti
+\- Professor Rossetti

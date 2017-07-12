@@ -26,10 +26,10 @@ Projects are collectively worth 50% of the final grade.
 Activity | Weight | Due Date
 --- | --- | ---
 [Human Software](/projects/human-software/project.md) | 4% | 2017-07-03
-[Groceries](/projects/groceries/project.md) | 6% | 2017-07-10
-[Shopping Cart](/projects/shopping-cart/project.md) | 8% | 2017-07-14
-CRUD App | 12% | 2017-07-17
-[Freestyle](/projects/freestyle/project.md) | 20% | Proposal due 2017-07-23; Implementation due 2017-08-06
+[Groceries](/projects/groceries/project.md) | 8% | 2017-07-12
+[Shopping Cart](/projects/shopping-cart/project.md) | 12% | 2017-07-16
+CRUD App | 12% | 2017-07-19
+[Freestyle](/projects/freestyle/project.md) | 14% | Proposal due 2017-07-23; Implementation due 2017-08-06
 
 ## Exams
 

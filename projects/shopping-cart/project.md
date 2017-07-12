@@ -14,7 +14,7 @@ The store owner agrees! Now it's time to write software to mimic the barcode-sca
 
 ![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles and prints a receipt after the user inputs the "DONE" keyword](demo.gif)
 
-## Objectives
+## Learning Objectives
 
   1. Practice writing software in Python.
   1. Practice contributing to open source software.

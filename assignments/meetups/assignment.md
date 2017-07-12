@@ -1,6 +1,6 @@
 # Meetups
 
-## Objectives
+## Learning Objectives
 
   1. Explore your local technology community.
   2. Network with technology industry professionals.

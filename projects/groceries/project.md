@@ -4,6 +4,8 @@ Write a Python script to transform an information input into a desired informati
 
 ![A screencast depicting a user running a python script. The script outputs a list of grocery items and a list of grocery store departments.](demo.gif)
 
+If you get stuck, follow along with [this screencast](https://youtu.be/_w1hRdAD4LQ).
+
 ## Objectives
 
   1. Practice applying Python language techniques to solve a problem.

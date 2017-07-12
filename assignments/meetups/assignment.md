@@ -1,14 +1,14 @@
 # Meetups
 
-## Objectives
+## Learning Objectives
 
-  1. Explore the New York City technology community.
+  1. Explore your local technology community.
   2. Network with technology industry professionals.
   3. Increase awareness of industry practices.
 
 ## Instructions
 
-Search [meetup.com](http://www.meetup.com/) for, or otherwise identify business, startup, and/or technology-related events in the New York City area. Focus on Python and/or software-related events if possible. You are encouraged to post links to interesting events in the `#meetups` Slack channel.
+Search [meetup.com](http://www.meetup.com/) for, or otherwise identify business, startup, and/or technology-related events in the New York City area or some other place near where you live. Focus on Python and/or software-related events if possible. You are encouraged to post links to interesting events in the `#meetups` Slack channel.
 
 Attend two events over the course of the semester.
 

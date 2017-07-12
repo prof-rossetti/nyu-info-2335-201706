@@ -8,7 +8,7 @@ Access this course repository from your local machine using the Git CLI.
   1. [Git Command-line Overview](/notes/git/cli.md)
   1. ["Human Software" Project](/projects/human-software/project.md)
 
-## Objectives
+## Learning Objectives
 
   1. Familiarize yourself with fundamental concepts of document version control.
   1. Learn the Git version control system.

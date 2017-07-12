@@ -12,4 +12,4 @@ As we prepare for our next class on Monday, make sure you have installed a text 
 
 Have a great weekend, and Slack me if you have any questions!
 
-- Professor Rossetti
+\- Professor Rossetti

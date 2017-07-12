@@ -2,7 +2,7 @@
 
 Provide instructions for how a human could perform various processes of interest.
 
-## Objectives
+## Learning Objectives
 
   1. Practice writing software in English.
   1. Practice contributing to open source software.

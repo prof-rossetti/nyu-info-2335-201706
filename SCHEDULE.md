@@ -37,14 +37,14 @@
 ### Class 4 - Monday 2017-07-10
 
   + [Refresh your Fork](https://github.com/prof-rossetti/nyu-info-2335-70-201706/blob/master/CONTRIBUTING.md#updating-your-fork) so you will be prepared to submit a clean Pull Request representing the "Groceries" Project submission.
-  + [Submit "Groceries" Project, formerly known as the "Python" Exercise (con't)](/projects/groceries/project.md#submission-instructions)
+  + ["Groceries" Project (con't)](/projects/groceries/project.md)
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
 
 ### Class 5 - Wednesday 2017-07-12
 
+  + [Submit "Groceries" Project](/projects/groceries/project.md#submission-instructions)
+  + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
   + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions)
-  + Reading and Writing to File
-  + "CRUD App" Project
 
 
 
@@ -60,14 +60,15 @@
 
 ### Class 6 - Monday 2017-07-17
 
+  + Reading and Writing to File
+  + "CRUD App" Project
   + Submit "CRUD App" Project
-  + Survey of Open Source Python Packages
-  + "Freestyle" Project - Proposal Support
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + Survey of Open Source Python Packages (cont'd)
-  + "Freestyle" Project - Proposal Support
+  + Code Review and Refactoring
+  + Object-oriented Programming
+  + Python Classes and Inheritance
 
 
 
@@ -84,26 +85,14 @@
 
 ### Class 8 - Monday 2017-07-24
 
-  + Code Review and Refactoring
-  + Object-oriented Programming
-  + Python Classes and Inheritance
-  + "Freestyle" Project - Implementation Support
+  + Survey of Open Source Python Packages
+  + "Freestyle" Project - Proposal Support
 
 ### Class 9 - Wednesday 2017-07-26
 
   + Software Testing
   + Python Tests
   + "Freestyle" Project - Implementation Support
-
-
-
-
-
-
-
-
-
-
 
 ### Class 10 - Monday 2017-07-31
 
@@ -113,7 +102,6 @@
 
   + "Retrospective" Exercise
   + Final Exam Preparation
-  + "Freestyle" Project - Implementation Support
 
 ### Class 12 - Monday 2017-08-07
 

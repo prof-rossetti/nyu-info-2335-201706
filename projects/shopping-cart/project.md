@@ -82,7 +82,7 @@ For students desiring even more optional further exploration, the program should
     !.gitignore
 
 
-See [Python file managment](/notes/programming-langugages/python/file-management.md) for examples of how to write to file.
+See [Python file managment](/notes/programming-languages/python/file-management.md) for examples of how to write to file.
 
 ##### Handle Pricing per Pound
 

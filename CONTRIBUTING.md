@@ -26,6 +26,12 @@ Add or revise files using the online interface. For example:
 
 ### Via Git CLI
 
+[Configuring Remotes](#configuring-remotes) is a process you should perform once following an initial "clone" or download of the course repository to your local machine.
+
+[Updating your Fork](#updating-your-fork) is a process you should perform before attempting to revise contents of the course repository. You are encouraged to also update your fork at the beginning of class, or any other time you would like your fork to reflect the most up-to-date information from the course repository.
+
+[Revising Content](#revising-content) is a process you should perform only after updating your fork, to prepare a project or some other course content for submission.
+
 #### Configuring Remotes
 
 Navigate to your Desktop, or some other directory where you would like to download the course repository:

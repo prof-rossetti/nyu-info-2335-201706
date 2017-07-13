@@ -33,7 +33,7 @@ file_name = "another_message.txt" # refers to a file path relative to the path o
 with open(file_name, 'w') as file:
     file.write("Hello World" + "\n") # NOTE: "\n" is the character that represents a new line
     for line in ["one line", "another line", "last line"]:
-      file.write(line + "\n")
+        file.write(line + "\n")
 
 #> Hello World
 #> one line

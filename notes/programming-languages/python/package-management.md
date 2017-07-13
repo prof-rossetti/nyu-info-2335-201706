@@ -20,11 +20,16 @@ pip install my_package
 
 You can specify and manage project-specific package dependencies by listing them in a file called `requirements.txt` in the project's root directory.
 
-To specify a project's dependencies, first initialize a new `requirements.txt` file:
+To specify a project's dependencies, first create a new `requirements.txt` file:
 
 ```shell
 cd /path/to/your/project
-pip freeze > requirements.txt
+
+# Mac Terminal:
+touch requirements.txt
+
+# Windows Command Prompt:
+type nul > requirements.txt
 ```
 
 Then revise the `requirements.txt` file. Write the name of each required Python package dependency on a new line, save the file, and exit. For example:

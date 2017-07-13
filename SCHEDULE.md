@@ -21,78 +21,42 @@
 ### Class 3 - Wednesday 2017-07-05
 
   + [Python Language Overview (cont'd)](/notes/programming-languages/python/notes.md)
-  + ["Groceries" Project, formerly known as the "Python" Exercise (con't)](/projects/groceries/project.md)
-
-
-
-
-
-
-
-
-
-
-
+  + ["Groceries" Project, formerly known as the "Python" Exercise (cont'd)](/projects/groceries/project.md)
 
 ### Class 4 - Monday 2017-07-10
 
   + [Refresh your Fork](https://github.com/prof-rossetti/nyu-info-2335-70-201706/blob/master/CONTRIBUTING.md#updating-your-fork) so you will be prepared to submit a clean Pull Request representing the "Groceries" Project submission.
-  + ["Groceries" Project (con't)](/projects/groceries/project.md)
+  + ["Groceries" Project (cont'd)](/projects/groceries/project.md)
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
 
 ### Class 5 - Wednesday 2017-07-12
 
   + [Submit "Groceries" Project](/projects/groceries/project.md#submission-instructions)
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
-  + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions)
-
-
-
-
-
-
-
-
-
-
-
-
 
 ### Class 6 - Monday 2017-07-17
 
-  + Reading and Writing to File
-  + "CRUD App" Project
-  + Submit "CRUD App" Project
+  + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions) before or sometime during class
+  + [Reading and Writing Files in Python](/notes/programming-languages/python/file-management.md)
+  + ["CRUD App" Project](/projects/crud-app/local-csv/project.md)
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + Code Review and Refactoring
-  + Object-oriented Programming
-  + Python Classes and Inheritance
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Class 8 - Monday 2017-07-24
-
+  + [Submit "CRUD App" Project](/projects/crud-app/local-csv/project.md#submission-instructions) before or sometime during class
   + Survey of Open Source Python Packages
   + "Freestyle" Project - Proposal Support
 
+### Class 8 - Monday 2017-07-24
+
+  + Submit "Freestyle" Project Proposal before or sometime during class
+  + Object-oriented Programming
+  + Classes and Inheritance in Python
+
 ### Class 9 - Wednesday 2017-07-26
 
+  + Code Review and Refactoring
   + Software Testing
-  + Python Tests
-  + "Freestyle" Project - Implementation Support
+  + Testing in Python
 
 ### Class 10 - Monday 2017-07-31
 
@@ -102,6 +66,7 @@
 
   + "Retrospective" Exercise
   + Final Exam Preparation
+  + "Freestyle" Project - Implementation Support
 
 ### Class 12 - Monday 2017-08-07
 

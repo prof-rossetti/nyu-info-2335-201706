@@ -82,6 +82,8 @@ For students desiring even more optional further exploration, the program should
     !.gitignore
 
 
+See [Python file managment](/notes/programming-langugages/python/file-management.md) for examples of how to write to file.
+
 ##### Handle Pricing per Pound
 
 For students desiring even more optional further exploration, add a new product to the list. Name it "Professor Rossetti's Bananas" and assign it other attribute values as desired. Assign it a price of `0.79`, but add another attribute called something like `price_per` to indicate the item is priced per "pound". Update all the other product dictionaries to match the new structure, indicating they are priced per "item". Finally, when running the program, if the clerk inputs the identifier of the bananas (or any other item that is priced by pound), the program should ask the clerk to input the number of pounds (e.g. `2.2`), then the program should calculate the price accordingly.
@@ -89,6 +91,8 @@ For students desiring even more optional further exploration, add a new product 
 ### Checkpoints
 
 First set-up a new local Git repository to contain this program (suggested), or choose the same repository you used for the "Groceries" project (acceptable).
+
+Create a new file in your repository called `shopping_cart.py`, paste into it the list of products, then make your first commit.
 
 When you successfully demonstrate your script's ability to perform one or more component pieces of desired functionality, commit your changes before moving on to the next step. Your history of commit messages might roughly resemble the checkpoint steps below.
 

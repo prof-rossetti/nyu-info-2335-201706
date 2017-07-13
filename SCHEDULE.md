@@ -38,22 +38,22 @@
 
   + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions) before or sometime during class
   + [Reading and Writing Files in Python](/notes/programming-languages/python/file-management.md)
-  + ["CRUD App" Project](/projects/crud-app/local-csv/project.md)
+  + ["CRUD App" Project](/projects/crud-app/project.md)
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + [Submit "CRUD App" Project](/projects/crud-app/local-csv/project.md#submission-instructions) before or sometime during class
+  + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions) before or sometime during class
   + Survey of Open Source Python Packages
-  + "Freestyle" Project - Proposal Support
 
 ### Class 8 - Monday 2017-07-24
 
-  + Submit "Freestyle" Project Proposal before or sometime during class
   + Object-oriented Programming
   + Classes and Inheritance in Python
+  + "Freestyle" Project - Proposal Support
 
 ### Class 9 - Wednesday 2017-07-26
 
+  + Submit "Freestyle" Project Proposal before or sometime during class
   + Code Review and Refactoring
   + Software Testing
   + Testing in Python

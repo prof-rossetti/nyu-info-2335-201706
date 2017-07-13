@@ -53,12 +53,12 @@ NYU Classes configuration for instructors:
 ### PDF Scraping
 
   + [NYU Stern MBA Employment Report (PDF)](http://www.stern.nyu.edu/programs-admissions/full-time-mba/career/employment-statistics)
-  + [PDF Query](https://pypi.python.org/pypi/pdfquery#quick-start)
-  + ["Scraping PDFs with Python"](https://paulsolin.com/2014/06/27/scraping-pdfs-with-python/)
-  + [PDF Miner for Python 2.x](https://github.com/euske/pdfminer)
-  + [PDF Miner for Python 3.x](https://github.com/pdfminer/pdfminer.six)
 
 ### Web Scraping
 
   + [NYU Stern MBA Employment Report (HTML)](http://www.stern.nyu.edu/business-partnerships/employment-reports/full-time-mba-employment-report)
   + [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+
+### Testing
+
+  + ["Obey the Testing Goat!"](http://www.obeythetestinggoat.com/pages/book.html)

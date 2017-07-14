@@ -42,7 +42,7 @@
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions) before or sometime during class
+  + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions)
   + Survey of Open Source Python Packages
 
 ### Class 8 - Monday 2017-07-24

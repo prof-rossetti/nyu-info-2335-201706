@@ -11,6 +11,8 @@ Use the `os` module perform command-line-style file and directory operations, an
 ```python
 import os
 
+# list entries in a given directory:
+os.listdir("/Users/mjr/Desktop") #... or whatever the path is to your Desktop
 ```
 
 ## Directory Operations
@@ -18,6 +20,11 @@ import os
 ```python
 import os
 
+os.getcwd()
+
+os.chdir("/Users/mjr/Desktop")
+
+os.mkdir("/Users/mjr/Desktop/my-dir") # or use Windows file path syntax
 ```
 
 ## Environment Variables

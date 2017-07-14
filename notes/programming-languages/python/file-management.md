@@ -9,8 +9,9 @@ Reference:
  + https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
  + https://docs.python.org/3/glossary.html#term-file-object
  + https://docs.python.org/3/library/io.html#module-io
- + https://docs.python.org/3/library/os.html
  + https://www.tutorialspoint.com/python/python_files_io.htm
+
+See also: [the `csv` module](../modules/csv.md) for reading CSV files and [the `os` module](../modules/os.md) for command-line-style file operations.
 
 ### Reading Files
 

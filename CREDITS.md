@@ -43,7 +43,6 @@ NYU Classes configuration for instructors:
   + [Installing Python 3 using Homebrew](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/)
   + [Forcibly pulling from upstream remote](https://stackoverflow.com/a/9646323/670433)
   + [Debugging in Python](http://daguar.github.io/2014/06/05/just-dropped-in-interactive-coding-in-ruby-python-javascript/)
-  + [Initializing new Pip Project](http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/)
   + [Mapping Lists in Python 3 (different than Python 2)](https://stackoverflow.com/questions/1303347/getting-a-map-to-return-a-list-in-python-3-x)
   + [String Formatting](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
   + [Grouping a List of Dictionaries by Key](https://adiyatmubarak.wordpress.com/2015/10/05/group-list-of-dictionary-data-by-particular-key-in-python/)

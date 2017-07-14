@@ -1,21 +1,21 @@
-product_id,product_name,aisle_id,aisle_name,department_id,department_name,price
-1,Chocolate Sandwich Cookies,61,cookies cakes,19,snacks,3.5
-2,All-Seasons Salt,104,spices seasonings,13,pantry,4.99
-3,Robust Golden Unsweetened Oolong Tea,94,tea,7,beverages,2.49
-4,Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce,38,frozen meals,1,frozen,6.99
-5,Green Chile Anytime Sauce,5,marinades meat preparation,13,pantry,7.99
-6,Dry Nose Oil,11,cold flu allergy,11,personal care,21.99
-7,Pure Coconut Water With Orange,98,juice nectars,7,beverages,3.5
-8,Cut Russet Potatoes Steam N' Mash,116,frozen produce,1,frozen,4.25
-9,Light Strawberry Blueberry Yogurt,120,yogurt,16,dairy eggs,6.5
-10,Sparkling Orange Juice & Prickly Pear Beverage,115,water seltzer sparkling water,7,beverages,2.99
-11,Peach Mango Juice,31,refrigerated,7,beverages,1.99
-12,Chocolate Fudge Layer Cake,119,frozen dessert,1,frozen,18.5
-13,Saline Nasal Mist,11,cold flu allergy,11,personal care,16
-14,Fresh Scent Dishwasher Cleaner,74,dish detergents,17,household,4.99
-15,Overnight Diapers Size 6,56,diapers wipes,18,babies,25.5
-16,Mint Chocolate Flavored Syrup,103,ice cream toppings,19,snacks,4.5
-17,Rendered Duck Fat,35,poultry counter,12,meat seafood,9.99
-18,Pizza for One Suprema  Frozen Pizza,79,frozen pizza,1,frozen,12.5
-19,Gluten Free Quinoa Three Cheese & Mushroom Blend,63,grains rice dried goods,9,dry goods pasta,3.99
-20,Pomegranate Cranberry & Aloe Vera Enrich Drink,98,juice nectars,7,beverages,4.25
+id,name,aisle,department,price
+1,Chocolate Sandwich Cookies,cookies cakes,snacks,3.5
+2,All-Seasons Salt,spices seasonings,pantry,4.99
+3,Robust Golden Unsweetened Oolong Tea,tea,beverages,2.49
+4,Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce,frozen meals,frozen,6.99
+5,Green Chile Anytime Sauce,marinades meat preparation,pantry,7.99
+6,Dry Nose Oil,cold flu allergy,personal care,21.99
+7,Pure Coconut Water With Orange,juice nectars,beverages,3.5
+8,Cut Russet Potatoes Steam N' Mash,frozen produce,frozen,4.25
+9,Light Strawberry Blueberry Yogurt,yogurt,dairy eggs,6.5
+10,Sparkling Orange Juice & Prickly Pear Beverage,water seltzer sparkling water,beverages,2.99
+11,Peach Mango Juice,refrigerated,beverages,1.99
+12,Chocolate Fudge Layer Cake,frozen dessert,frozen,18.5
+13,Saline Nasal Mist,cold flu allergy,personal care,16
+14,Fresh Scent Dishwasher Cleaner,dish detergents,household,4.99
+15,Overnight Diapers Size 6,diapers wipes,babies,25.5
+16,Mint Chocolate Flavored Syrup,ice cream toppings,snacks,4.5
+17,Rendered Duck Fat,poultry counter,meat seafood,9.99
+18,Pizza for One Suprema  Frozen Pizza,frozen pizza,frozen,12.5
+19,Gluten Free Quinoa Three Cheese & Mushroom Blend,grains rice dried goods,dry goods pasta,3.99
+20,Pomegranate Cranberry & Aloe Vera Enrich Drink,juice nectars,beverages,4.25

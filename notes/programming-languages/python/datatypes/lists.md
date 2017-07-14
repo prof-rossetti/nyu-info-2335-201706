@@ -137,7 +137,7 @@ teams4 = sorted(teams, key=sort_special)
 teams4 #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Mets'}, {'city': 'New York', 'name': 'Yankees'}]
 ```
 
-Alternatively for simple attribute-based sorting, you could use the `operator` module's `itemgetter()` function, for example:
+Alternatively for simple attribute-based sorting, you could use the [`operator` module's](https://docs.python.org/3/library/operator.html) `itemgetter()` function, for example:
 
 ```python
 import operator

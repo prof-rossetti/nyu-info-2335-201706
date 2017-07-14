@@ -1,4 +1,4 @@
-product_id, product_name, aisle_id, aisle, department_id, department, fake_price
+product_id, product_name, aisle_id, aisle, department_id, department, price
 1, Chocolate Sandwich Cookies, 61, cookies cakes, 19, snacks, 3.5
 2, All-Seasons Salt, 104, spices seasonings, 13, pantry, 4.99
 3, Robust Golden Unsweetened Oolong Tea, 94, tea, 7, beverages, 2.49

@@ -28,7 +28,8 @@ os.mkdir("/path/to/Desktop/my-dir")
 
 ## Accessing Environment Variables
 
-To set up this example, follow the instructions in the Environment Variables exercise.
+Prerequisite: follow the [Environment Variables Overview](/notes/environment-variables/notes.md) to set an environment variable called `NYU_INFO_2335`.
+
 ```python
 import os
 

@@ -6,7 +6,7 @@ So instead we store, or "set" these secret values in "environment variables" and
 
 ## Setting
 
-Set a new environment variable called "NYU_INFO_2335":
+Set a new environment variable called `NYU_INFO_2335`:
 
 ```shell
 # Mac Terminal:

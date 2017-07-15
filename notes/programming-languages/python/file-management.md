@@ -11,11 +11,11 @@ Reference:
  + https://docs.python.org/3/library/io.html#module-io
  + https://www.tutorialspoint.com/python/python_files_io.htm
 
-See also: [the `csv` module](../modules/csv.md) for reading CSV files and [the `os` module](../modules/os.md) for command-line-style file operations.
+See also: [the `csv` module](../modules/csv.md) for reading and writing CSV files, and [the `os` module](../modules/os.md) for command-line-style file operations and functionality to help specify file paths.
 
 ### Reading Files
 
-First, create a file called `my_message.txt` and place inside it:
+To setup these examples, create a new directory on your Desktop called `file-mgmt` and navigate there from your command line. Create two new files called `my_message.txt` and `my_script.py` and place in the following contents, respectively:
 
     Hello World.
 
@@ -24,11 +24,10 @@ First, create a file called `my_message.txt` and place inside it:
     Goodbye.
 
 ```python
-file_name = "my_message.txt" # refers to a file path relative to the path of your your script. this example refers to a file in the same directory.
+file_name = "my_message.txt" # refers to a file path relative to the path from which you invoke your your script.
 
-with open(file_name, "r") as file:
+with open(file_name, "r") as file: # NOTE: "r" means "open the file for reading"
     contents = file.read()
-    print(type(contents))
     print(contents)
 
 #> Hello World.
@@ -40,21 +39,21 @@ with open(file_name, "r") as file:
 
 ### Writing Files
 
-Write content to a new file:
+Write content to file:
 
 ```python
-file_name = "my_message.txt" # refers to a file path relative to the path of your your script. this example refers to a file in the same directory.
+file_name = "new_message.txt" # refers to a file path relative to the path from which you invoke your your script.
 
-with open(file_name, "w") as file:
+with open(file_name, "w") as file: # NOTE: "w" means "open the file for writing"
     file.write("Hello World")
 
 #> Hello World
 ```
 
-Write multiple lines of content to a new file:
+You can write multiple lines of content to a new file:
 
 ```python
-file_name = "another_message.txt" # refers to a file path relative to the path of your your script. this example refers to a file in the same directory.
+file_name = "longer_message.txt" # refers to a file path relative to the path from which you invoke your your script.
 
 with open(file_name, "w") as file:
     file.write("Hello World" + "\n") # NOTE: "\n" is the character that represents a new line

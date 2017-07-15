@@ -6,7 +6,7 @@ Reference: https://docs.python.org/3/library/csv.html.
 
 Use the `csv` module to process data stored in Comma Separated Values (CSV) format.
 
-To setup these examples, create a new directory on your Desktop called `csv-mgmt` and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from the following sections, respectively.
+To setup these examples, create a new directory on your Desktop called `csv-mgmt` and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from each of the following sections, respectively.
 
 ## Writing CSV Files
 

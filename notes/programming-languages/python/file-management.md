@@ -13,15 +13,32 @@ Reference:
 
 See also: [the `csv` module](../modules/csv.md) for reading and writing CSV files, and [the `os` module](../modules/os.md) for command-line-style file operations and functionality to help specify file paths.
 
+To setup these examples, create a new directory on your Desktop called `file-mgmt` and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from each of the following sections, respectively.
+
+### Writing Files
+
+Write content to file:
+
+```python
+file_name = "my_message.txt" # refers to a file path relative to the path from which you invoke your your script.
+
+with open(file_name, "w") as file: # NOTE: "w" means "open the file for writing"
+    file.write("Hello World")
+    file.write("\n")
+    file.write("\n")
+    file.write("...")
+    file.write("\n")
+    file.write("\n")
+    file.write("Goodbye")
+
+#> Hello World
+#>
+#> ...
+#>
+#> Goodbye
+```
+
 ### Reading Files
-
-To setup these examples, create a new directory on your Desktop called `file-mgmt` and navigate there from your command line. Create two new files called `my_message.txt` and `my_script.py` and place in the following contents, respectively:
-
-    Hello World.
-
-    ...
-
-    Goodbye.
 
 ```python
 file_name = "my_message.txt" # refers to a file path relative to the path from which you invoke your your script.
@@ -37,31 +54,20 @@ with open(file_name, "r") as file: # NOTE: "r" means "open the file for reading"
 #> Goodbye World.
 ```
 
-### Writing Files
-
-Write content to file:
-
 ```python
-file_name = "new_message.txt" # refers to a file path relative to the path from which you invoke your your script.
+file_name = "my_message.txt" # refers to a file path relative to the path from which you invoke your your script.
 
-with open(file_name, "w") as file: # NOTE: "w" means "open the file for writing"
-    file.write("Hello World")
+with open(file_name, "r") as file: # NOTE: "r" means "open the file for reading"
+    contents = file.read()
+    lines = contents.split("\n")
+    print("THERE ARE", len(lines), "LINES IN THIS FILE")
+    for line in lines:
+        print("LINE:", line)
 
-#> Hello World
-```
-
-You can write multiple lines of content to a new file:
-
-```python
-file_name = "longer_message.txt" # refers to a file path relative to the path from which you invoke your your script.
-
-with open(file_name, "w") as file:
-    file.write("Hello World" + "\n") # NOTE: "\n" is the character that represents a new line
-    for line in ["one line", "another line", "last line"]:
-        file.write(line + "\n")
-
-#> Hello World
-#> one line
-#> another line
-#> last line
+#> THERE ARE 5 LINES IN THIS FILE
+#> LINE: Hello World
+#> LINE:
+#> LINE: ...
+#> LINE:
+#> LINE: Goodbye.
 ```

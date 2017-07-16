@@ -16,18 +16,9 @@ Write Python software to perform CRUD operations on an inventory of products kep
 ## Prerequisites
 
   1. ["Shopping Cart" Project](/projects/shopping-cart/project.md)
-  1. [CRUD Overview](/notes/information-systems/crud-operations.md)
   1. [Python `csv` Module Overview](/notes/programming-languages/python/modules/csv.md)
 
-## Instructions
-
-### Setup
-
-Initialize a new project repository to contain your application code. Call it whatever you want. Inside it, create a new directory called `app`. Inside of the `app` directory, place a new file called `products_app.py`.
-
-TBA ...
-
-### Requirements
+## Requirements
 
 TBA:
 
@@ -45,17 +36,80 @@ TBA:
   + interface displays a greeting mentioning the user's name, displays the number of products currently in the CSV file, and informs the user of all available product operations
   + program should fail gracefully (display a friendly user message) if user inputs an invalid CRUD operation
 
-### Further Exploration
+## Instructions
 
-#### Validate Format of Prices
+### Setup
+
+Create a new project repository on GitHub.com and note its remote clone address. Clone it to your Desktop or some other location on your local machine. Navigate into the project repository via the command line.
+
+Create in the project repository the following files:
+
+  + `README.md`
+  + `app/products_app.py`
+  + `data/.gigitnore`
+
+In the `README.md` file, place content to identify your application and instruct someone else how to download and run it:
+
+    # Name of Your App
+
+    Some description or other info about what the app does.
+
+    ## Installation
+
+    ```shell
+    git clone remote_clone_address_of_your_repo_here
+    cd some/path/to/repo/
+    ```
+
+    ## Usage
+
+    ```shell
+    python app/products_app.py
+    ```
+
+In the `app/products_app.py` file, place some placeholder print statement, like `print("HELLO")`.
+
+In the `data/.gitignore`, place the following code, which says "exclude from version control all files in this directory besides this one":
+
+    *
+    !.gitignore
+
+
+Commit your changes to version control using a message like "Setup new project repo".
+
+Finally, download [the `products.csv` file](products.csv) into your repository's `data` directory so its name is `data/products.csv`. You can achieve this by updating your local fork of the course repository and copying the file from there (recommended), or by copying the file's ["raw" contents](https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-70-201706/master/projects/crud-app/products.csv) from GitHub and pasting them into a new local file (easier, and acceptable due to the small size of our file). Your application will read and write to this file, so there is a chance it may get messed up during application development. So you are encouraged to also download a redundant copy, perhaps called `products_copy.csv` into the `data` directory, to have on-hand in case you ever need to re-paste its contents into the main `products.csv` file.
+
+After downloading the CSV file(s), you should not see them tracked in version control. If you do, make sure to configure the `data/.gitignore` file as prescribed above. Alright, you are ready to start development!
+
+### Implementation
+
+#### Checkpoint I - User Inputs
+
+  1. do stuff
+  1. do stuff
+  1. do stuff
+
+#### Checkpoint II - Reading and Writing to CSV File
+
+  1. do stuff
+  1. do stuff
+  1. do stuff
+
+#### Checkpoint III - CRUD Operations
+
+  1. do stuff
+  1. do stuff
+  1. do stuff
+
+#### Further Exploration - Validate Format of Prices
 
 For students desiring optional further exploration, the program's "Create" and "Update" operations should validate the product information input by the user, displaying a helpful message (e.g. "Please input a price formatted as a number with two decimal places.") when necessary.
 
 ## Submission Instructions
 
-Push your project repository to GitHub.com and note its URL.
+Push your changes to your remote project repository on GitHub.com, and note its URL.
 
-Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the project repository's URL. The CSV file's rows should be ordered alphabetically by GitHub username. Commit your changes and submit a Pull Request for your content to be included in the course repository. See the [Contributor's Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+Update your fork of the course repository. In the [submissions.csv file](submissions.csv), add a new row including your GitHub username and the project repository's URL. The CSV file's rows should be ordered alphabetically by GitHub username. Commit your changes to your fork of the course repository and submit a Pull Request for your fork's content to be merged into the course repository. See the [Contributor's Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
 
 ## Evaluation
 

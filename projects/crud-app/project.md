@@ -1,8 +1,14 @@
-# CRUD Application (CSV File Datastore)
+# CRUD Application w/ CSV File Datastore
+
+Your local corner grocery store has hired you to help them modernize their checkout system.
+
+After providing the store owner with an awesome barcode-scanning application, the store owner now asks you to provide an application which will help store managers keep track of their inventory of products.
 
 Write a Python program to perform CRUD operations on an inventory of products kept in a CSV file.
 
 > NOTE: CRUD is an acronym for "Create", "Read", "Update", and "Destroy". These operations represent the primary actions performed on database resources (i.e. records) within an information system. The "Read" operation comprises two operations: the "List" operation for reading all resources, as well as the "Show" operation for reading a single resource.
+
+![A screencast depicting a user running a program from the command line multiple times, each time to perform one of the CRUD operations: List, Show, Create, Update, and Destroy.](demo.gif)
 
 ## Learning Objectives
 
@@ -35,7 +41,7 @@ The program's source code should be hosted on GitHub.com in its own repository w
 
 The program should interface with an inventory of products kept in a CSV file named `data/products.csv`, however this CSV file should not be tracked in version control (see setup instructions).
 
-The program can assume existence of the CSV file in the specified location. And it can assume the file contains the proper header row:
+The program should assume existence of the CSV file in the specified location. And it should assume the file contains the proper header row:
 
     id,name,aisle,department,price
 
@@ -47,18 +53,17 @@ The program should display a user interface which contains:
 
   + A friendly greeting message including a user name of choice.
   + The number of products currently in inventory.
-  + The list of all available operations (e.g. "List", "Show", "Create", "Update", and "Destroy") and instructions for how the user can perform each.
+  + A list of all available operations (e.g. "List", "Show", "Create", "Update", and "Destroy") and instructions for how to select one.
 
 ### CRUD Operation Requirements
 
-The program should prompt the user to select one CRUD operation at a time (e.g. "List", "Show", "Create", "Update", and "Destroy"). If an unrecognized operation is selected, the program should fail gracefully by displaying an "Unrecognized Operation" message to the user. Otherwise it should perform the selected operation in accordance with the following expectations, prompting the user for additional inputs as necessary:
+The program should prompt the user to select one CRUD operation at a time (e.g. "List", "Show", "Create", "Update", or "Destroy"). If an unrecognized operation is selected, the program should fail gracefully by displaying an "Unrecognized Operation" message to the user. Otherwise it should perform the selected operation in accordance with the following expectations, prompting the user for additional inputs as necessary:
 
   + The **List** operation should print information about each product in the inventory.
   + The **Show** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message.
   + The **Create** operation should prompt the user for a new product's `"name"`, `"department"`, `"aisle"` and `"price"`, and should automatically determine the new product's `"id"` by adding 1 to the greatest identifier currently in the inventory. Then the program should save the new product's information by adding a new row at the bottom of the CSV file.
   + The **Update** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should prompt the user for new values for that product's `"name"`, `"department"`, `"aisle"` and `"price"` attributes. Finally the program should save the product's information by overwriting its corresponding row in the CSV file.
   + The **Destroy** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should remove the corresponding row from the CSV file.
-
 
 As mentioned, the **Show**, **Update**, and **Destroy** operations should each fail gracefully (i.e. display a friendly "product not found" message) if no product matches the specified identifier.
 
@@ -82,10 +87,14 @@ In the `README.md` file, place content to identify your application and instruct
 
     ## Installation
 
+    Download the source code:
+
     ```shell
     git clone remote_clone_address_of_your_repo_here
     cd some/path/to/repo/
     ```
+
+    Finally, download the [example `products.csv` file](https://raw.githubusercontent.com/prof-rossetti/nyu-info-2335-70-201706/master/projects/crud-app/products.csv) and save it as `data/products.csv`.
 
     ## Usage
 

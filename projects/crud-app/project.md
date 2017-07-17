@@ -2,7 +2,7 @@
 
 Write Python software to perform CRUD operations on an inventory of products kept in a CSV file.
 
-> NOTE: CRUD is an acronym for "Create", "Read", "Update", and "Destroy". These operations represent the primary actions performed on resources (i.e. records) within an information system. The "Read" operation actually comprises two operations: the "List" operation for reading all resources, as well as the "Show" operation for reading a single resource.
+> NOTE: CRUD is an acronym for "Create", "Read", "Update", and "Destroy". These operations represent the primary actions performed on database resources (i.e. records) within an information system. The "Read" operation comprises two operations: the "List" operation for reading all resources, as well as the "Show" operation for reading a single resource.
 
 ## Learning Objectives
 

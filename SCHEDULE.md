@@ -34,39 +34,50 @@
   + [Submit "Groceries" Project](/projects/groceries/project.md#submission-instructions)
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
 
+
+
+
+
+
+
+
+
+
+
+
 ### Class 6 - Monday 2017-07-17
 
-  + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions) before or sometime during class
+  + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions) before or sometime during beginning of class
   + [Reading and Writing Files in Python](/notes/programming-languages/python/file-management.md)
   + ["CRUD App" Project](/projects/crud-app/project.md)
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions)
-  + Survey of Open Source Python Packages
-
-### Class 8 - Monday 2017-07-24
-
-  + Object-oriented Programming
-  + Classes and Inheritance in Python
-  + "Freestyle" Project - Proposal Support
-
-### Class 9 - Wednesday 2017-07-26
-
-  + Submit "Freestyle" Project Proposal before or sometime during class
+  + ["CRUD App" Project (cont'd)](/projects/crud-app/project.md)
   + Code Review and Refactoring
   + Software Testing
   + Testing in Python
 
+### Class 8 - Monday 2017-07-24
+
+  + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions) before or sometime during beginning of class
+  + Object-oriented Programming
+  + Classes and Inheritance in Python
+
+### Class 9 - Wednesday 2017-07-26
+
+  + Survey of Open Source Python Packages
+  + "Freestyle" Project - Proposal
+
 ### Class 10 - Monday 2017-07-31
 
-  + "Freestyle" Project - Implementation Support
+  + "Freestyle" Project - Implementation
 
 ### Class 11 - Wednesday 2017-08-02
 
+  + "Freestyle" Project - Implementation
   + "Retrospective" Exercise
   + Final Exam Preparation
-  + "Freestyle" Project - Implementation Support
 
 ### Class 12 - Monday 2017-08-07
 

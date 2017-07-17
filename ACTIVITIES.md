@@ -28,8 +28,8 @@ Activity | Weight | Due Date
 [Human Software](/projects/human-software/project.md) | 4% | 2017-07-03
 [Groceries](/projects/groceries/project.md) | 8% | 2017-07-12
 [Shopping Cart](/projects/shopping-cart/project.md) | 12% | 2017-07-17
-[CRUD App](/projects/crud-app/project.md) | 12% | 2017-07-23
-[Freestyle](/projects/freestyle/project.md) | 14% | Proposal due 2017-07-24; Implementation due 2017-08-06
+[CRUD App](/projects/crud-app/project.md) | 12% | 2017-07-24
+[Freestyle](/projects/freestyle/project.md) | 14% | Proposal due 2017-07-30; Implementation due 2017-08-06
 
 ## Exams
 

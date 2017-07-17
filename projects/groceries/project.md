@@ -6,7 +6,7 @@ Write a Python script to transform an information input into a desired informati
 
 If you get stuck, follow along with [this screencast](https://youtu.be/_w1hRdAD4LQ).
 
-## Objectives
+## Learning Objectives
 
   1. Practice applying Python language techniques to solve a problem.
   2. Practice using Python to process and transform data structures.

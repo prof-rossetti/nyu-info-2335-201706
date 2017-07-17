@@ -27,6 +27,8 @@ git status # see what files have changed since the last version
 git diff # see how those files have changed (only shows diffs for files that existed during the last version, not for newly created files)
 ````
 
+>NOTE: When `git diff` shows you the changes, press `Enter` to keep reading and finally press `q` to quit.
+
 Stage and commit changes:
 
 ```` sh

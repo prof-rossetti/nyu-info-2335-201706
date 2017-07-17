@@ -14,11 +14,15 @@ The store owner agrees! Now it's time to write software to mimic the barcode-sca
 
 ![a screencast of a user running the python script from a terminal. the script asks the user to input a product identifier one-at-a-time, then compiles and prints a receipt after the user inputs the "DONE" keyword](demo.gif)
 
-## Objectives
+## Learning Objectives
 
   1. Practice writing software in Python.
   1. Practice contributing to open source software.
   1. Practice version control.
+
+## Prerequisites
+
+  1. ["Groceries" Project](/projects/groceries/project.md)
 
 ## Instructions
 
@@ -70,15 +74,29 @@ The program should be able to process multiple shopping cart items of the same t
 
 #### Further Exploration
 
+##### Validate User Inputs
+
 For students desiring optional further exploration, the program should also validate the identifiers input by the clerk, displaying to the clerk a helpful message (e.g. "Hey, are you sure that product identifier is correct? Please try again!") if there are no products matching the given identifier.
 
-For students desiring even more optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds, respectively).
+##### Write Receipt to File
+
+For students desiring even more optional further exploration, the program should also output the receipt information into a new `.txt` file saved somewhere in the project directory. The clerk's printer-connected computer should be able to actually print a paper receipt from the information contained in this file. The text file should be named according to the date and time the checkout process started (e.g. `/receipts/2017-07-04-15-43-13-579531.txt`, where the numbers represent the year, month, day, 24-hour-style hour, minute, second, and milliseconds/microseconds, respectively). NOTE: you should exclude these receipt files from being tracked in version control by adding a file called `/receipts/.gitignore` and adding the following content:
+
+    *
+    !.gitignore
+
+
+See [Python file managment](/notes/programming-languages/python/file-management.md) for examples of how to write to file.
+
+##### Handle Pricing per Pound
 
 For students desiring even more optional further exploration, add a new product to the list. Name it "Professor Rossetti's Bananas" and assign it other attribute values as desired. Assign it a price of `0.79`, but add another attribute called something like `price_per` to indicate the item is priced per "pound". Update all the other product dictionaries to match the new structure, indicating they are priced per "item". Finally, when running the program, if the clerk inputs the identifier of the bananas (or any other item that is priced by pound), the program should ask the clerk to input the number of pounds (e.g. `2.2`), then the program should calculate the price accordingly.
 
 ### Checkpoints
 
 First set-up a new local Git repository to contain this program (suggested), or choose the same repository you used for the "Groceries" project (acceptable).
+
+Create a new file in your repository called `shopping_cart.py`, paste into it the list of products, then make your first commit.
 
 When you successfully demonstrate your script's ability to perform one or more component pieces of desired functionality, commit your changes before moving on to the next step. Your history of commit messages might roughly resemble the checkpoint steps below.
 

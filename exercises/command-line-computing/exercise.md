@@ -2,7 +2,7 @@
 
 Use the command line to navigate and manage the local filesystem.
 
-## Objectives
+## Learning Objectives
 
   1. Familiarize yourself with the command line.
 

@@ -65,7 +65,23 @@ The program should prompt the user to select one CRUD operation at a time (e.g. 
   + The **Update** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should prompt the user for new values for that product's `"name"`, `"department"`, `"aisle"` and `"price"` attributes. Finally the program should save the product's information by overwriting its corresponding row in the CSV file.
   + The **Destroy** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should remove the corresponding row from the CSV file.
 
-As mentioned, the **Show**, **Update**, and **Destroy** operations should each fail gracefully (i.e. display a friendly "product not found" message) if no product matches the specified identifier.
+As mentioned, the "Show", "Update", and "Destroy" operations should each fail gracefully (i.e. display a friendly "product not found" message) if no product matches the specified identifier.
+
+### Further Exploration - Validations
+
+For students desiring optional further exploration, the program's "Create" and "Update" operations should validate product information input by the user, focusing on ensuring prices are in the proper numeric format. The program should display a helpful message (e.g. "Please input a price formatted as a number with two decimal places.") when necessary.
+
+### Further Exploration - Refactoring
+
+For students desiring optional further exploration, the program's source code should be simplified, or "refactored" to contain at most a minimal amount of duplication. The program should conform to the "DRY" principle, which means "Don't Repeat Yourself". The refactoring process may involve definition of custom functions and invocation of those functions from multiple places where the duplicate code originally existed.
+
+### Further Exploration - Testing
+
+For students desiring even more optional further exploration, the repository should contain one or more "tests" which communicate and verify the functionality of one or more of the program's functions.
+
+The test file(s) should exist inside a new `tests` directory, and should be implemented using the `pytest` module.
+
+In order to test the program, much of its source code should first be refactored into functions to remove as much source code as possible from the program's global scope. This enables the resulting functions to be individually invoked and tested.
 
 ## Instructions
 
@@ -120,25 +136,29 @@ After downloading the CSV file(s), you should not see them tracked in version co
 
 #### Checkpoint I - User Inputs
 
-  1. do stuff
-  1. do stuff
-  1. do stuff
+  1. Print a menu which contains a greeting message and a hard-coded number of products and a list of available operations.
+  1. Using the aforementioned menu, prompt the user to choose one of the available operations, and print the name of the chosen operation.
+  1. Implement a single "handler" function to recognize the chosen operation and invoke one of a handful of new operation-specific functions to perform the chosen operation. For example, if the user chooses "Create", have your "handler" function invoke a function called `create_product()` to print the name of the chosen operation.
+  1. Handle invalid operation inputs by displaying a helpful message like "Unrecognized Operation. Please choose one of: 'List', 'Show', 'Create', 'Update', or 'Destroy'."
+
+After demonstrating your ability to properly prompt the user for inputs, you can feel free to comment-out all your user input-related code as you move on to testing the remaining functionality. If you do, remember to un-comment the input-related code and hook it back up to the remaining functionality once implemented.
 
 #### Checkpoint II - Reading and Writing to CSV File
 
-  1. do stuff
-  1. do stuff
-  1. do stuff
+  1. Demonstrate your ability to print the entire contents of the inventory CSV file.
+  1. Demonstrate your ability to loop through each product in the inventory and print the name of each.
+  1. Demonstrate your ability to print the number of products in the inventory.
+  1. Re-configure the user input menu to use the real number of products instead of a hard-coded value. This will require you to read the CSV file before prompting the user for inputs.
+  1. Demonstrate your ability to write the existing inventory of products to a separate, temporary file, perhaps named `data/test-writing-products.csv`.
+  1. Overwrite the existing inventory of products. Do this after the program handles the chosen operation.
 
 #### Checkpoint III - CRUD Operations
 
-  1. do stuff
-  1. do stuff
-  1. do stuff
-
-#### Further Exploration - Validate Format of Prices
-
-For students desiring optional further exploration, the program's "Create" and "Update" operations should validate the product information input by the user, displaying a helpful message (e.g. "Please input a price formatted as a number with two decimal places.") when necessary.
+  1. Implement the "List" operation.
+  1. Implement the "Show" operation. Hint: use
+  1. Implement the "Create" operation.
+  1. Implement the "Destroy" operation.
+  1. Implement the "Update" operation last, as it uses a combination of techniques shared with the "Show" and "Create" operations.
 
 ## Submission Instructions
 

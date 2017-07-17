@@ -49,3 +49,16 @@ NYU Classes configuration for instructors:
   + [Grouping a List of Dictionaries by Key](https://adiyatmubarak.wordpress.com/2015/10/05/group-list-of-dictionary-data-by-particular-key-in-python/)
 
 > "The Instacart Online Grocery Shopping Dataset 2017", Accessed from https://www.instacart.com/datasets/grocery-shopping-2017 on 2017-07-01.
+
+### PDF Scraping
+
+  + [NYU Stern MBA Employment Report (PDF)](http://www.stern.nyu.edu/programs-admissions/full-time-mba/career/employment-statistics)
+
+### Web Scraping
+
+  + [NYU Stern MBA Employment Report (HTML)](http://www.stern.nyu.edu/business-partnerships/employment-reports/full-time-mba-employment-report)
+  + [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
+
+### Testing
+
+  + ["Obey the Testing Goat!"](http://www.obeythetestinggoat.com/pages/book.html)

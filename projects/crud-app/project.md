@@ -145,12 +145,18 @@ After demonstrating your ability to properly prompt the user for inputs, you can
 
 #### Checkpoint II - Reading and Writing to CSV File
 
+Reading:
+
   1. Demonstrate your ability to print the entire contents of the inventory CSV file.
   1. Demonstrate your ability to loop through each product in the inventory and print the name of each.
   1. Demonstrate your ability to print the number of products in the inventory.
   1. Re-configure the user input menu to use the real number of products instead of a hard-coded value. This will require you to read the CSV file before prompting the user for inputs.
-  1. Demonstrate your ability to write the existing inventory of products to a separate, temporary file, perhaps named `data/test-writing-products.csv`.
-  1. Overwrite the existing inventory of products. Do this after the program handles the chosen operation.
+
+Writing:
+
+  1. Write some random content to a temporary file, perhaps named `data/writing-stuff.csv`.
+  1. Read the existing inventory of products from `products.csv` and write to a separate, temporary file, perhaps named `data/writing-products.csv`.
+  1. Read the existing inventory of products from `products.csv` and overwrite that same file with its original contents.
 
 #### Checkpoint III - CRUD Operations
 

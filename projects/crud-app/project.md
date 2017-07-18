@@ -10,12 +10,29 @@ Write a Python program to perform CRUD operations on an inventory of products ke
 
 ![A screencast depicting a user running a program from the command line multiple times, each time to perform one of the CRUD operations: List, Show, Create, Update, and Destroy.](demo.gif)
 
-If the GIF moves too fast, alternatively reference these demo screenshots:
-   + ["List" Operation](demo-list.png)
-   + ["Show" Operation](demo-show.png)
-   + ["Create" Operation](demo-create.png)
-   + ["Update" Operation](demo-update.png)
-   + ["Destroy" Operation](demo-destroy.png)
+The non-moving version :smile: :
+
+List
+
+!["List" Operation](demo-list.png)
+
+Show
+
+!["Show" Operation](demo-show.png)
+
+Create
+
+!["Create" Operation](demo-create.png)
+
+Update
+
+!["Update" Operation](demo-update.png)
+
+Destroy
+
+!["Destroy" Operation](demo-destroy.png)
+
+> NOTE: Don't be constrained by the images above. Feel free to create your own user interface and experiences.
 
 ## Learning Objectives
 
@@ -48,11 +65,13 @@ The program's source code should be hosted on GitHub.com in its own repository w
 
 The program should interface with an inventory of products kept in a CSV file named `data/products.csv`, however this CSV file should not be tracked in version control (see setup instructions).
 
-The program should assume existence of the CSV file in the specified location. And it should assume the file contains the proper header row:
+The program should assume existence of the CSV file in the specified location. And it should assume the CSV file contains the proper header row:
 
     id,name,aisle,department,price
 
-The program should work even if the CSV file contains no additional rows besides the header row. This would correspond to a situation where there are no products in the inventory.
+The program should function even if the CSV file contains no additional rows besides the header row. This would correspond to a situation where there are no products in the inventory.
+
+The program should function regardless of the order of rows in the CSV file.
 
 ### Interface Requirements
 
@@ -67,12 +86,12 @@ The program should display a user interface which contains:
 The program should prompt the user to select one CRUD operation at a time (e.g. "List", "Show", "Create", "Update", or "Destroy"). If an unrecognized operation is selected, the program should fail gracefully by displaying an "Unrecognized Operation" message to the user. Otherwise it should perform the selected operation in accordance with the following expectations, prompting the user for additional inputs as necessary:
 
   + The **List** operation should print information about each product in the inventory.
-  + The **Show** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message.
-  + The **Create** operation should prompt the user for a new product's `"name"`, `"department"`, `"aisle"` and `"price"`, and should automatically determine the new product's `"id"` by adding 1 to the greatest identifier currently in the inventory. Then the program should save the new product's information by adding a new row at the bottom of the CSV file.
-  + The **Update** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should prompt the user for new values for that product's `"name"`, `"department"`, `"aisle"` and `"price"` attributes. Finally the program should save the product's information by overwriting its corresponding row in the CSV file.
-  + The **Destroy** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should remove the corresponding row from the CSV file.
+  + The **Show** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should print information about that product.
+  + The **Create** operation should prompt the user to input a new product's `"name"`, `"department"`, `"aisle"` and `"price"`, and should automatically determine the new product's `"id"` by adding 1 to the greatest identifier currently in the inventory. Then the program should save the new product's information by adding a new row at the bottom of the CSV file.
+  + The **Update** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should prompt the user to input new values for the existing product's `"name"`, `"department"`, `"aisle"` and `"price"` attributes, and overwrite the corresponding row in the CSV file.
+  + The **Destroy** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should display a helpful message and remove the corresponding row from the CSV file.
 
-As mentioned, the "Show", "Update", and "Destroy" operations should each fail gracefully (i.e. display a friendly "product not found" message) if no product matches the specified identifier.
+The "Show", "Update", and "Destroy" operations should each fail gracefully (i.e. display a friendly "Product Not Found" message) if no product matches the specified identifier.
 
 ### Further Exploration - Validations
 

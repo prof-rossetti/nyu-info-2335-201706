@@ -47,7 +47,7 @@ cd C:\Users\YOUR_USERNAME\Desktop\ # where YOUR_USERNAME is the name of the user
 Clone your fork to your local machine:
 
 ```` sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git # feel free to use the SSH version instead only if you've done this kind of thing before
+git clone https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git # feel free to use the SSH version if you've done this kind of thing before: git@github.com:YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git
 cd nyu-info-2335-70-201706/
 ````
 

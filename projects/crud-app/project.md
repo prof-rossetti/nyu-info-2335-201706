@@ -10,6 +10,13 @@ Write a Python program to perform CRUD operations on an inventory of products ke
 
 ![A screencast depicting a user running a program from the command line multiple times, each time to perform one of the CRUD operations: List, Show, Create, Update, and Destroy.](demo.gif)
 
+If the GIF moves too fast, alternatively reference these demo screenshots:
+   + ["List" Operation](demo-list.png)
+   + ["Show" Operation](demo-show.png)
+   + ["Create" Operation](demo-create.png)
+   + ["Update" Operation](demo-update.png)
+   + ["Destroy" Operation](demo-destroy.png)
+
 ## Learning Objectives
 
   1. Gain familiarity with the concept of CRUD operations.

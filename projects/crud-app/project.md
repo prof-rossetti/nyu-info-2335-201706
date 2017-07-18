@@ -161,7 +161,7 @@ Writing:
 #### Checkpoint III - CRUD Operations
 
   1. Implement the "List" operation.
-  1. Implement the "Show" operation. Hint: use
+  1. Implement the "Show" operation.
   1. Implement the "Create" operation.
   1. Implement the "Destroy" operation.
   1. Implement the "Update" operation last, as it uses a combination of techniques shared with the "Show" and "Create" operations.

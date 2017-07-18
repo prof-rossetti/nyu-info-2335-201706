@@ -34,38 +34,38 @@
   + [Submit "Groceries" Project](/projects/groceries/project.md#submission-instructions)
   + ["Shopping Cart" Project](/projects/shopping-cart/project.md)
 
-
-
-
-
-
-
-
-
-
-
-
 ### Class 6 - Monday 2017-07-17
 
   + [Submit "Shopping Cart" Project](/projects/shopping-cart/project.md#submission-instructions) before or sometime during beginning of class
   + [Reading and Writing Files in Python](/notes/programming-languages/python/file-management.md)
   + ["CRUD App" Project](/projects/crud-app/project.md)
 
+
+
+
+
+
+
+
+
+
+
+
 ### Class 7 - Wednesday 2017-07-19
 
   + ["CRUD App" Project (cont'd)](/projects/crud-app/project.md)
   + Code Review and Refactoring
-  + Software Testing
-  + Testing in Python
 
 ### Class 8 - Monday 2017-07-24
 
   + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions) before or sometime during beginning of class
-  + Object-oriented Programming
-  + Classes and Inheritance in Python
+  + Software Testing
+  + Testing in Python
 
 ### Class 9 - Wednesday 2017-07-26
 
+  + Object-oriented Programming
+  + Classes and Inheritance in Python
   + Survey of Open Source Python Packages
   + "Freestyle" Project - Proposal
 

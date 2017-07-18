@@ -169,7 +169,7 @@ After downloading the CSV file(s), you should not see them tracked in version co
   1. Implement a single "handler" function to recognize the chosen operation and invoke one of a handful of new operation-specific functions to perform the chosen operation. For example, if the user chooses "Create", have your "handler" function invoke a function called `create_product()` to print the name of the chosen operation.
   1. Handle invalid operation inputs by displaying a helpful message like "Unrecognized Operation. Please choose one of: 'List', 'Show', 'Create', 'Update', or 'Destroy'."
 
-After demonstrating your ability to properly prompt the user for inputs, you can feel free to comment-out all your user input-related code as you move on to testing the remaining functionality. If you do, remember to un-comment the input-related code and hook it back up to the remaining functionality once implemented.
+After demonstrating your ability to properly prompt the user for inputs, feel free to comment-out all your user input-related code as you move on to implementing and testing the remaining functionality. If you do, remember to un-comment the input-related code and hook it back up to the remaining functionality once implemented.
 
 #### Checkpoint II - Reading and Writing to CSV File
 
@@ -202,7 +202,7 @@ Update your fork of the course repository. In the [submissions.csv file](submiss
 
 ## Evaluation
 
-Full credit for presence of a Python program which runs without error, meets all requirements, and exactly or near-exactly produces the desired functionality.
+Full credit for presence of a Python program which runs without error, meets all or almost all requirements, and exactly or near-exactly produces the desired functionality.
 
 Else 87.5% credit for presence of a Python program which runs without error, meets most requirements, and produces most of the desired functionality.
 

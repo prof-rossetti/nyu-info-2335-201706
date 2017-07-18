@@ -11,7 +11,7 @@ Reference:
  + https://docs.python.org/3/library/io.html#module-io
  + https://www.tutorialspoint.com/python/python_files_io.htm
 
-See also: [the `csv` module](../modules/csv.md) for reading and writing CSV files, and [the `os` module](../modules/os.md) for command-line-style file operations and functionality to help specify file paths.
+See also: [the `csv` module](../python/modules/csv.md) for reading and writing CSV files, and [the `os` module](../python/modules/os.md) for command-line-style file operations and functionality to help specify file paths.
 
 To setup these examples, create a new directory on your Desktop called `file-mgmt` and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from each of the following sections, respectively.
 

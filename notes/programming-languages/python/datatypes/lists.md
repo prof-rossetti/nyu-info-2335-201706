@@ -137,7 +137,7 @@ teams4 = sorted(teams, key=sort_special)
 teams4 #> [{'city': 'Boston', 'name': 'Red Sox'}, {'city': 'New Haven', 'name': 'Ravens'}, {'city': 'New York', 'name': 'Mets'}, {'city': 'New York', 'name': 'Yankees'}]
 ```
 
-Alternatively for simple attribute-based sorting, you could use the `operator` module's `itemgetter()` function, for example:
+Alternatively for simple attribute-based sorting, you could use the [`operator` module's](https://docs.python.org/3/library/operator.html) `itemgetter()` function, for example:
 
 ```python
 import operator
@@ -268,6 +268,18 @@ list(filter(really_big, arr)) #> []
 
 > Note: the `filter()` function returns a list, even if it is empty or only contains one item.
 
+When using the filter function, observe this alternative filtering syntax involving the keyword `lambda`:
+
+```python
+arr = [1,2,4,8,16]
+
+# Python 2.x:
+filter(lambda i: i > 2, arr) #> [4, 8, 16]
+
+# Python 3.x:
+list(filter(lambda i: i > 2, arr)) #> #> [4, 8, 16]
+```
+
 If your list is full of [dictionaries](dictionaries.md), you can `filter()` based on their attribute values:
 
 ```python
@@ -303,7 +315,7 @@ list(filter(from_new_haven, teams)) #> [{...}]
 list(filter(from_new_something, teams)) #> [{...}, {...}, {...}]
 ```
 
-If you need to implement complex filtering conditions, consider using a list comprehension, or consider writing out your function the long way:
+If you need to implement complex filtering conditions, consider using a list comprehension, or "lambda" syntax, or consider writing out your function the long way:
 
 ```python
 teams = [
@@ -317,16 +329,21 @@ teams = [
 def teams_from(city):
   return [team for team in teams if team["city"] == city]
 
-# the long way
+# using "lambda" syntax
 def teams_from2(city):
+  return filter(lambda team: team["city"] == city, teams)
+
+# the long way
+def teams_from3(city):
   matches = []
   for team in teams:
       if team["city"].upper() == city.upper():
           matches.append(team)
   return matches
 
-teams_from("New York")
-teams_from2("New York")
+teams_from("New York") #> [{...}, {...}]
+teams_from2("New York") #> [{...}, {...}] You might have to first convert this to a list depending on your Python version (see examples above).
+teams_from3("New York") #> [{...}, {...}]
 ```
 
 Reference the [`itertools` module](../modules/itertools.md) for additional operations.

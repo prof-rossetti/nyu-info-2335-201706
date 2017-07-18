@@ -18,7 +18,7 @@ First install the packages using pip, if necessary:
 pip install requests
 
 #install BeautifulSoup
-pip install beautifulsoup4
+pip install beautifulsoup4 #note the 4 at the end- this is the latest version
 ````
 
 You can use both of these packages from the command line or from within a script to pull the contents of a web site.
@@ -57,7 +57,7 @@ soup = BeautifulSoup(raw)
 titles = soup.find_all("span", "title")
 for i in range(0, 9): #we want to see only span tags labeled "titles"
   print(titles[i])
-<span class="title">Sort Alphabetically</span> #the first three should be eveutually deleted
+<span class="title">Sort Alphabetically</span>
 <span class="title">Sort by Release Date</span>
 <span class="title">See also: Wikipedia</span>
 <span class="title">The Complete Works of William Shakespeare
@@ -68,3 +68,7 @@ for i in range(0, 9): #we want to see only span tags labeled "titles"
 <span class="title">Beautiful Stories from Shakespeare</span>
 
 ```
+
+We can also use BeautifulSoup to extract other useful elements, such as hyperlinks, tables, and regular expressions. In order to do this, you'll need to know what you're looking for. One easy way of doing this is examining the html source for a web page you intend to scrape. In most browsers, you can do this by accessing the developer's tools within the browser.
+
+ A word of warning- while almost all sites can technically be scraped, many discourage webscraping and will ban an IP address if it detects multiple attempts by a program to scrape content. One reason for this is that large volumes of scraping requests can slow down or crash certain sites. Many sites offer API's as an alternative way to access data. If available, this is the best way to access data from a site. 

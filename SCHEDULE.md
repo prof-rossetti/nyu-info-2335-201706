@@ -53,7 +53,7 @@
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + Software Licensing
+  + [Software Licensing](/notes/software/licensing.md)
   + ["CRUD App" Project (cont'd)](/projects/crud-app/project.md)
   + Code Review and Refactoring
 

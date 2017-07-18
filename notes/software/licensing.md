@@ -1,4 +1,4 @@
-# Software Licensing
+# Software Licensing Overview
 
 Reference:
 

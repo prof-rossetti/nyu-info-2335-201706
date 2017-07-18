@@ -42,7 +42,7 @@ else:
 #> NO THIS IS FALSE
 ```
 
-An "If" statement, regardless of whether or not it contains an `else` keyword, can contain any number of `elsif` keywords, each followed by a colon (`:`), followed by one or more indented lines which contain statement(s) to be executed if the condition is met. If there is an `else` keyword, it should come last.
+An "If" statement, regardless of whether or not it contains an `else` keyword, can contain any number of `elif` keywords, each followed by a colon (`:`), followed by one or more indented lines which contain statement(s) to be executed if the condition is met. If there is an `else` keyword, it should come last.
 
 ```python
 # run this script a few times in a row...

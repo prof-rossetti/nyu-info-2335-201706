@@ -20,6 +20,10 @@ The store owner agrees! Now it's time to write software to mimic the barcode-sca
   1. Practice contributing to open source software.
   1. Practice version control.
 
+## Prerequisites
+
+  1. ["Groceries" Project](/projects/groceries/project.md)
+
 ## Instructions
 
 Write a program that asks the user to input one or more product identifiers, then looks up the prices for each, then prints an itemized customer receipt including the total amount owed.

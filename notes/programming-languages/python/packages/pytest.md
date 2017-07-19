@@ -28,6 +28,22 @@ pip install pytest
 
 #### Usage
 
-To setup these examples, create a new directory on your Desktop called `testing123` and navigate there from your command line, then create a directory structure which resembles the following:
+To setup these examples, create a new directory on your Desktop called `testing123` and navigate there from your command line, then create files called `my_script.py` and `my_test.py` and place inside the following contents, respectively:
 
-TBA
+```python
+# this is the my_script.py
+def enlarge(i):
+    return i * 100
+```
+
+```python
+# this is the my_test.py
+
+from my_script import * # load accompanying code (i.e. the `enlarge()` function to avoid NameError: name 'enlarge' is not defined
+
+def test_enlarge(): # name this function anything, but hopefully something corresponding to the function it is testing
+    result = enlarge(3)
+    assert result == 300
+```
+
+Once you have setup the example, run `pytest` from the `testing123` directory.

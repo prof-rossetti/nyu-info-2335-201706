@@ -2,7 +2,7 @@
 
 ## Testing
 
-> Prerequisite: [Software Testing Overview](/notes/programming-languages/python/testing.md).
+> Prerequisite: [Software Testing Overview](/notes/software/testing.md).
 
 Use the built-in `unittest` module or other third-party packages like `pytest` for testing purposes.
 

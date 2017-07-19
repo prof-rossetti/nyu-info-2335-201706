@@ -23,7 +23,7 @@ Embed photos to provide further evidence of event attendance. A "selfie" should 
 
 ## Submission Instructions
 
-Create a single PDF file containing your write-up and images, and upload it to NYU Classes (LINK TBA).
+Create a single PDF file containing your write-up and images, and [upload it to the corresponding assignment in NYU Classes](https://newclasses.nyu.edu/portal/site/35d63f1f-36de-4caf-bf8b-d950377ec68f/tool/bd6e8257-f229-4104-b1a8-04c0db927b69).
 
 ## Evaluation Methodology
 

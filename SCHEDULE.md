@@ -53,15 +53,15 @@
 
 ### Class 7 - Wednesday 2017-07-19
 
-  + Software Licensing
+  + [Software Licensing Overview](/notes/software/licensing.md), including Open Source Software
   + ["CRUD App" Project (cont'd)](/projects/crud-app/project.md)
-  + Code Review and Refactoring
 
 ### Class 8 - Monday 2017-07-24
 
   + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions) before or sometime during beginning of class
-  + Software Testing
-  + Testing in Python
+  + Code Review and Refactoring
+  + [Software Testing](/notes/software/testing.md)
+  + [Testing in Python](notes/programming-languages/python/testing.md)
   + Object-oriented Programming
   + Classes and Inheritance in Python
 

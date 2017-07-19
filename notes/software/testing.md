@@ -14,7 +14,7 @@ Most modern programming languages include built-in features and third-party pack
 
 ### Testing Philosophies and Benefits
 
-Different people test software for different reasons. Some software development teams track metrics related to "test coverage" because it matters to them what percentage of an application's functions are described by tests :confused:. Other developers only test public-facing components of an application's source code :smirk:. Some developers don't bother to write tests at all :anguished:.
+Different people test software for different reasons. Some software development teams track metrics related to "test coverage" because it matters to them what percentage of an application's functions are described by tests. Other developers only test public-facing components of an application's source code. Some developers don't bother to write tests at all.
 
 The professor suggests you use tests to save yourself time, to improve the accuracy of your programs, and to communicate your program's desired functionality to other developers. If you find yourself performing a manual action multiple times, consider automating that action by writing a corresponding test case. If you expect a specific function to operate in a certain way, write down your expectations in a new test. If you find yourself writing comments to describe some part of the source code which isn't clearly understood, make its function plain by describing it in a test.
 

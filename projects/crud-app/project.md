@@ -50,6 +50,8 @@ Destroy
 
 ## Requirements
 
+Your program should be executed from the root directory of your project repository, specifying the program's file path, for example: `python app/products_app.py`. This is super important due to the relativity of data file paths. See setup instructions for more information.
+
 Your program should meet the requirements set forth in the sections below.
 
 ### Repository Requirements

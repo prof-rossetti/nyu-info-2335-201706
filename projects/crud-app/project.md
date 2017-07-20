@@ -125,7 +125,7 @@ Create in the project repository the following files:
   + `app/products_app.py`
   + `data/.gigitnore`
 
-In the `README.md` file, place content to identify your application and instruct someone else how to download and run it. The following suggestion is written in Markdown:
+In the `README.md` file, place some markdown syntax or normal text content to identify your application and instruct someone else how to download and run it:
 
     # Name of Your App
 

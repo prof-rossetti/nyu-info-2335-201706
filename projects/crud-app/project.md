@@ -125,7 +125,7 @@ Create in the project repository the following files:
   + `app/products_app.py`
   + `data/.gigitnore`
 
-In the `README.md` file, place content to identify your application and instruct someone else how to download and run it:
+In the `README.md` file, place content to identify your application and instruct someone else how to download and run it. The following suggestion is written in Markdown:
 
     # Name of Your App
 
@@ -148,9 +148,9 @@ In the `README.md` file, place content to identify your application and instruct
     python app/products_app.py
     ```
 
-In the `app/products_app.py` file, place some placeholder print statement, like `print("HELLO")`.
+In the `app/products_app.py` file, place some placeholder print statement, like `print("HELLO")`. This is the file that will eventually contain our program's code.
 
-In the `data/.gitignore`, place the following code, which says "exclude from version control all files in this directory besides this one":
+The program will need to use a CSV file inventory of products, and that CSV file will change many times over the course of our using the program, so we don't want to track its contents in version control. We want to achieve program-data independence. So in the `data/.gitignore`, place the following code, which says "exclude from version control all files in this directory besides this one":
 
     *
     !.gitignore

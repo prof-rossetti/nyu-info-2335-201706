@@ -177,7 +177,6 @@ After demonstrating your ability to properly prompt the user for inputs, feel fr
 
 Reading:
 
-  1. Demonstrate your ability to print the entire contents of the inventory CSV file.
   1. Demonstrate your ability to loop through each product in the inventory and print the name of each.
   1. Demonstrate your ability to print the number of products in the inventory.
   1. Re-configure the user input menu to use the real number of products instead of a hard-coded value. This will require you to read the CSV file before prompting the user for inputs.

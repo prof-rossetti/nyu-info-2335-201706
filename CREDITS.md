@@ -47,6 +47,7 @@ NYU Classes configuration for instructors:
   + [String Formatting](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
   + [Grouping a List of Dictionaries by Key](https://adiyatmubarak.wordpress.com/2015/10/05/group-list-of-dictionary-data-by-particular-key-in-python/)
   + [Getting and Setting Environment Variables in Windows](https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt/79614#79614)
+  + [Testing in Python](http://python-guide-pt-br.readthedocs.io/en/latest/writing/tests/)
 
 ### Groceries Data
 

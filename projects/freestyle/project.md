@@ -1,6 +1,6 @@
 # Freestyle Project
 
-Create a software program or application based on your own interests and experiences.
+Create an information system which uses application software to satisfy your own interests.
 
 Preliminary example project ideas include:
 
@@ -14,7 +14,7 @@ Preliminary example project ideas include:
   + Natural Language Processing Application
   + Statistical Modeling Application
 
-Optionally work in a team comprising a small handful of students (perhaps at most three or four). Feel free to discuss ideas and find teammates in the `#freestyle` Slack channel.
+Optionally work in a team comprised of a small handful of students (perhaps at most three or four). Feel free to discuss ideas and find teammates in the `#freestyle` Slack channel. If there are any teams, they should be formed before the end of the project's Proposal Phase (see details below).
 
 ## Learning Objectives
 
@@ -22,20 +22,67 @@ Optionally work in a team comprising a small handful of students (perhaps at mos
   1. Research and plan the information system's technology components, including third-party software packages and hardware providers, as necessary.
   1. Implement system objectives by writing software in Python.
 
-## Requirements
+## Prerequisites
 
-TBA
+  1. ["CRUD Application" Project](/projects/crud-application/project.md)
+  1. [Software Licenses Overview](/notes/software/licensing.md)
 
 ## Instructions
 
-TBA
+### Proposal Phase
+
+Choose a project from the [list of examples](examples/), or design your own with a similar scope as the provided examples.
+
+Define project scope and objectives, including information inputs and outputs, in a proposal form, and submit it to the professor for approval.
+
+After reviewing your proposal, the professor may help you refine your project's focus, share helpful resources, and/or provide other guidance to help you succeed.
+
+### Implementation Phase
+
+After your project proposal has been approved, write software in Python to satisfy its objectives.
+
+## Requirements
+
+The system must transform one or more information inputs into one or more information outputs to achieve one or more stated objectives.
+
+The system must perform its functions using software written in Python. The software's source code must meet the repository requirements below.
+
+### Repository Requirements
+
+The software's source code should be hosted on GitHub.com in its own repository which uses the following conventions:
+
+  + Contains a file named `README.md` which provides instructions for how to install and use the software.
+  + Contains a license named `LICENSE.md` or `LICENSE.txt` or `LICENSE` which specifies copyright holder(s) and terms of use. You are recommended to choose from one of the standard licenses available within the GitHub.com user interface when you create a new repository.
+  + Contains a directory called `planning` which contains artifact(s) from the research, planning, and proposal processes.
+  + Contains a directory called `app` (or some other name of choice) which contains one or more Python files to perform the application's functionality. The Python files may exist within various sub-directories of the `app` directory, if appropriate.
+  + Contains a commit history which reflects incremental development progress, perhaps corresponding with various checkpoint steps if you have chosen one of the example projects.
+
+If the software reads or writes files to represent information inputs and/or outputs, the data files should exist in a directory called `data` and should in most cases be excluded from version control using a `data/.gitignore` file. Ask the professor if you're not sure if or how this applies to your program.
+
+If the software has tests, they should exist in a directory called `test` or `tests` or another name of choice. And the `README.md` should contain instructions for how to run them.
 
 ## Submission Instructions
 
-To earn credit for Proposal Phase deliverables: submit the [Proposal Form](________) by the specified due date.
+To earn credit for the Proposal Phase deliverable, submit the [Proposal Form](________) by the specified due date. If working on a team, each and every member must submit a separate proposal form, and in the respective section should list the email addresses of each and every other team member.
 
-To earn credit for Implementation Phase deliverables: edit the [submissions.csv file](submissions.csv) by adding a new row to include your GitHub username(s) and your project's GitHub repository URL; then commit your changes and submit a Pull Request for your changes to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+To earn credit the Implementation Phase deliverable: edit the [submissions.csv file](submissions.csv) by adding a new row to include your GitHub username(s) and your project's GitHub repository URL; then commit your changes and submit a Pull Request for your changes to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
 
 ## Evaluation
 
-TBA
+The Proposal Phase deliverable is worth 25% of the project grade, and the Implementation Phase deliverable comprises the remaining 75% of the project grade.
+
+In addition, an optional Testing deliverable is worth up to 10% extra credit to be applied toward the weight of this project.
+
+> NOTE: If extra credit raises a project's grade above 100%, that higher grade will carry over into final course grade calculations.
+
+### Proposal Evaluation
+
+Proposal Form responses submitted before the due-date will receive full credit. Late submissions will receive partial credit.
+
+### Implementation Evaluation
+
+Full credit for presence of Python application software which runs without error, meets all requirements, and satisfies proposed objectives. Otherwise partial credit may be awarded.
+
+### Testing Evaluation
+
+Presence of relevant and meaningful software test(s) will earn full bonus points. Otherwise partial bonus points may be awarded.

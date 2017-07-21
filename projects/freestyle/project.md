@@ -73,7 +73,7 @@ The Proposal Phase deliverable is worth 25% of the project grade, and the Implem
 
 In addition, an optional Testing deliverable is worth up to 10% extra credit to be applied toward the weight of this project.
 
-> NOTE: If extra credit raises a project's grade above 100%, that higher grade will carry over into final course grade calculations.
+> NOTE: If extra credit raises a project's grade above 100%, that higher grade will carry over into final course grade calculations. :smiley: :chart_with_upwards_trend:
 
 ### Proposal Evaluation
 

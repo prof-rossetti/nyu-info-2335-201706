@@ -1,8 +1,8 @@
 # Python Language Overview
 
-### The `nltk` Module
+### The `nltk` Package
 
-The `nltk` (Natural Language Tool Kit) module is a good introduction to some common Natural Language Processing (NLP) processes, including Sentiment Analysis, Named Entity Recognition, and document preprocessing. You can also download corpus collections with nltk for practice or to serve as training data for machine learning applications.
+The `nltk` (Natural Language Tool Kit) package is a good introduction to some common Natural Language Processing (NLP) processes, including Sentiment Analysis, Named Entity Recognition, and document preprocessing. You can also download corpus collections with nltk for practice or to serve as training data for machine learning applications.
 
 Reference:
 
@@ -14,7 +14,6 @@ Reference:
 First install the package using pip, if necessary:
 
 ```` sh
-# install requests
 pip install nltk
 ````
 
@@ -22,10 +21,7 @@ pip install nltk
 
 One of the most widely used NLP techniques is Sentiment Analysis. One of the modules available from `nltk` is the Vader Sentiment Analyzer, a relatively simple, vocabulary-based tool for measuring sentiment.
 
-```shell
-PS C:\Users\Mike> python
-Python 3.5.2 |Anaconda 4.2.0 (64-bit)| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
+```python
 >>> import nltk
 # you will need to download the Vader sentiment lexicon the first time you use it.
 # to do this, we can use nltk's download function, which will bring up a GUI.
@@ -49,10 +45,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Let's say we want to find instances of people, places, or other proper nouns in a document. This NLP task, called "Named Entity Extraction," can also be implemented with `nltk`.
 
-```shell
-PS C:\Users\Mike> python
-Python 3.5.2 |Anaconda 4.2.0 (64-bit)| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
+```python
 >>> import nltk
 >>> from nltk import word_tokenize, pos_tag, ne_chunk
 # NER in nltk actually takes 3 discrete steps. First, we tokenize the sentence by splitting it up into words.

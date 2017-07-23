@@ -1,8 +1,8 @@
 # Python Language Overview
 
-### The `pandas` Module
+### The `pandas` Package
 
-The `pandas` module is an extremely useful one for working with structured data. You can think of `pandas` as a python tool for creating and manipulating powerful spreadsheets-like objects called DataFrames. `pandas` also includes some SQL-like features and can be used to easily read and write data stored in csv's or databases.
+The `pandas` package is an extremely useful one for working with structured data. You can think of `pandas` as a python tool for creating and manipulating powerful spreadsheets-like objects called DataFrames. `pandas` also includes some SQL-like features and can be used to easily read and write data stored in csv's or databases.
 
 Reference:
 
@@ -13,18 +13,12 @@ Reference:
 First install the package using pip, if necessary:
 
 ```` sh
-# install requests
 pip install pandas
 ````
 
 #### Reading data into DataFrames using `pandas`
 
-From the command-line:
-
-```shell
-python
-Python 3.5.2 |Anaconda 4.2.0 (64-bit)| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
+```python
 >>> import pandas as pd # pd now references the pandas package, saving you some typing
 # We can create pandas DataFrames with native python data structures like lists and dictionaries
 >>> test = [[1,'a'], [2,'b'], [3,'c']]
@@ -58,10 +52,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Now that we can read data into DataFrames, let's do something with it. The examples below include some simple ways we can manipulate a single DataFrame. We'll use the same data we had just loaded into the DataFrame.
 
-```shell
-python
-Python 3.5.2 |Anaconda 4.2.0 (64-bit)| (default, Jul  5 2016, 11:41:13) [MSC v.1900 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
+```python
 >>> import pandas as pd
 >>> stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx')
 >>> stats['games'] # we can reference individual columns with their names

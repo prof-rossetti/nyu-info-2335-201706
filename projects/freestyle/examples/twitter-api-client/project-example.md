@@ -4,6 +4,12 @@ Perform at least one CRUD operation on one or more [Twitter](https://twitter.com
 
 For optional further exploration, also keep a CSV file or database inventory of tweets.
 
+## Prerequisites
+
+  1. [Twitter API](https://dev.twitter.com/rest/public)
+  1. [Twitter API Libraries for Python](https://dev.twitter.com/resources/twitter-libraries#python)
+  1. [The `tweepy` Package](/notes/programming-languages/python/packages/tweepy.md)
+
 ## Proposal Phase
 
 Example Objective(s):
@@ -27,7 +33,3 @@ Example Information Outputs (depending on the chosen objectives):
   + An HTTP request to the Twitter API asking to perform some action, such as to create or read or destroy one ore more tweets.
   + A desired terminal-output of choice.
   + A CSV file inventory of Twitter tweets and/or hashtags and/or usernames.
-
-## Implementation Phase
-
-TBA

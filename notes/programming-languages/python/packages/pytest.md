@@ -1,6 +1,6 @@
 # Python Language Overview
 
-### The `pytest` Module
+### The `pytest` Package
 
 Reference:
 
@@ -14,7 +14,7 @@ Reference:
 
 #### Installation
 
-Once you have learned how to install modules using the `pip` package manager, you should be able to use it to install a third-party module called `pytest`, which provides some useful testing capabilities.
+Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party module called `pytest`, which provides some useful testing capabilities.
 
 First install `pytest`, if necessary:
 

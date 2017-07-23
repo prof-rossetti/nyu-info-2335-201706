@@ -26,6 +26,8 @@ Optionally work in a team comprised of a small handful of students (perhaps at m
 
   1. ["CRUD Application" Project](/projects/crud-application/project.md)
   1. [Software Licenses Overview](/notes/software/licensing.md)
+  1. [Environment Variables Overview](notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
+  1. [Accessing Environment Variables using the `os` Module](notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
 
 ## Instructions
 

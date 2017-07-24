@@ -1,12 +1,13 @@
 # Freestyle Project
 
-Create an information system which uses application software to satisfy your own interests.
+Create an information system which uses application software to satisfy your own personal or professional interests.
 
 Preliminary example project ideas include:
 
-  + Social Media API Client
+  + [Social Media API Client (Twitter)](examples/twitter-api-client/project-example.md)
   + Weather API Client
   + Stock Market API Client
+  + [Email API Client](examples/email-api-client/project-example.md)
   + Stock-trading Algorithm
   + Database-connected CRUD Application
   + Web-based CRUD Application
@@ -26,8 +27,9 @@ Optionally work in a team comprised of a small handful of students (perhaps at m
 
   1. ["CRUD Application" Project](/projects/crud-application/project.md)
   1. [Software Licenses Overview](/notes/software/licensing.md)
-  1. [Environment Variables Overview](notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
-  1. [Accessing Environment Variables using the `os` Module](notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
+  1. [Environment Variables Overview](/notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
+  1. [Accessing Environment Variables using the `os` Module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
+  1. [Heroku Overview](/notes/hardware/heroku.md) -- if you'd like to run your software on a remote server
 
 ## Instructions
 
@@ -47,6 +49,8 @@ After your project proposal has been approved, write software in Python to satis
 
 The system must transform one or more information inputs into one or more information outputs to achieve one or more stated objectives.
 
+The system should strive to demonstrate a unique set of functionality which differentiates it in some significant way from other potential student submissions. If building upon one of the project examples, the system should also strive to differentiate itself from the example and/or add upon it in a significant way.
+
 The system must perform its functions using software written in Python. The software's source code must meet the repository requirements below.
 
 ### Repository Requirements
@@ -65,7 +69,7 @@ If the software has tests, they should exist in a directory called `test` or `te
 
 ## Submission Instructions
 
-To earn credit for the Proposal Phase deliverable, submit the [Proposal Form](________) by the specified due date. If working on a team, each and every member must submit a separate proposal form, and in the respective section should list the email addresses of each and every other team member.
+To earn credit for the Proposal Phase deliverable, submit the [Proposal Form](https://goo.gl/forms/VuwbJiR7Q1JTSYG03) by the specified due date. If working on a team, only one member should submit the form on behalf of all teammates, and the "Contributor(s)" section should list the email addresses of all official team members.
 
 To earn credit the Implementation Phase deliverable: edit the [submissions.csv file](submissions.csv) by adding a new row to include your GitHub username(s) and your project's GitHub repository URL; then commit your changes and submit a Pull Request for your changes to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
 

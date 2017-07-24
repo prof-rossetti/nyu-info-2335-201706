@@ -2,7 +2,7 @@
 
 > This guide was written by @mz888!
 
-### The `nltk` Package
+## The `nltk` Package
 
 The `nltk` (Natural Language Tool Kit) package is a good introduction to some common Natural Language Processing (NLP) processes, including Sentiment Analysis, Named Entity Recognition, and document preprocessing. You can also download corpus collections with nltk for practice or to serve as training data for machine learning applications.
 
@@ -19,7 +19,7 @@ First install the package using pip, if necessary:
 pip install nltk
 ````
 
-#### Evaluating sentiment using `nltk`
+### Sentiment Analysis
 
 One of the most widely used NLP techniques is Sentiment Analysis. One of the modules available from `nltk` is the Vader Sentiment Analyzer, a relatively simple, vocabulary-based tool for measuring sentiment.
 
@@ -44,7 +44,7 @@ sid.polarity_scores(negative)
 #> {'neg': 0.559, 'compound': -0.5859, 'neu': 0.441, 'pos': 0.0}
 ```
 
-#### Identifying entities with `nltk`
+### Entity Identification
 
 Let's say we want to find instances of people, places, or other proper nouns in a document. This NLP task, called "Named Entity Extraction," can also be implemented with `nltk`.
 
@@ -66,7 +66,8 @@ tagged #> [('Donald', 'NNP'), ('Trump', 'NNP'), ('met', 'VBD'), ('Vladmir', 'NNP
 chunk = ne_chunk(tagged)
 # Each Named Entity is assigned a type; Moscow is identified as a GPE (geopolitical entity)
 chunk #> Tree('S', [Tree('PERSON', [('Donald', 'NNP')]), Tree('PERSON', [('Trump', 'NNP')]), ('met', 'VBD'), Tree('PERSON', [('Vladmir', 'NNP'), ('Putin', 'NNP')]), ('in', 'IN'), Tree('GPE', [('Moscow', 'NNP')]), ('.', '.')])
+
 # Can you think of a way to clean up the output?
 ```
 
-`nltk` contains many modules with different functionalities. Consult the [NLTK book](http://www.nltk.org/book) as well as other online guides to explore its many uses.
+The `nltk` package contains many modules with different functionalities. Consult the [NLTK book](http://www.nltk.org/book) as well as other online guides to explore its many uses.

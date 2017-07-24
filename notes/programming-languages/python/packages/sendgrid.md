@@ -2,18 +2,20 @@
 
 ## The `sendgrid` Package
 
+The `sendgrid` package provides some useful emailing capabilities. :mailbox_with_mail: :envelope:
+
+This package is especially useful due to its integration with Heroku.
+
 Reference:
 
   + [Source](https://github.com/sendgrid/sendgrid-python)
   + [Package](https://pypi.python.org/pypi/sendgrid)
-  + [Example Usage](https://github.com/sendgrid/sendgrid-python/blob/master/examples/helpers/mail/mail_example.py#L16)
-  + [Heroku SendGrid Service](https://devcenter.heroku.com/articles/sendgrid)
+  + [Example Usage](https://github.com/sendgrid/sendgrid-python/blob/master/examples/helpers/mail/mail_example.py)
+  + [Heroku SendGrid Guide](https://devcenter.heroku.com/articles/sendgrid)
 
 ### Installation
 
-Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party package called `sendgrid`, which provides some useful emailing capabilities. :mailbox_with_mail: :envelope:
-
-First install `sendgrid`, if necessary:
+Install `sendgrid`, if necessary:
 
 ```` sh
 # For Homebrew-installed Python 3.x on Mac OS:
@@ -25,7 +27,7 @@ pip install sendgrid
 
 ### Usage
 
-To setup this example, first ensure you have set an environment variable called `SENDGRID_API_KEY` to facilitate authentication with the SendGrid email service.
+To setup this example, first ensure you have set an environment variable called `SENDGRID_API_KEY` to facilitate authentication with the SendGrid email service. For instructions, follow the [Heroku SendGrid Guide](https://devcenter.heroku.com/articles/sendgrid#provisioning-the-add-on).
 
 Send yourself an email:
 

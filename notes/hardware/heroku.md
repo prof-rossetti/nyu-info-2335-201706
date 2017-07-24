@@ -10,6 +10,13 @@ The Heroku platorm is able to serve applications written in many of today's popu
 
 For more information about how Heroku works, see: https://devcenter.heroku.com/articles/how-heroku-works.
 
+Heroku for Python Reference:
+
+  + [Heroku CLI Reference](https://devcenter.heroku.com/categories/command-line)
+  + [Heroku for "Pythonic apps and APIs"](https://www.heroku.com/python)
+  + [Heroku Python Support](https://devcenter.heroku.com/articles/python-support)
+  + [Heroku Getting Started with Python](https://devcenter.heroku.com/articles/getting-started-with-python#introduction)
+
 ## Prerequisites
 
   + Login to an existing Heroku account, or [register](https://signup.heroku.com/) for a new one. Make sure to confirm your account by clicking a confirmation link the confirmation email sent to you by Heroku.
@@ -43,10 +50,6 @@ heroku login
 Authentication Guide: https://devcenter.heroku.com/articles/heroku-cli#getting-started.
 
 ## Usage
-
-Heroku CLI Guides and Documentation: https://devcenter.heroku.com/categories/command-line.
-
-Heroku Python Application Tutorial: ________________.
 
 List applications:
 

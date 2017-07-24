@@ -14,9 +14,7 @@ Reference:
 
 ### Installation
 
-Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party module called `pytest`, which provides some useful testing capabilities.
-
-First install `pytest`, if necessary:
+Install `pytest`, if necessary:
 
 ```` sh
 # For Homebrew-installed Python 3.x on Mac OS:

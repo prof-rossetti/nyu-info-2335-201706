@@ -2,12 +2,14 @@
 
 ## The `tweepy` Package
 
+The `tweepy` package provides some useful tweeting capabilities. :bird: :bird:
+
 Reference:
 
   + [Package](https://pypi.python.org/pypi/tweepy/3.5.0)
   + [Website](http://www.tweepy.org/)
   + [Source](https://github.com/tweepy/tweepy)
-  + [Docs](http://tweepy.readthedocs.io/en/v3.5.0/))
+  + [Docs](http://tweepy.readthedocs.io/en/v3.5.0/)
   + [Auth Tutorial](http://tweepy.readthedocs.io/en/v3.5.0/auth_tutorial.html#auth-tutorial)
   + [API Reference](http://tweepy.readthedocs.io/en/v3.5.0/api.html#api-reference)
   + [Pagination](http://tweepy.readthedocs.io/en/v3.5.0/code_snippet.html#pagination)
@@ -27,9 +29,7 @@ After creating a new application, click on the "Keys and Access Tokens" tab, and
 
 ### Installation
 
-Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party package called `tweepy`, which provides some useful tweeting capabilities. :bird: :bird:
-
-First install `tweepy`, if necessary:
+Install `tweepy`, if necessary:
 
 ```` sh
 # For Homebrew-installed Python 3.x on Mac OS:

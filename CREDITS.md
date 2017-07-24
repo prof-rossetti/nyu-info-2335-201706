@@ -45,9 +45,11 @@ NYU Classes configuration for instructors:
   + [Debugging in Python](http://daguar.github.io/2014/06/05/just-dropped-in-interactive-coding-in-ruby-python-javascript/)
   + [Mapping Lists in Python 3 (different than Python 2)](https://stackoverflow.com/questions/1303347/getting-a-map-to-return-a-list-in-python-3-x)
   + [String Formatting](https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3)
+  + [Looping through dictionary keys](https://stackoverflow.com/questions/3294889/iterating-over-dictionaries-using-for-loops)
   + [Grouping a List of Dictionaries by Key](https://adiyatmubarak.wordpress.com/2015/10/05/group-list-of-dictionary-data-by-particular-key-in-python/)
   + [Getting and Setting Environment Variables in Windows](https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt/79614#79614)
   + [Testing in Python](http://python-guide-pt-br.readthedocs.io/en/latest/writing/tests/)
+  + [Using `pandas-datareader` package to request data from the Google Finance API](http://www.learndatasci.com/python-finance-part-yahoo-finance-api-pandas-matplotlib/)
 
 ### Groceries Data
 

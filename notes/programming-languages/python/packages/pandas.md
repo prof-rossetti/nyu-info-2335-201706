@@ -9,6 +9,7 @@ The `pandas` package is an extremely useful one for working with structured data
 Reference:
 
   + http://pandas.pydata.org/pandas-docs/stable/
+  + https://github.com/pandas-dev/pandas
 
 > NOTE: `pandas` supports Python 2.7 & 3.4+
 

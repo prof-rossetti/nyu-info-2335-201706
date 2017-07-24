@@ -4,6 +4,8 @@ Perform at least one CRUD operation on one or more [Twitter](https://twitter.com
 
 For optional further exploration, also keep a CSV file or database inventory of tweets.
 
+For optional further exploration, send yourself a daily email alert containing Twitter activity of interest, optionally including a count of your followers and/or a list of people who followed you or unfollowed you the previous day.
+
 ## Prerequisites
 
   1. [Twitter API](https://dev.twitter.com/rest/public)
@@ -32,4 +34,5 @@ Example Information Outputs (depending on the chosen objectives):
 
   + An HTTP request to the Twitter API asking to perform some action, such as to create or read or destroy one ore more tweets.
   + A desired terminal-output of choice.
-  + A CSV file inventory of Twitter tweets and/or hashtags and/or usernames.
+  + A CSV file or database inventory of Twitter tweets and/or hashtags and/or usernames.
+  + An email alert of daily activity and usage statistics from your Twitter network (e.g the number of users following you).

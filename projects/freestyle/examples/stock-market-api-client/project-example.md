@@ -8,7 +8,7 @@ For optional further exploration, send yourself a daily email alert containing s
 
 ## Prerequisites
 
-  1. [The `pandas_datareader` Python Package](notes/programming-languages/python/packages/pandas-datareader.md)
+  1. [The `pandas_datareader` Python Package](/notes/programming-languages/python/packages/pandas-datareader.md)
 
 ## Proposal Phase
 
@@ -25,4 +25,5 @@ Example Information Outputs (depending on the chosen objectives):
 
   + An HTTP request to the Google Finance API asking for stock data.
   + A desired terminal-output of choice.
-  + A CSV file of stock prices over time.
+  + A CSV file or database of stock prices over time.
+  + An email alert containing stock quotes.

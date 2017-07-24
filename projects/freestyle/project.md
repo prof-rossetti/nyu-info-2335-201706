@@ -5,10 +5,10 @@ Create an information system which uses application software to satisfy your own
 Preliminary example project ideas include:
 
   + [Social Media API Client (Twitter)](examples/twitter-api-client/project-example.md)
-  + Weather API Client
+  + [Weather API Client](examples/weather-api-client/project-example.md)
   + [Stock Market API Client](examples/stock-market-api-client/project-example.md)
   + [Email API Client](examples/email-api-client/project-example.md)
-  + Stock-trading Algorithm
+  + Stock-trading Algorithm (building upon the Stock Market API Client)
   + Database-connected CRUD Application
   + Web-based CRUD Application
   + PDF-parsing Application

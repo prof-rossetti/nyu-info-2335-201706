@@ -13,7 +13,7 @@ For optional further exploration, integrate any one of the other project example
   1. [Heroku Overview](/notes/hardware/heroku.md)
   1. [Heroku SendGrid Service](https://devcenter.heroku.com/articles/sendgrid)
   1. [SendGrid API Docs](https://sendgrid.com/docs/API_Reference/index.html)
-  1. [The `sendgrid` Python Package](notes/programming-languages/python/packages/sendgrid.md)
+  1. [The `sendgrid` Python Package](/notes/programming-languages/python/packages/sendgrid.md)
 
 ## Proposal Phase
 

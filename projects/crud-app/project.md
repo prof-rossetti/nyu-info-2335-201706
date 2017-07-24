@@ -2,13 +2,37 @@
 
 Your local corner grocery store has hired you to help them modernize their checkout system.
 
-After providing the store owner with an awesome barcode-scanning application, the store owner now asks you to provide an application which will help store managers keep track of their inventory of products.
+After providing the store owner with an awesome checkout application, the store owner now asks you to provide an application which will help store managers keep track of their inventory of products. The store owner would like to use the application at each of a small handful of store locations, each of which has its own product inventory.
 
 Write a Python program to perform CRUD operations on an inventory of products kept in a CSV file.
 
 > NOTE: CRUD is an acronym for "Create", "Read", "Update", and "Destroy". These operations represent the primary actions performed on database resources (i.e. records) within an information system. The "Read" operation comprises two operations: the "List" operation for reading all resources, as well as the "Show" operation for reading a single resource.
 
 ![A screencast depicting a user running a program from the command line multiple times, each time to perform one of the CRUD operations: List, Show, Create, Update, and Destroy.](demo.gif)
+
+The non-moving version :smile: :
+
+List
+
+!["List" Operation](demo-list.png)
+
+Show
+
+!["Show" Operation](demo-show.png)
+
+Create
+
+!["Create" Operation](demo-create.png)
+
+Update
+
+!["Update" Operation](demo-update.png)
+
+Destroy
+
+!["Destroy" Operation](demo-destroy.png)
+
+> NOTE: Don't be constrained by the images above. Feel free to create your own user interface and experiences.
 
 ## Learning Objectives
 
@@ -26,6 +50,8 @@ Write a Python program to perform CRUD operations on an inventory of products ke
 
 ## Requirements
 
+Your program should be executed from the root directory of your project repository, specifying the program's file path, for example: `python app/products_app.py`. This is super important due to the relativity of data file paths. See setup instructions for more information.
+
 Your program should meet the requirements set forth in the sections below.
 
 ### Repository Requirements
@@ -41,11 +67,13 @@ The program's source code should be hosted on GitHub.com in its own repository w
 
 The program should interface with an inventory of products kept in a CSV file named `data/products.csv`, however this CSV file should not be tracked in version control (see setup instructions).
 
-The program should assume existence of the CSV file in the specified location. And it should assume the file contains the proper header row:
+The program should assume existence of the CSV file in the specified location. And it should assume the CSV file contains the proper header row:
 
     id,name,aisle,department,price
 
-The program should work even if the CSV file contains no additional rows besides the header row. This would correspond to a situation where there are no products in the inventory.
+The program should function even if the CSV file contains no additional rows besides the header row. This would correspond to a situation where there are no products in the inventory.
+
+The program should function regardless of the order of rows in the CSV file.
 
 ### Interface Requirements
 
@@ -59,27 +87,29 @@ The program should display a user interface which contains:
 
 The program should prompt the user to select one CRUD operation at a time (e.g. "List", "Show", "Create", "Update", or "Destroy"). If an unrecognized operation is selected, the program should fail gracefully by displaying an "Unrecognized Operation" message to the user. Otherwise it should perform the selected operation in accordance with the following expectations, prompting the user for additional inputs as necessary:
 
-  + The **List** operation should print information about each product in the inventory.
-  + The **Show** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message.
-  + The **Create** operation should prompt the user for a new product's `"name"`, `"department"`, `"aisle"` and `"price"`, and should automatically determine the new product's `"id"` by adding 1 to the greatest identifier currently in the inventory. Then the program should save the new product's information by adding a new row at the bottom of the CSV file.
-  + The **Update** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should prompt the user for new values for that product's `"name"`, `"department"`, `"aisle"` and `"price"` attributes. Finally the program should save the product's information by overwriting its corresponding row in the CSV file.
-  + The **Destroy** operation should prompt the user for a product identifier, and then either print information about that product if it exists in the inventory or print a friendly "product not found" message. Then the program should remove the corresponding row from the CSV file.
+  + The **List** operation should print information (identifiers and names at least) about each product in the inventory.
+  + The **Show** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should print all available information about that product.
+  + The **Create** operation should prompt the user to input a new product's `"name"`, `"department"`, `"aisle"` and `"price"`, and should automatically determine the new product's `"id"` by adding 1 to the greatest identifier currently in the inventory. Then the program should save the new product's information by adding a new row at the bottom of the CSV file.
+  + The **Update** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should prompt the user to input new values for that product's `"name"`, `"department"`, `"aisle"` and `"price"` attributes, and overwrite that product's corresponding row in the CSV file.
+  + The **Destroy** operation should prompt the user for a product identifier. If the product identifier matches the identifier of an existing product in the inventory, the program should display a helpful message and remove that product's corresponding row from the CSV file.
 
-As mentioned, the "Show", "Update", and "Destroy" operations should each fail gracefully (i.e. display a friendly "product not found" message) if no product matches the specified identifier.
+The "Show", "Update", and "Destroy" operations should each fail gracefully (i.e. display a friendly "Product Not Found" message) if no product matches the specified identifier.
 
 ### Further Exploration - Validations
 
 For students desiring optional further exploration, the program's "Create" and "Update" operations should validate product information input by the user, focusing on ensuring prices are in the proper numeric format. The program should display a helpful message (e.g. "Please input a price formatted as a number with two decimal places.") when necessary.
 
+After focusing on validating prices, optionally devise a better system for standardizing aisle and department names, and provide the user with a list of available values for each during the "Create" and "Update" operations.
+
 ### Further Exploration - Refactoring
 
-For students desiring optional further exploration, the program's source code should be simplified, or "refactored" to contain at most a minimal amount of duplication. The program should conform to the "DRY" principle, which means "Don't Repeat Yourself". The refactoring process may involve definition of custom functions and invocation of those functions from multiple places where the duplicate code originally existed.
+For students desiring optional further exploration, the program's source code should be simplified, or "refactored" to contain at most a minimal amount of duplication. The program should conform to the "DRY" principle, which means "Don't Repeat Yourself".
 
 ### Further Exploration - Testing
 
 For students desiring even more optional further exploration, the repository should contain one or more "tests" which communicate and verify the functionality of one or more of the program's functions.
 
-The test file(s) should exist inside a new `tests` directory, and should be implemented using the `pytest` module.
+The test file(s) should exist inside a new `tests` directory, and should be implemented using the `pytest` package.
 
 In order to test the program, much of its source code should first be refactored into functions to remove as much source code as possible from the program's global scope. This enables the resulting functions to be individually invoked and tested.
 
@@ -95,7 +125,7 @@ Create in the project repository the following files:
   + `app/products_app.py`
   + `data/.gigitnore`
 
-In the `README.md` file, place content to identify your application and instruct someone else how to download and run it:
+In the `README.md` file, place some markdown syntax or normal text content to identify your application and instruct someone else how to download and run it:
 
     # Name of Your App
 
@@ -118,9 +148,9 @@ In the `README.md` file, place content to identify your application and instruct
     python app/products_app.py
     ```
 
-In the `app/products_app.py` file, place some placeholder print statement, like `print("HELLO")`.
+In the `app/products_app.py` file, place some placeholder print statement, like `print("HELLO")`. This is the file that will eventually contain our program's code.
 
-In the `data/.gitignore`, place the following code, which says "exclude from version control all files in this directory besides this one":
+The program will need to use a CSV file inventory of products, and that CSV file will change many times over the course of our using the program, so we don't want to track its contents in version control. We want to achieve program-data independence. So in the `data/.gitignore`, place the following code, which says "exclude from version control all files in this directory besides this one":
 
     *
     !.gitignore
@@ -141,30 +171,39 @@ After downloading the CSV file(s), you should not see them tracked in version co
   1. Implement a single "handler" function to recognize the chosen operation and invoke one of a handful of new operation-specific functions to perform the chosen operation. For example, if the user chooses "Create", have your "handler" function invoke a function called `create_product()` to print the name of the chosen operation.
   1. Handle invalid operation inputs by displaying a helpful message like "Unrecognized Operation. Please choose one of: 'List', 'Show', 'Create', 'Update', or 'Destroy'."
 
-After demonstrating your ability to properly prompt the user for inputs, you can feel free to comment-out all your user input-related code as you move on to testing the remaining functionality. If you do, remember to un-comment the input-related code and hook it back up to the remaining functionality once implemented.
+After demonstrating your ability to properly prompt the user for inputs, feel free to comment-out all your user input-related code as you move on to implementing and testing the remaining functionality. If you do, remember to un-comment the input-related code and hook it back up to the remaining functionality once implemented.
 
 #### Checkpoint II - Reading and Writing to CSV File
 
-Reading:
+##### Reading
 
-  1. Demonstrate your ability to print the entire contents of the inventory CSV file.
   1. Demonstrate your ability to loop through each product in the inventory and print the name of each.
   1. Demonstrate your ability to print the number of products in the inventory.
   1. Re-configure the user input menu to use the real number of products instead of a hard-coded value. This will require you to read the CSV file before prompting the user for inputs.
 
-Writing:
+Hint: read the file to extract and transform the inventory of products into a list of dictionary-like items for further use.
+
+##### Writing
 
   1. Write some random content to a temporary file, perhaps named `data/writing-stuff.csv`.
   1. Read the existing inventory of products from `products.csv` and write to a separate, temporary file, perhaps named `data/writing-products.csv`.
   1. Read the existing inventory of products from `products.csv` and overwrite that same file with its original contents.
 
+Hint: after compiling and perhaps further manipulating the extracted list of dictionary-like items, loop through the list to write each one to file. Feel free to overwrite the CSV file in this way instead of searching for specific line(s) within it to modify.
+
 #### Checkpoint III - CRUD Operations
 
-  1. Implement the "List" operation.
-  1. Implement the "Show" operation. Hint: use
+  1. Implement the "List" operation. Hint: loop through a list of product items like you have done before.
+  1. Implement the "Show" operation.
   1. Implement the "Create" operation.
   1. Implement the "Destroy" operation.
   1. Implement the "Update" operation last, as it uses a combination of techniques shared with the "Show" and "Create" operations.
+
+Hint for the "Show", "Destroy", and "Update" operations: before you perform the desired action, you first need to look up a product given its identifier. To do this, you should be able to use list filtering technique similar to what you have done before.
+
+Hint for the "Create" and "Update" operations: you will most likely need to prompt the user to input additional information, like the value for each product attribute.
+
+Hint for "Create", "Update", and "Destroy" operations: as long as you are using a file-writing strategy that loops through each product and writes it to file, it should be sufficient to simply modify or add or remove an item from the existing list of products before writing them.
 
 ## Submission Instructions
 
@@ -174,11 +213,11 @@ Update your fork of the course repository. In the [submissions.csv file](submiss
 
 ## Evaluation
 
-Full credit for presence of a Python program which runs without error, meets all requirements, and exactly or near-exactly produces the desired functionality.
+Full credit for presence of a Python program which runs without error, meets all or almost all requirements, and exactly or near-exactly produces the desired functionality.
 
-Else 87.5% credit for presence of a Python program which runs without error, meets all requirements, and produces most of the desired functionality.
+Else 87.5% credit for presence of a Python program which runs without error, meets most requirements, and produces most of the desired functionality.
 
-Else 75% credit for presence of a Python program which runs without error, meets all requirements, and produces much of the desired functionality.
+Else 75% credit for presence of a Python program which runs without error, meets most requirements, and produces much of the desired functionality.
 
 Else half credit for presence of a Python program which doesn't run or doesn't meet the requirements, or doesn't produce much of the desired functionality.
 

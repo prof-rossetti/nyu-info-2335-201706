@@ -121,6 +121,10 @@ The official text editor for this course is [Atom](https://atom.io/),
  however [Sublime](https://www.sublimetext.com/)
  and [Notepad++](https://notepad-plus-plus.org/) are potential alternatives.
 
+> NOTE: If you're using Atom, you should be able to download third-party packages which provide additional functionality. Do so from the "Settings > Install" menu and see installed packages from the "Settings > Packages" menu. One recommended package to install is called ["Sublime-Style-Column-Selection"](https://atom.io/packages/Sublime-Style-Column-Selection); this package enables vertical text selection:
+>
+> ![a screencast depicting usage of a text editor in which the user selects a vertical column segment of the text, and is able to write content on multiple lines simultaneously](/admin/atom-vertical-selection-demo.gif)
+
 ##### Git Client
 
 Each student is expected to achieve proficiency using a Git client of choice. By the end of the semester, students should strive to be interfacing with Git via the [Git command-line utility](https://git-scm.com/downloads), however students originally unfamiliar with Git may optionally start by using a Git GUI Application like [GitHub Desktop](https://desktop.github.com/) and slowly transition to the Git command-line utility.

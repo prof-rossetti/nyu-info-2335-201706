@@ -1,14 +1,18 @@
 # Contributor's Guide
 
-This document describes instructions and best practices for contributing to this repository. Fork this repository, revise content, then submit.
+This document describes instructions and best practices for contributing to this repository.
+
+Fork the course repository, revise content, then submit.
 
 > NOTE: All contributors must abide by [course policies](/POLICIES.md).
 
 > NOTE: Most files in this repository are written in a syntax called Markdown. For reference, see this [Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
 
+> NOTE: Please familiarize yourself with the [Git CLI Overview](/notes/git/cli.md) before attempting Git CLI-related sections of this guide.
+
 ## Forking Process
 
-Fork this repository via the GitHub.com interface to create a copy under the ownership of your own GitHub user:
+Fork the course repository via the GitHub.com interface to create a copy under the ownership of your own GitHub user:
 
 ![A screencast depicting a user clicking the "Fork" button at the top right of the course repository page.](/admin/forking.gif)
 
@@ -26,6 +30,14 @@ Add or revise files using the online interface. For example:
 
 ### Via Git CLI
 
+For additional support in performing these processes, reference the [Git CLI Overview](/notes/git/cli.md), but skip the first section titled "Initialize Local Repository".
+
+[Configuring Remotes](#configuring-remotes) is a process you should perform once following an initial "clone" or download of the course repository to your local machine.
+
+[Updating your Fork](#updating-your-fork) is a process you should perform before attempting to revise contents of the course repository. You are encouraged to also update your fork at the beginning of class, or any other time you would like your fork to reflect the most up-to-date information from the course repository.
+
+[Revising Content](#revising-content) is a process you should perform only after updating your fork, to prepare a project or some other course content for submission.
+
 #### Configuring Remotes
 
 Navigate to your Desktop, or some other directory where you would like to download the course repository:
@@ -38,14 +50,14 @@ cd ~/Desktop # or some other directory where you'd like to download the reposito
 cd C:\Users\YOUR_USERNAME\Desktop\ # where YOUR_USERNAME is the name of the user currently operating your local machine
 ```
 
-Clone your fork to your local machine:
+Clone your remote fork to your local machine:
 
 ```` sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git # feel free to use the SSH version instead only if you've done this kind of thing before
+git clone https://github.com/YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git # feel free to use the SSH version if you've done this kind of thing before: git@github.com:YOUR_GITHUB_USERNAME/nyu-info-2335-70-201706.git
 cd nyu-info-2335-70-201706/
 ````
 
-If this is the first time you are downloading the fork, also add a remote to track changes from the original course repository:
+If this is the first time you are downloading the fork, also add a remote address to track changes from the original course repository:
 
 ```` sh
 git remote -v # lists all current remotes. you should see "origin" here pointing to your fork.
@@ -55,7 +67,7 @@ git remote -v # you should now also see an "upstream" remote pointing to the ori
 
 #### Updating your Fork
 
-If the course repository has changed since you last interacted with it (most situations), update your local repository by pulling changes from the course repository:
+If the course repository has changed since you last interacted with it (most situations), update your local fork by pulling changes from the "upstream" course repository:
 
 ```` sh
 git branch # to see which branch you are on (if you are using branches)

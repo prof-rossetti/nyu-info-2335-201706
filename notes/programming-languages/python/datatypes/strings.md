@@ -35,6 +35,8 @@ Example string functions:
 ```python
 "Hello" + " " + "World" #> "Hello World" (string concatenation)
 
+"{0} {1}".format("Hello", "World") #> "Hello World" (string interpolation)
+
 "hello world".upper() #> "HELLO WORLD"
 
 "Hello World".lower() #> "hello world"

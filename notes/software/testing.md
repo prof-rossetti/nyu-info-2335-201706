@@ -22,6 +22,12 @@ Well-tested applications in general tend to be of a higher quality than untested
 
 Written expectations and descriptions of desired functionality mitigate risks of "brain drain" over time as development teams experience attrition. In this way, well-tested applications tend to be easier to maintain over time.
 
+#### Test-driven Development (TDD)
+
+Sometimes software developers write tests after completing the development process. In other cases, developers write tests before and during the development process. This latter approach is called **test-driven development (TDD)**. When following TDD, tests become a bridge between definitions of desired functionality (i.e. "the app should do xyz") and explicit checks for that functionality.
+
+Your professor prefers to practice TDD and a related approach of **document-driven development** whereby the software development process follows the testing process which in-turn follows from the process of writing the software's documentation (most likely in a `README.md` file).
+
 ### Continuous Integration
 
 Test automation enables and drives automated software release processes referred to as **Continuous Integration (CI)**. Often a new version of the software will not be released unless all automated tests have passed. This helps prevent potential bugs from reaching users.

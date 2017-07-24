@@ -6,7 +6,7 @@ Preliminary example project ideas include:
 
   + [Social Media API Client (Twitter)](examples/twitter-api-client/project-example.md)
   + Weather API Client
-  + Stock Market API Client
+  + [Stock Market API Client](examples/stock-market-api-client/project-example.md)
   + [Email API Client](examples/email-api-client/project-example.md)
   + Stock-trading Algorithm
   + Database-connected CRUD Application

@@ -1,6 +1,6 @@
 # Python Language Overview
 
-### The `datetime` Module
+## The `datetime` Module
 
 Reference:
 

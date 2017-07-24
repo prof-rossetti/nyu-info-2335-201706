@@ -1,6 +1,6 @@
 # Python Language Overview
 
-### The `tweepy` Package
+## The `tweepy` Package
 
 Reference:
 
@@ -12,7 +12,7 @@ Reference:
   + [API Reference](http://tweepy.readthedocs.io/en/v3.5.0/api.html#api-reference)
   + [Pagination](http://tweepy.readthedocs.io/en/v3.5.0/code_snippet.html#pagination)
 
-#### Prerequisites
+### Prerequisites
 
 Create a Twitter Account. Add your phone number to your Twitter Account, or else you won't be allowed to create a Twitter Application.
 
@@ -25,7 +25,7 @@ After creating a new application, click on the "Keys and Access Tokens" tab, and
   + `TWITTER_ACCESS_TOKEN`
   + `TWITTER_ACCESS_TOKEN_SECRET`
 
-#### Installation
+### Installation
 
 Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party package called `tweepy`, which provides some useful tweeting capabilities. :bird: :bird:
 
@@ -39,7 +39,7 @@ pip3 install tweepy
 pip install tweepy
 ````
 
-#### Usage
+### Usage
 
 List your recent tweets:
 

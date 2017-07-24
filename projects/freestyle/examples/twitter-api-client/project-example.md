@@ -8,7 +8,7 @@ For optional further exploration, also keep a CSV file or database inventory of 
 
   1. [Twitter API](https://dev.twitter.com/rest/public)
   1. [Twitter API Libraries for Python](https://dev.twitter.com/resources/twitter-libraries#python)
-  1. [The `tweepy` Package](/notes/programming-languages/python/packages/tweepy.md)
+  1. [The `tweepy` Python Package](/notes/programming-languages/python/packages/tweepy.md)
 
 ## Proposal Phase
 

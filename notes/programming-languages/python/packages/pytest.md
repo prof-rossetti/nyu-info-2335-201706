@@ -1,6 +1,6 @@
 # Python Language Overview
 
-### The `pytest` Package
+## The `pytest` Package
 
 Reference:
 
@@ -12,7 +12,7 @@ Reference:
   + http://python-guide-pt-br.readthedocs.io/en/latest/writing/tests/#py-test
 
 
-#### Installation
+### Installation
 
 Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party module called `pytest`, which provides some useful testing capabilities.
 
@@ -26,7 +26,7 @@ pip3 install pytest
 pip install pytest
 ````
 
-#### Usage
+### Usage
 
 To setup these examples, create a new directory on your Desktop called `testing123` and navigate there from your command line, then create files called `my_script.py` and `my_test.py` and place inside the following contents, respectively:
 

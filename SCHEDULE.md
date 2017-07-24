@@ -40,21 +40,25 @@
   + [Reading and Writing Files in Python](/notes/programming-languages/python/file-management.md)
   + ["CRUD App" Project](/projects/crud-app/project.md)
 
-
-
-
-
-
-
-
-
-
-
-
 ### Class 7 - Wednesday 2017-07-19
 
   + [Software Licensing Overview](/notes/software/licensing.md), including Open Source Software
   + ["CRUD App" Project (cont'd)](/projects/crud-app/project.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Class 8 - Monday 2017-07-24
 
@@ -67,16 +71,17 @@
 
 ### Class 9 - Wednesday 2017-07-26
 
-  + Survey of Open Source Python Packages
-  + "Freestyle" Project - Proposal
+  + [Hardware Overview](/notes/hardware/notes.md), including [Remote Servers Overview](/notes/hardware/servers.md) and [Heroku Overview](/notes/hardware/heroku.md)
+  + [Survey of Open Source Python Packages](/notes/programming-languages/python/packages)
+  + ["Freestyle" Project](/projects/freestyle/project.md) - Proposal Phase
 
 ### Class 10 - Monday 2017-07-31
 
-  + "Freestyle" Project - Implementation
+  + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
 
 ### Class 11 - Wednesday 2017-08-02
 
-  + "Freestyle" Project - Implementation
+  + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
   + "Retrospective" Exercise
   + Final Exam Preparation
 

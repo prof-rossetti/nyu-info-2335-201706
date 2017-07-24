@@ -63,20 +63,20 @@
 ### Class 8 - Monday 2017-07-24
 
   + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions) before or sometime during beginning of class
-  + Code Review and Refactoring
+  + Code Review and [Refactoring](/notes/software/refactoring.md)
   + [Software Testing](/notes/software/testing.md)
   + [Testing in Python](notes/programming-languages/python/testing.md)
-  + Object-oriented Programming
-  + Classes and Inheritance in Python
 
 ### Class 9 - Wednesday 2017-07-26
 
-  + [Hardware Overview](/notes/hardware/notes.md), including [Remote Servers Overview](/notes/hardware/servers.md) and [Heroku Overview](/notes/hardware/heroku.md)
-  + [Survey of Open Source Python Packages](/notes/programming-languages/python/packages)
   + ["Freestyle" Project](/projects/freestyle/project.md) - Proposal Phase
+  + [Survey of Open Source Python Packages](/notes/programming-languages/python/packages)
+  + [Hardware Overview](/notes/hardware/notes.md), including [Remote Servers Overview](/notes/hardware/servers.md) and [Heroku Overview](/notes/hardware/heroku.md)
 
 ### Class 10 - Monday 2017-07-31
 
+  + Object-oriented Programming
+  + Classes and Inheritance in Python
   + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
 
 ### Class 11 - Wednesday 2017-08-02

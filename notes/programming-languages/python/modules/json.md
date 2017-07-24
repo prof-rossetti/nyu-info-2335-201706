@@ -18,3 +18,5 @@ person = {
 
 json.dumps(person)
 ```
+
+... or vice-versa using `json.loads()` to convert a JSON string into a dictionary.

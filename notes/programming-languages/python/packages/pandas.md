@@ -1,6 +1,6 @@
 # Python Language Overview
 
-> This guide was written by @mz888!
+> This guide was written by @mz888! Also reference the ["Pandas" Exercise](/exercises/pandas-practice/exercise.md)!
 
 ## The `pandas` Package
 
@@ -12,11 +12,15 @@ Reference:
 
 > NOTE: `pandas` supports Python 2.7 & 3.4+
 
+### Installation
+
 First install the package using pip, if necessary:
 
 ```` sh
 pip install pandas
 ````
+
+### Usage
 
 #### Reading Data into DataFrames
 
@@ -41,7 +45,7 @@ df
 #> 2    3      c
 
 #Pandas also offers useful functions that read Excel and CSV files directly into DataFrames, complete with column headings
-stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx') # read a pre-saved file called 'jeter_stats'- you can use your own or see the ["pandas exercise"](/exercises/pandas-practice/exercise.md) to follow along!
+stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx') # read a pre-saved file called 'jeter_stats' - you can use your own or see the "Pandas" Exercise to follow along!
 stats.head() # we can use the head() function to preview the data
 #>    year  games  at_bats  runs  hits  walks
 #> 0  1995     15       48     5    12      3
@@ -58,7 +62,7 @@ Now that we can read data into DataFrames, let's do something with it. The examp
 ```python
 import pandas as pd
 
-stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx') # read a pre-saved file called 'jeter_stats'- you can use your own or see the ["pandas exercise"](/exercises/pandas-practice/exercise.md) to follow along!
+stats = pd.read_excel(r'C:\Users\Mike\Desktop\jeter_stats.xlsx') # read a pre-saved file called 'jeter_stats' - you can use your own or see the "Pandas" Exercise to follow along!
 stats['games'] # we can reference individual columns with their names
 #> 0      15
 #> 1     157

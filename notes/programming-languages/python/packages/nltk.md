@@ -13,13 +13,17 @@ Reference:
 
 > NOTE: `nltk` supports Python 2.7 & 3.4, 3.5
 
+### Installation
+
 First install the package using pip, if necessary:
 
 ```` sh
 pip install nltk
 ````
 
-### Sentiment Analysis
+### Usage
+
+#### Sentiment Analysis
 
 One of the most widely used NLP techniques is Sentiment Analysis. One of the modules available from `nltk` is the Vader Sentiment Analyzer, a relatively simple, vocabulary-based tool for measuring sentiment.
 
@@ -44,7 +48,7 @@ sid.polarity_scores(negative)
 #> {'neg': 0.559, 'compound': -0.5859, 'neu': 0.441, 'pos': 0.0}
 ```
 
-### Entity Identification
+#### Entity Identification
 
 Let's say we want to find instances of people, places, or other proper nouns in a document. This NLP task, called "Named Entity Extraction," can also be implemented with `nltk`.
 

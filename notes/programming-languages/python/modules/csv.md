@@ -1,6 +1,6 @@
 # Python Language Overview
 
-### The `csv` Module
+## The `csv` Module
 
 Reference: https://docs.python.org/3/library/csv.html.
 
@@ -8,7 +8,7 @@ Use the `csv` module to process data stored in Comma Separated Values (CSV) form
 
 To setup these examples, create a new directory on your Desktop called `csv-mgmt` and navigate there from your command line. Create a Python script in that directory called `my_script.py` and place inside it contents from each of the following sections, respectively.
 
-## Writing CSV Files
+### Writing CSV Files
 
 ```python
 import csv
@@ -30,7 +30,7 @@ with open(csv_file_path, "w") as csv_file:
 #> New Haven,Ravens
 ```
 
-## Reading CSV Files
+### Reading CSV Files
 
 ```python
 import csv

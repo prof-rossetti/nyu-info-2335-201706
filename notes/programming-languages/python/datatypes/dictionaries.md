@@ -40,7 +40,7 @@ Example dictionaries:
 {"first":"Santa", "last":"Claus", "message":"Ho Ho Ho"}
 ```
 
-Access individual object elements by their key:
+Access individual object attributes by their key:
 
 ```python
 person = {
@@ -57,21 +57,24 @@ person["stops"] #> ["New York", "Denver", "San Francisco"]
 person["stops"][1] #> "Denver" (an array is still an array, even if it exists inside a dictionary!)
 ```
 
-Add or remove items from an object:
+Add or update or remove attributes from an object:
 
 ```python
 person = {
     "first": "Santa",
     "last": "Claus",
     "message": "Ho Ho Ho",
-    "stops": ["New York", "Denver", "San Francisco"]
+    "stops": ["New York", "Denver", "San Francisco"],
+    "fav_color": "blue"
 }
 
 person["wife"] = "Mrs. Claus" # this is mutating
 
+person["fav_color"] = "red" # this is mutating
+
 del person["stops"] # this is mutating
 
-person #> {'first': 'Santa', 'last': 'Claus', 'message': 'Ho Ho Ho', 'wife': 'Mrs. Claus'}
+person #> {'first': 'Santa', 'last': 'Claus', 'message': 'Ho Ho Ho', 'wife': 'Mrs. Claus', 'fav_color': 'red' }
 ```
 
 Make use of built-in Dictionary methods for easier data-processing:

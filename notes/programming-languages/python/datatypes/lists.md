@@ -76,6 +76,14 @@ arr.append("e") # this is a mutating operation
 arr #> ["a", "b", "c", "d", "e"]
 ```
 
+Remove an element from a list by providing the index of the item you would like to remove:
+
+```python
+arr = ["a", "b", "c", "d"]
+del arr[1] # this is a mutating operation
+arr #> ['a', 'c', 'd']
+```
+
 Concatenate two lists:
 
 ```python

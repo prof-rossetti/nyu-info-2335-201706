@@ -35,7 +35,7 @@ Python can be run on the "server-side" (i.e. on your computer or some other serv
     + [Dates and Times](datatypes/dates-and-times.md)
     + [Arrays, a.k.a "Lists"](datatypes/lists.md) (Intermediate Concept)
     + [Objects, a.k.a "Dictionaries"](datatypes/dictionaries.md) (Intermediate Concept)
-    + Classes - TBA (Intermediate Concept)
+    + [Classes](datatypes/classes.md) (Intermediate Concept)
   + [Control Flow](control-flow.md)
   + [Errors](errors.md) (Intermediate Concept)
   + [File Management](file-management.md) (Intermediate Concept)

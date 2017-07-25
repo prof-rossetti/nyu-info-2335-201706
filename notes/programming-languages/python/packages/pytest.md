@@ -23,6 +23,8 @@ pip3 install pytest
 pip install pytest
 ````
 
+You can use this package from the command line or from within a script. The examples below depict usage from the command-line by invoking `pytest` from the software repository's root directory.
+
 ### Usage
 
 To setup these examples, create a new directory on your Desktop called `testing123` and navigate there from your command line, then create files called `my_script.py` and `my_test.py` and place inside the following contents, respectively:
@@ -83,3 +85,5 @@ if __name__ == "__main__": # "if this script is run from the command-line"
 After your repository meets these conventions, you should be able to load application from within your test without invoking parts of it what would prompt users for input.
 
 > NOTE: the `pytest` docs say you shouldn't need to also add a `tests/__init__.py` file, but your professor found the need to do so in order to suppress load errors.
+
+Once you have setup the example, run `pytest` from the repository's root directory.

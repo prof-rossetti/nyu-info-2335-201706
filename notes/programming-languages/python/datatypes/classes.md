@@ -8,9 +8,9 @@ Reference:
   + https://docs.python.org/3/tutorial/classes.html#class-objects
   + https://www.tutorialspoint.com/python/python_classes_objects.htm
 
-A **class** is a representation of one or more objects which share the same or similar properties. Each class is like a its own custom data type.
+A **class** is a representation of one or more objects which share the same or similar properties. Each class is like its own custom data type with properties defined by the developer.
 
-Every Python class' definition includes a specific specific function called `__init__()` for the purpose of initializing, or creating a new instance, or member of that object class.
+In Python, class definition requires a specific function called `__init__()` to initialize, or create a new member of the object class.
 
 ### Usage
 
@@ -43,7 +43,7 @@ class BaseballTeam():
 
 After defining an object class, create a new member of that object class. This is called "instantiating", or "initializing", or creating an "instance" of the object class.
 
-Normally we would reference the class from another file by importing it, but for example purposes, place the following contents at the bottom of the `baseball_team.py` script:
+Normally we would reference the class from another file by importing it (e.g. `from baseball_team import BaseballTeam`), but for example purposes, place the following contents at the bottom of the `baseball_team.py` script:
 
 ```python
 attributes = {
@@ -78,7 +78,7 @@ It is possible for a class to "inherit" its properties and functionality from it
 
 ### Usage
 
-To setup this example, create a new file in the `class-time` directory called `inheritance_example.py` or `team.py` or something. Inside it, place the following contents:
+To setup this example, create a new file in the `class-time` directory called something like `inheritance_example.py` or `team.py`. Inside it, place the following contents:
 
 #### Definition
 
@@ -110,6 +110,8 @@ class BaseballTeam(Team):
         super().__init__(params) # equivalent to: `Team.__init__(self, params)`
 
 ```
+
+Normally, each class definition would exist inside its own file, but we are defining both in the same file for example purposes.
 
 #### Instantiation
 

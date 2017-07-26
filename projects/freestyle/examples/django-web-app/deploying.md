@@ -34,10 +34,10 @@ You may see an error message like:
 
     Error while running '$ python manage.py collectstatic --noinput'.
 
-To fix it, ________:
+To fix it, follow further guidance from the remainder of the error message which instructs us to run:
 
 ```shell
-heroku config:set DISABLE_COLLECTSTATIC=1
+heroku config:set DISABLE_COLLECTSTATIC=1 # this configures the server to not attempt to run something called collectstatic ... whatever that is.
 ```
 
 Try to re-deploy:
@@ -55,3 +55,13 @@ Visit the application "in production" at the remote server's URL. If you forget 
 ```shell
 heroku open # this will open the application in a new browser window
 ```
+
+![a screenshot of a webpage located at https://polar-hamlet-46720.herokuapp.com/. it displays an error message including content "An error occurred in the application and your page could not be served. If you are the application owner, check your logs for details."](application-error.png)
+
+Not Good. The error message says something about the logs, so anytime we need to check our remote server's logs, we can run:
+
+```shell
+heroku logs
+```
+
+We see an error in the logs saying something like "No web processes running". We need to configure our remote server to run a web process, or "webserver".

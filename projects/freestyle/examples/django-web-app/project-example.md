@@ -37,4 +37,6 @@ Example Information Outputs (depending on the chosen objectives):
 
 ## Implementation Phase
 
-Follow the [setup guide].
+First, follow the [setup guide](setup.md).
+
+Then follow the [implementation guide](implementation.md).

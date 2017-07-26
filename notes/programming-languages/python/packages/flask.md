@@ -2,10 +2,6 @@
 
 ## The `flask` Package
 
-Prerequisites:
-
-  + Foundational understanding of the Internet and HTML :warning:
-
 Reference:
 
   + [Website](http://flask.pocoo.org/)
@@ -32,4 +28,4 @@ pip install flask
 
 ### Usage
 
-TBA - To setup these examples, navigate to your Desktop from the command-line.
+Follow the [official tutorial](http://flask.pocoo.org/docs/0.12/tutorial/).

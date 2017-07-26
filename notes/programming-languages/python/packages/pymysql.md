@@ -2,11 +2,6 @@
 
 ## The `PyMySQL` Package
 
-Prerequisites:
-
-  + Foundational understanding of Databases and SQL :warning:
-  + Environment Variables Overview and [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
-
 Reference:
 
   + [Package](https://pypi.python.org/pypi/PyMySQL)

@@ -2,11 +2,6 @@
 
 ## The `psycopg2` Package
 
-Prerequisites:
-
-  + Foundational understanding of Databases and SQL :warning:
-  + Environment Variables Overview and [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
-
 Reference:
 
   + [Package](https://pypi.python.org/pypi/psycopg2)
@@ -19,7 +14,7 @@ Reference:
   + [`cursor`](http://initd.org/psycopg/docs/cursor.html)
   + [Transactions Control](http://initd.org/psycopg/docs/usage.html#transactions-control)
 
-The `psycopg2` package provides a way for Python to interface with [PostgreSQL](https://www.postgresql.org/) databases.
+The `psycopg2` ("psycho pee gee") package provides a way for Python to interface with [PostgreSQL](https://www.postgresql.org/) databases.
 
 > Psycopg is the most popular PostgreSQL adapter for the Python programming language. At its core it fully implements the Python DB API 2.0 specifications. Several extensions allow access to many of the features offered by PostgreSQL. - [Psycopg website](http://initd.org/psycopg/)
 

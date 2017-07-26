@@ -15,6 +15,10 @@ Reference: http://docs.python-requests.org/en/master/.
 First install the packages using pip, if necessary:
 
 ```` sh
+# For Homebrew-installed Python 3.x on Mac OS:
+pip3 install requests
+
+# All others:
 pip install requests
 ````
 

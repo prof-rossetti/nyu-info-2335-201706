@@ -2,11 +2,6 @@
 
 ## The `django` Package
 
-Prerequisites:
-
-  + Foundational understanding of Databases and SQL :warning:
-  + Foundational understanding of the Internet and HTML :warning:
-
 Reference:
 
   + [Website](https://www.djangoproject.com/)
@@ -32,6 +27,8 @@ pip3 install django
 pip install django
 ````
 
+This provides access to the `django-admin` command-line utility.
+
 ### Usage
 
-TBA - To setup these examples, navigate to your Desktop from the command-line.
+Follow instructions in the [Django Project Example](/projects/freestyle/examples/email-api-client/project-example.md).

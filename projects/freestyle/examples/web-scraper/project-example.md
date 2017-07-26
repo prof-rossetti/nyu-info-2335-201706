@@ -8,7 +8,7 @@ For optional further exploration, deploy your scraper to a Heroku server and sch
 
 ## Prerequisites
 
-  1. [The `requests` Python Package](/notes/programming-languages/python/packages/requests.md) OR The `urllib` Module's [`urllib.parse`](https://docs.python.org/3/library/urllib.parse.html#module-urllib.parse) and [`urllib.request`](https://docs.python.org/3/library/urllib.request.html#module-urllib.request)
+  1. [The `requests` Python Package](/notes/programming-languages/python/packages/requests.md) OR [The `urllib` Module](/notes/programming-languages/python/modules/urllib.md)'s [`urllib.parse`](https://docs.python.org/3/library/urllib.parse.html#module-urllib.parse) and [`urllib.request`](https://docs.python.org/3/library/urllib.request.html#module-urllib.request)
   1. [The `BeautifulSoup` Python Package](/notes/programming-languages/python/packages/beautifulsoup.md)
 
 ## Proposal Phase

@@ -13,7 +13,7 @@ Preliminary example project ideas include:
   + [Web-based CRUD Application (using the Django framework)](examples/django-web-app/project-example.md)
   + [Web-scraping Application](examples/web-scraper/project-example.md)
   + PDF-parsing Application
-  + Data Processing Application
+  + Data Processing Application (perhaps using [Pandas](/notes/programming-languages/python/packages/pandas.md))
   + [Natural Language Processing Application](examples/natural-language-processor/project-example.md)
   + Statistical Modeling Application
   + etc.
@@ -32,6 +32,7 @@ Optionally work in a team comprised of a small handful of students (perhaps at m
   1. [Software Licenses Overview](/notes/software/licensing.md)
   1. [Environment Variables Overview](/notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
   1. [Accessing Environment Variables using the `os` Module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
+  1. [APIs Overview](/notes/software/apis.md) -- if your software needs to issue requests to a web service or API
   1. [Heroku Overview](/notes/hardware/heroku.md) -- if you'd like to run your software on a remote server
 
 ## Instructions
@@ -62,11 +63,11 @@ The software's source code should be hosted on GitHub.com in its own repository 
 
   + Contains a file named `README.md` which provides instructions for how to install and use the software.
   + Contains a license named `LICENSE.md` or `LICENSE.txt` or `LICENSE` which specifies copyright holder(s) and terms of use. You are recommended to choose from one of the standard licenses available within the GitHub.com user interface when you create a new repository.
-  + Contains a directory called `planning` which contains artifact(s) from the research, planning, and proposal processes.
+  + Contains a directory called `planning` which contains information and artifact(s) resulting from the research, planning, and proposal processes. Somewhere inside this directory must exist a restatement of your system's objectives, information inputs, and information outputs.
   + Contains a directory called `app` (or some other name of choice) which contains one or more Python files to perform the application's functionality. The Python files may exist within various sub-directories of the `app` directory, if appropriate.
   + Contains a commit history which reflects incremental development progress, perhaps corresponding with various checkpoint steps if you have chosen one of the example projects.
 
-If the software reads or writes files to represent information inputs and/or outputs, the data files should exist in a directory called `data` and should in most cases be excluded from version control using a `data/.gitignore` file. Ask the professor if you're not sure if or how this applies to your program.
+If the software reads or writes data files which represent information inputs and/or outputs, the data files should exist in a directory called `data` and should in most cases be excluded from version control using a `data/.gitignore` file. Ask the professor if you're not sure if or how this applies to your program.
 
 If the software has tests, they should exist in a directory called `test` or `tests` or another name of choice. And the `README.md` should contain instructions for how to run them.
 

@@ -6,6 +6,7 @@ Prerequisites:
 
   + Foundational understanding of Databases and SQL :warning:
   + Install MySQL on your local machine. If you are on a Mac, use Homebrew: `brew install mysql` and follow the post-installation instructions.
+  + Environment Variables Overview and [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
 
 Reference:
 
@@ -32,4 +33,32 @@ pip install PyMySQL
 
 ### Usage
 
-TBA
+As a prerequisite, make sure you can connect to your local MySQL installation via a GUI or command-line interface.
+
+Then place the following contents inside a new Python script:
+
+```python
+import os
+import pymysql
+
+MYSQL_ROOT_USER_PASSWORD = os.environ["MYSQL_ROOT_USER_PASSWORD"]
+
+# OPEN A DATABASE CONNECTION
+
+connection = pymysql.connect(host='localhost', port=3306, user='root', passwd=MYSQL_ROOT_USER_PASSWORD) # , db='mysql'
+
+# PERFORM A DATABASE OPERATION
+
+try:
+    with connection.cursor() as cursor:
+        my_query = "SELECT host, user, select_priv, super_priv FROM mysql.user" # a.k.a "what local database users exist?". NOTE: `mysql.user` is a built-in table, but you can execute any SQL here instead.
+
+        cursor.execute(my_query)
+
+        print("host, user, select_priv, super_priv")
+        print("------------------------------------")
+        for row in cursor.fetchall():
+           print(row)
+finally:
+    connection.close()
+```

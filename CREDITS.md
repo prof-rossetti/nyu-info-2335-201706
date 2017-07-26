@@ -50,6 +50,7 @@ NYU Classes configuration for instructors:
   + [Getting and Setting Environment Variables in Windows](https://superuser.com/questions/79612/setting-and-getting-windows-environment-variables-from-the-command-prompt/79614#79614)
   + [Testing in Python](http://python-guide-pt-br.readthedocs.io/en/latest/writing/tests/)
   + [Using `pandas-datareader` package to request data from the Google Finance API](http://www.learndatasci.com/python-finance-part-yahoo-finance-api-pandas-matplotlib/)
+  + [Django and Virtual Environments](https://askubuntu.com/a/880002)
 
 ### Groceries Data
 

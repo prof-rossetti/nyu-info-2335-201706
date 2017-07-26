@@ -36,3 +36,7 @@ Example Information Outputs (depending on the chosen objectives):
   + A desired terminal-output of choice.
   + A CSV file or database inventory of Twitter tweets and/or hashtags and/or usernames.
   + An email alert of daily activity and usage statistics from your Twitter network (e.g the number of users following you).
+
+## Implementation Phase
+
+Follow the usage example in the `tweepy` package overview.

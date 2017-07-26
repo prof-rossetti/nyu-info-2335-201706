@@ -1,4 +1,4 @@
-# Freestyle Project Example - CRUD Application w/ Web Interface and Database (Django and PostgreSQL Implementation)
+# Freestyle Project Example - CRUD Application w/ Web Interface and SQL Database (Django and PostgreSQL Implementation)
 
 ## Implementation
 

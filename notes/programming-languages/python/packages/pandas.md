@@ -23,6 +23,10 @@ Reference:
 First install the package using pip, if necessary:
 
 ```` sh
+# For Homebrew-installed Python 3.x on Mac OS:
+pip3 install pandas
+
+# All others:
 pip install pandas
 ````
 

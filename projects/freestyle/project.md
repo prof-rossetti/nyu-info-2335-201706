@@ -11,11 +11,12 @@ Preliminary example project ideas include:
   + Stock-trading Algorithm (building upon the Stock Market API Client)
   + [Database-connected CRUD Application](examples/sql-crud-app/project-example.md)
   + [Web-based CRUD Application (using the Django framework)](examples/django-web-app/project-example.md)
-  + [Web-scraping Application](__________)
+  + [Web-scraping Application](examples/web-scraper/project-example.md)
   + PDF-parsing Application
-  + [Natural Language Processing Application](__________)
+  + Data Processing Application
+  + [Natural Language Processing Application](examples/natural-language-processor/project-example.md)
   + Statistical Modeling Application
-  + etc., etc.
+  + etc.
 
 Optionally work in a team comprised of a small handful of students (perhaps at most three or four). Feel free to discuss ideas and find teammates in the `#freestyle` Slack channel. If there are any teams, they should be formed before the end of the project's Proposal Phase (see details below). Also note: team projects should have greater scope than individual projects, and each individual team member is still responsible for contributing a significant portion of the project's source code.
 

@@ -2,6 +2,8 @@
 
 ## Syntax and Style
 
+Reference: https://www.python.org/dev/peps/pep-0008/ for style guidance.
+
 ### Indentation
 
 Python enforces a line indentation style which distinguishes it from other languages. The indentation-level of a given line of Python code is very important. Always start at the left-margin, and if you need to indent a new line of code, do so using four spaces:

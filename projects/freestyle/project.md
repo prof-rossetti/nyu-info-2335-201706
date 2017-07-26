@@ -4,16 +4,18 @@ Create an information system which uses application software to satisfy your own
 
 Preliminary example project ideas include:
 
-  + [Social Media API Client (Twitter)](examples/twitter-api-client/project-example.md)
+  + [Social Media (e.g. Twitter) API Client ](examples/twitter-api-client/project-example.md)
   + [Weather API Client](examples/weather-api-client/project-example.md)
   + [Stock Market API Client](examples/stock-market-api-client/project-example.md)
   + [Email API Client](examples/email-api-client/project-example.md)
   + Stock-trading Algorithm (building upon the Stock Market API Client)
-  + Database-connected CRUD Application
-  + Web-based CRUD Application
+  + [Database-connected CRUD Application](examples/sql-crud-app/project-example.md)
+  + [Web-based CRUD Application (using the Django framework)](examples/django-web-app/project-example.md)
+  + [Web-scraping Application](__________)
   + PDF-parsing Application
-  + Natural Language Processing Application
+  + [Natural Language Processing Application](__________)
   + Statistical Modeling Application
+  + etc., etc.
 
 Optionally work in a team comprised of a small handful of students (perhaps at most three or four). Feel free to discuss ideas and find teammates in the `#freestyle` Slack channel. If there are any teams, they should be formed before the end of the project's Proposal Phase (see details below). Also note: team projects should have greater scope than individual projects, and each individual team member is still responsible for contributing a significant portion of the project's source code.
 

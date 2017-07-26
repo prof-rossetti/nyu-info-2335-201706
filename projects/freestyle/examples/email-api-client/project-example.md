@@ -38,7 +38,7 @@ Example Information Outputs (depending on the chosen objectives):
 
 Initialize a new repository on your Desktop called something like `my-email-app`, and add the required files including a `README.md` and a Python script called `app/email_me.py` to include some placeholder content. Then commit when you are ready to move on.
 
-Follow the [`sendgrid` Package Overview](notes/programming-languages/python/packages/sendgrid.md) to install `sendgrid` and paste the example usage code into the `app/email_me.py` script. Then commit when you are ready to move on.
+Follow the [`sendgrid` Package Overview](/notes/programming-languages/python/packages/sendgrid.md) to install `sendgrid` and paste the example usage code into the `app/email_me.py` script. Then commit when you are ready to move on.
 
 Follow the [setup guide](setup.md) to configure your local machine to use a SendGrid API key required by the `app/email_me.py` script.
 

@@ -55,6 +55,7 @@
 ### Class 9 - Wednesday 2017-07-26
 
   + [Classes and Inheritance in Python](/notes/programming-languages/python/datatypes/classes.md) and Object-oriented Programming
+  + [APIs](/notes/software/apis.md)
   + ["Freestyle" Project](/projects/freestyle/project.md) - Proposal Phase
   + [Survey of Open Source Python Packages](/notes/programming-languages/python/packages)
   + [Hardware Overview](/notes/hardware/notes.md), including [Remote Servers Overview](/notes/hardware/servers.md) and [Heroku Overview](/notes/hardware/heroku.md)

@@ -1,6 +1,6 @@
 # Freestyle Project Example - Natural Language Processor
 
-Use Python to perform Natural Language Processing
+Use Python to perform Natural Language Processing.
 
 For optional further exploration, store the results in a CSV file or a database, or send the results by email.
 

@@ -16,6 +16,7 @@ Preliminary example project ideas include:
   + Data Processing Application (perhaps using [Pandas](/notes/programming-languages/python/packages/pandas.md))
   + [Natural Language Processing Application](examples/natural-language-processor/project-example.md)
   + Statistical Modeling Application
+  + [Desktop GUI Application](examples/desktop-gui-app/project-example.md)
   + etc.
 
 Optionally work in a team comprised of a small handful of students (perhaps at most three or four). Feel free to discuss ideas and find teammates in the `#freestyle` Slack channel. If there are any teams, they should be formed before the end of the project's Proposal Phase (see details below). Also note: team projects should have greater scope than individual projects, and each individual team member is still responsible for contributing a significant portion of the project's source code.

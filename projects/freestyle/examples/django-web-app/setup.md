@@ -81,7 +81,7 @@ Notice your command-line prompt is now prepended with `(venv)`. This means comma
 
 ```shell
 # from within the (venv) virtual environment:
-pip install -r requirements.txt
+pip3 install -r requirements.txt # or use normal pip instead of pip3
 ```
 
 This way, our virtual environment now has access to the `django-admin` command-line utility. So its time to re-attempt to run the local webserver.

@@ -5,7 +5,6 @@
 Prerequisites:
 
   + Foundational understanding of Databases and SQL :warning:
-  + Install MySQL on your local machine. If you are on a Mac, use Homebrew: `brew install mysql` and follow the post-installation instructions.
   + Environment Variables Overview and [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
 
 Reference:
@@ -21,7 +20,9 @@ Run a `PyMySQL` application "in development" using a database server on your loc
 
 ### Installation
 
-First install `PyMySQL`, if necessary:
+As a prerequisite: install MySQL on your local machine, if necessary. If you are on a Mac, use Homebrew: `brew install mysql` and follow the post-installation instructions. Make sure you can connect to your local MySQL installation via a GUI or command-line interface. If attempting to connect from the command-line, try running `mysql -uroot` or `mysql -uroot -p`, depending on whether or not your "root" user has a password. Note the username and password you are using to connect.
+
+After demonstrating your ability to connect to a local MySQL installation, install `PyMySQL`, if necessary:
 
 ```` sh
 # For Homebrew-installed Python 3.x on Mac OS:
@@ -33,19 +34,22 @@ pip install PyMySQL
 
 ### Usage
 
-As a prerequisite, make sure you can connect to your local MySQL installation via a GUI or command-line interface.
-
-Then place the following contents inside a new Python script:
+Place the following contents inside a new Python script:
 
 ```python
 import os
 import pymysql
 
-MYSQL_ROOT_USER_PASSWORD = os.environ["MYSQL_ROOT_USER_PASSWORD"]
+MYSQL_ROOT_USER_PASSWORD = os.environ["MYSQL_ROOT_USER_PASSWORD"] # store your password as an environment variable to keep is secret!
 
-# OPEN A DATABASE CONNECTION
+# OPEN DATABASE CONNECTION
 
-connection = pymysql.connect(host='localhost', port=3306, user='root', passwd=MYSQL_ROOT_USER_PASSWORD) # , db='mysql'
+connection = pymysql.connect(
+  host='localhost',
+  port=3306,
+  user='root', # or perhaps a different MySQL username, depending on your installation
+  passwd=MYSQL_ROOT_USER_PASSWORD
+)
 
 # PERFORM A DATABASE OPERATION
 
@@ -60,5 +64,10 @@ try:
         for row in cursor.fetchall():
            print(row)
 finally:
+    # CLOSE DATABASE CONNECTION
     connection.close()
 ```
+
+Finally, run the script to see the results of your SQL query output into the terminal. Oh yea!
+
+Now that you know how to use Python to execute a SQL query, practice using Python to manage databases and tables, then populate them and query them.

@@ -8,7 +8,7 @@ The exam will be administered during a 90-minute portion of the final exam perio
 
 The exam consists primarily of free-response questions, but may also contain multiple-choice questions.
 
-Details about the contents of the final exam were announced on the last regular day of class, during the final exam preparation session.
+Details about the contents of the final exam will be announced during a final exam preparation session.
 
 ## Submission Instructions
 

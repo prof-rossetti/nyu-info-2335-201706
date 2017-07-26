@@ -26,6 +26,8 @@ Provision a new Heroku server:
 heroku apps:create example-email-app-py # use your own unique name instead of `example-email-app-py`, or omit the name and heroku will choose a fun one for you
 ```
 
+> NOTE: This command automatically associates our project repository with a new remote address called "heroku". Run `git remote -v` to verify the existence of a remote called "heroku".
+
 Provision the Heroku server to use the free "SendGrid" email service:
 
 ```shell

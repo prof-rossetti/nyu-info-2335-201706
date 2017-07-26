@@ -8,8 +8,13 @@ The `pandas` package is an extremely useful one for working with structured data
 
 Reference:
 
-  + http://pandas.pydata.org/pandas-docs/stable/
-  + https://github.com/pandas-dev/pandas
+  + [Website](http://pandas.pydata.org/)
+  + [Docs](http://pandas.pydata.org/pandas-docs/stable/)
+  + [Source](https://github.com/pandas-dev/pandas)
+  + [DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) - like a CSV
+  + [Input and Output](http://pandas.pydata.org/pandas-docs/stable/api.html#input-output)
+  + [`head()` and `tail()`](http://pandas.pydata.org/pandas-docs/stable/basics.html#head-and-tail)
+  + [`ix()`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.ix.html)
 
 > NOTE: `pandas` supports Python 2.7 & 3.4+
 
@@ -18,6 +23,10 @@ Reference:
 First install the package using pip, if necessary:
 
 ```` sh
+# For Homebrew-installed Python 3.x on Mac OS:
+pip3 install pandas
+
+# All others:
 pip install pandas
 ````
 

@@ -40,43 +40,48 @@
   + [Reading and Writing Files in Python](/notes/programming-languages/python/file-management.md)
   + ["CRUD App" Project](/projects/crud-app/project.md)
 
-
-
-
-
-
-
-
-
-
-
-
 ### Class 7 - Wednesday 2017-07-19
 
   + [Software Licensing Overview](/notes/software/licensing.md), including Open Source Software
   + ["CRUD App" Project (cont'd)](/projects/crud-app/project.md)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Class 8 - Monday 2017-07-24
 
   + [Submit "CRUD App" Project](/projects/crud-app/project.md#submission-instructions) before or sometime during beginning of class
-  + Code Review and Refactoring
+  + Code Review and [Refactoring](/notes/software/refactoring.md)
   + [Software Testing](/notes/software/testing.md)
   + [Testing in Python](notes/programming-languages/python/testing.md)
-  + Object-oriented Programming
-  + Classes and Inheritance in Python
 
 ### Class 9 - Wednesday 2017-07-26
 
-  + Survey of Open Source Python Packages
-  + "Freestyle" Project - Proposal
+  + ["Freestyle" Project](/projects/freestyle/project.md) - Proposal Phase
+  + [Survey of Open Source Python Packages](/notes/programming-languages/python/packages)
+  + [Hardware Overview](/notes/hardware/notes.md), including [Remote Servers Overview](/notes/hardware/servers.md) and [Heroku Overview](/notes/hardware/heroku.md)
 
 ### Class 10 - Monday 2017-07-31
 
-  + "Freestyle" Project - Implementation
+  + Object-oriented Programming
+  + Classes and Inheritance in Python
+  + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
 
 ### Class 11 - Wednesday 2017-08-02
 
-  + "Freestyle" Project - Implementation
+  + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
   + "Retrospective" Exercise
   + Final Exam Preparation
 

@@ -1,6 +1,6 @@
 # Python Language Overview
 
-### The `code` Module
+## The `code` Module
 
 Reference: https://docs.python.org/3/library/code.html.
 

@@ -27,4 +27,4 @@ Example Information Outputs (depending on the chosen objectives):
 
 ## Implementation Phase
 
-TBA
+Follow the usage example in the `ntlk` package overview.

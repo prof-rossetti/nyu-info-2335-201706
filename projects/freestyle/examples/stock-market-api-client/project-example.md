@@ -27,3 +27,7 @@ Example Information Outputs (depending on the chosen objectives):
   + A desired terminal-output of choice.
   + A CSV file or database of stock prices over time.
   + An email alert containing stock quotes.
+
+## Implementation Phase
+
+Follow the usage example in the `pandas_datareader` package overview.

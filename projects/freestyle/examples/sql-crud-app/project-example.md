@@ -38,4 +38,4 @@ Example Information Outputs (depending on the chosen objectives):
 
 ## Implementation Phase
 
-Follow a usage example from one of the database packages.
+Follow a usage example from one of the database package overviews.

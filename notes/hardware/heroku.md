@@ -39,6 +39,13 @@ which heroku #> /usr/local/bin/heroku
 where heroku #> ...
 ```
 
+> NOTE for Windows OS users who download the Heroku Toolbelt CLI (h/t @rjzap):
+>
+> The default installation settings will have a version of git checked as part of the install. You can uncheck the git portion of the download package to avoid any potential conflicts with the git already installed on your computer, it will not prevent the heroku package from running successfully.
+>
+> Once installed you have to change your directory to the download location to run the heroku commands. The filepath will be: `<your chosen download folder>\heroku\bin`.
+
+
 ## Authentication
 
 After installing Heroku Toolbelt, authenticate using your Heroku account credentials:
@@ -81,3 +88,5 @@ Check your application's server logs:
 ```` sh
 heroku logs
 ````
+
+> NOTE: In order to provision some services like databases and email, you may need to provide Heroku with billing information. You can expect to not be charged as long as you are using the free version of each of these services. Just be aware.

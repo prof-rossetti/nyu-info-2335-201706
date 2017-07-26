@@ -19,24 +19,20 @@ For optional further exploration, integrate any one of the other project example
 
 Example Objective(s):
 
-  + TBA
-  + TBA
-  + TBA
+  + Manage an inventory of products using a web-based interface
 
 Example Information Inputs (depending on the chosen objectives):
 
-  + TBA
-  + TBA
-  + TBA
+  + Information input by a user through the web interface
 
 Example Information Outputs (depending on the chosen objectives):
 
-  + TBA
-  + TBA
-  + TBA
+  + Perhaps some information presented via the web interface
 
 ## Implementation Phase
 
-First, follow the [setup guide](setup.md).
+First, follow the [setup guide](setup.md) to setup your project to be run on a local "development" webserver.
 
-Then follow the [implementation guide](implementation.md).
+Then, optionally follow the [deployment guide](setup.md) to setup your project to be run on a remote "production" webserver. This is perhaps the most rewarding part of creating a web application.
+
+Next, follow the [implementation guide](implementation.md) and consult with the professor to implement your own project's desired functionality.

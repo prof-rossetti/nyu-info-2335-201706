@@ -6,8 +6,12 @@ Adapted from the [Django Tutorial](https://docs.djangoproject.com/en/1.11/intro/
 
 ### Application Generation
 
-Generate a new application, for example one called `products_app` to manage an inventory of grocery products:
+Generate a new application, for example one called `products` or `products_app`, for example, to manage an inventory of grocery products:
 
 ```shell
 python3 manage.py startapp products_app
 ```
+
+### Application Development
+
+TBA - PostgreSQL Database configuration and Implementing CRUD Operations

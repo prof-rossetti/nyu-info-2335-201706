@@ -33,6 +33,6 @@ Example Information Outputs (depending on the chosen objectives):
 
 First, follow the [setup guide](setup.md) to setup your project to be run on a local "development" webserver.
 
-Then, optionally follow the [deployment guide](setup.md) to setup your project to be run on a remote "production" webserver. This is perhaps the most rewarding part of creating a web application.
+Then, optionally follow the [deployment guide](deploying.md) to setup your project to be run on a remote "production" webserver. This is perhaps the most rewarding part of creating a web application.
 
 Next, follow the [implementation guide](implementation.md) and consult with the professor to implement your own project's desired functionality.

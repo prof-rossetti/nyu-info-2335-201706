@@ -2,6 +2,8 @@
 
 Use Python to create a desktop application with a graphical user interface (GUI).
 
+![a screencast of using the program. a desktop window comes up. the user inputs some values and selects some things. then upon button click the terminal outputs the values of all selected items](demo.gif)
+
 For optional further exploration, integrate any one of the other project examples with a graphical user interface.
 
 ## Prerequisites
@@ -24,4 +26,4 @@ Example Information Outputs (depending on the chosen objectives):
 
 ## Implementation Phase
 
-Follow the usage example from the Tkinter package overview.
+Follow the usage example from the [`Tkinter` package overview](/notes/programming-languages/python/packages/tkinter.md).

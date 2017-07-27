@@ -12,7 +12,9 @@ Set a new environment variable called `NYU_INFO_2335`:
 
 ```shell
 # Mac Terminal:
-echo export NYU_INFO_2335="SecretPassword123" >> ~/.bash_profile
+echo export "NYU_INFO_2335=SecretPassword123" >> ~/.bash_profile
+# ... or more commonly, place inside ~/.bash_profile the following contents:
+# export NYU_INFO_2335="SecretPassword123"
 
 # Windows Command Prompt:
 set NYU_INFO_2335="SecretPassword123" # or use `setx NYU_INFO_2335="SecretPassword123"` to set this variable globally

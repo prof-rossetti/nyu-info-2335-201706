@@ -13,7 +13,7 @@ For optional further exploration, create a simple web-based interface for your d
 ## Prerequisites
 
   1. Foundational understanding of Databases and SQL :warning:
-  + [Environment Variables Overview](/notes/environment-variables/notes.md) and [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
+  1. [Environment Variables Overview](/notes/environment-variables/notes.md) and [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables).
   1. [The `psycopg2` Python Package](/notes/programming-languages/python/packages/psycopg.md) OR [The `PyMySQL` Python Package](/notes/programming-languages/python/packages/pymysql.md)
 
 ## Proposal Phase
@@ -38,4 +38,4 @@ Example Information Outputs (depending on the chosen objectives):
 
 ## Implementation Phase
 
-Follow a usage example from one of the database package overviews.
+Follow a usage example from one of the database package overviews (`psycopg2`, `PyMySQL`).

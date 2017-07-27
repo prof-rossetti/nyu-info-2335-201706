@@ -35,6 +35,7 @@ Optionally work in a team comprised of a small handful of students (perhaps at m
   1. [Accessing Environment Variables using the `os` Module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables) -- if your project requires secret passwords or API keys
   1. [APIs Overview](/notes/software/apis.md) -- if your software needs to issue requests to a web service or API
   1. [Heroku Overview](/notes/hardware/heroku.md) -- if you'd like to run your software on a remote server
+  1. [Tkinter Package Overview](/notes/programming-languages/python/packages/tkinter.md) -- if you'd like your software to have a user interface
 
 ## Instructions
 
@@ -62,10 +63,10 @@ The system must perform its functions using software written in Python. The soft
 
 The software's source code should be hosted on GitHub.com in its own repository which uses the following conventions:
 
-  + Contains a file named `README.md` which provides instructions for how to install and use the software.
+  + Contains a file named `README.md` which provides instructions for how to install and use the software. It must also specify which Python version to run it on (2.x vs 3.x).
   + Contains a license named `LICENSE.md` or `LICENSE.txt` or `LICENSE` which specifies copyright holder(s) and terms of use. You are recommended to choose from one of the standard licenses available within the GitHub.com user interface when you create a new repository.
-  + Contains a directory called `planning` which contains information and artifact(s) resulting from the research, planning, and proposal processes. Somewhere inside this directory must exist a restatement of your system's objectives, information inputs, and information outputs.
-  + Contains a directory called `app` (or some other name of choice) which contains one or more Python files to perform the application's functionality. The Python files may exist within various sub-directories of the `app` directory, if appropriate.
+  + Contains a file named `PLANNING.md` which restates your system's objectives, information inputs, and information outputs. If you would also like to share images and/or other artifacts resulting from the research, planning, and proposal processes, place these artifacts inside a directory called `planning`.
+  + Contains a directory called `app` (or some other name of choice) to include one or more Python scripts which perform the application's functionality. The Python scripts may exist within various sub-directories of the `app` directory, if appropriate. Ask the professor if you're not sure how this applies to your program.
   + Contains a commit history which reflects incremental development progress, perhaps corresponding with various checkpoint steps if you have chosen one of the example projects.
 
 If the software reads or writes data files which represent information inputs and/or outputs, the data files should exist in a directory called `data` and should in most cases be excluded from version control using a `data/.gitignore` file. Ask the professor if you're not sure if or how this applies to your program.

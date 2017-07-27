@@ -40,6 +40,6 @@ Initialize a new repository on your Desktop called something like `my-email-app`
 
 Follow the [`sendgrid` Package Overview](/notes/programming-languages/python/packages/sendgrid.md) to install `sendgrid` and paste the example usage code into the `app/email_me.py` script. Then commit when you are ready to move on.
 
-Follow the [setup guide](setup.md) to configure your local machine to use a SendGrid API key required by the `app/email_me.py` script.
+Follow the [setup guide](setup.md) to configure your local machine to use a SendGrid API key required by the `app/email_me.py` script. And demonstrate your ability to run the script from your local machine.
 
 Optionally follow the [deploying guide](deploying.md) to run the script on a Heroku server previously created during the setup process, and optionally to configure the server to send the email at specified intervals.

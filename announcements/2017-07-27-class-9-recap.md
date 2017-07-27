@@ -13,5 +13,3 @@ Have a great weekend, and see you next week.
 \- Professor Rossetti
 
 FYI - Last night after class I expanded upon the [`Tkinter` package overview](https://github.com/prof-rossetti/nyu-info-2335-70-201706/blob/master/notes/programming-languages/python/packages/tkinter.md), which now provides a robust example of how you might expect to create a graphical user interface for your programs. So check it out if you're looking for more ways to have fun with Python.
-
-PS - If you care about badges, I will look favorably upon are encouraged to share links to additional APIs and post your own package overviews

@@ -23,6 +23,8 @@ Heroku for Python Reference:
 
 > Security Alert: consider eventually enabling multi-factor authentication on your Heroku account to keep your account and your servers safe from intrusion. Don't worry about doing this now if you don't feel like it, but take a moment to do so when you have time.
 
+> NOTE: In order to provision some services like databases and email, you may need to provide Heroku with billing information. You can expect to not be charged as long as you are using the free version of each of these services. Just be aware.
+
 ## Installation
 
 In addition to using Heroku's online platform, we will use the [Heroku Toolbelt](https://devcenter.heroku.com/articles/heroku-cli) command-line utility to interface with Heroku's resources and capabilities.
@@ -88,5 +90,3 @@ Check your application's server logs:
 ```` sh
 heroku logs
 ````
-
-> NOTE: In order to provision some services like databases and email, you may need to provide Heroku with billing information. You can expect to not be charged as long as you are using the free version of each of these services. Just be aware.

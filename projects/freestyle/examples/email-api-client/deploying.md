@@ -20,7 +20,7 @@ First login to the server:
 heroku run bash -a example-email-app-py # or whatever the name of your Heroku application is. specify the application name only if you control multiple applications.
 ```
 
-Then run the application like you normally would, except invoke the `python` CLI instead of the `python3` CLI because that's how Python has been installed on the server:
+Then run the application like you normally would:
 
 ```shell
 python app/email_me.py # for example, if your script is located at this file path
@@ -28,7 +28,7 @@ python app/email_me.py # for example, if your script is located at this file pat
 
 ## Scheduling
 
-Optionally configure the server to schedule execution of the application at schedule intervals.
+Optionally configure the server to schedule execution of the application at specified intervals.
 
 First provision the server to use the free "Scheduler" service:
 

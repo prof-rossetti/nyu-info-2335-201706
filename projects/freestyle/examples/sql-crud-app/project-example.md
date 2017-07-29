@@ -2,7 +2,7 @@
 
 Use Python to create a CRUD application with an SQL database datastore.
 
-> NOTE: It is acceptable and encouraged to build upon your existing [CSV file CRUD Application Project](/projects/crud-application/project.md), switching-out the CSV datastore with an SQL database.
+> NOTE: It is acceptable and encouraged to build upon your existing [CSV file CRUD Application Project](/projects/crud-application/project.md), switching-out the CSV datastore with an SQL database. #Fix Link
 
 For optional further exploration, deploy your database application to a Heroku server,
 

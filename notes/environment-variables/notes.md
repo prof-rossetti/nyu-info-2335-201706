@@ -1,8 +1,10 @@
 # Environment Variables
 
-Some applications require private authentication-related variables such as passwords, API keys, and secret tokens. Hard-coding these values into software would be irresponsible from a security standpoint, especially when sharing the source code online.
+Some applications require private authentication-related variables such as passwords, API keys, and secret tokens. Hard-coding these values into software's source code would be irresponsible from a security standpoint, especially when sharing the source code online.
 
-So instead we store, or "set" these secret values in "environment variables" and access or "get" their values from software by invoking the name of the environment variable.
+So instead we store these secret values in special variables called "environment variables" which are accessible by any program running on the given computer. And we reference their values from an application's source code by invoking the name of the environment variable.
+
+If an application requires a certain set of environment variables, they need to be set on each machine which expects to run the application - this includes developer computers as well as public-facing application servers.
 
 ## Setting
 
@@ -10,7 +12,9 @@ Set a new environment variable called `NYU_INFO_2335`:
 
 ```shell
 # Mac Terminal:
-echo export NYU_INFO_2335="SecretPassword123" >> ~/.bash_profile
+echo export "NYU_INFO_2335=SecretPassword123" >> ~/.bash_profile
+# ... or more commonly, place inside ~/.bash_profile the following contents:
+# export NYU_INFO_2335="SecretPassword123"
 
 # Windows Command Prompt:
 set NYU_INFO_2335="SecretPassword123" # or use `setx NYU_INFO_2335="SecretPassword123"` to set this variable globally
@@ -33,4 +37,4 @@ echo $NYU_INFO_2335 #> SecretPassword123
 echo %NYU_INFO_2335% #> SecretPassword123
 ```
 
-See also: [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables) for accessing environment variables in Python].
+See also: [the `os` module](/notes/programming-languages/python/modules/os.md#accessing-environment-variables) for accessing environment variables in Python.

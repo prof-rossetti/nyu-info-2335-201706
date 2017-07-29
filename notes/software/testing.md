@@ -22,6 +22,14 @@ Well-tested applications in general tend to be of a higher quality than untested
 
 Written expectations and descriptions of desired functionality mitigate risks of "brain drain" over time as development teams experience attrition. In this way, well-tested applications tend to be easier to maintain over time.
 
+#### Test-driven Development (TDD)
+
+Sometimes software developers write tests after completing the development process. In other cases, developers write tests before and during the development process. This latter approach is called **Test-driven Development (TDD)**. When following TDD, tests become a bridge between definitions of desired functionality (i.e. "the app should do xyz") and explicit checks for that functionality.
+
+Your professor prefers to practice TDD and a related approach of **Document-driven Development** whereby the software development process follows the testing process which in-turn follows from the process of writing the software's documentation (most likely in a `README.md` file).
+
+The test-driven development process is closely related with the refactoring process. When performing the two processes in conjunction with each other, as a best practice developers follow the approach of "Red Light, Green Light, Refactor". This refers to a process of first writing a failing test, then writing functional code to make the test pass, then refactoring the functional code and re-running tests to make sure they are still passing.
+
 ### Continuous Integration
 
 Test automation enables and drives automated software release processes referred to as **Continuous Integration (CI)**. Often a new version of the software will not be released unless all automated tests have passed. This helps prevent potential bugs from reaching users.

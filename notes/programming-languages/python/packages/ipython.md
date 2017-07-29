@@ -1,15 +1,15 @@
 # Python Language Overview
 
-### The `ipython` Module
+## The `ipython` Package
 
 Reference:
 
   + http://ipython.readthedocs.io/en/stable/interactive/tutorial.html
   + https://github.com/ipython/ipython
 
-> NOTE: The `ipython` module only works with Python 3.x.
+> NOTE: The `ipython` package only works with Python 3.x.
 
-Once you have learned how to install modules using the `pip` package manager, you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
+Once you have learned how to install packages using the `pip` package manager, you should be able to use it to install a third-party module called `ipython`, which provides some useful debugging capabilities.
 
 First install `ipython`, if necessary:
 
@@ -21,9 +21,9 @@ pip3 install ipython
 pip install ipython
 ````
 
-Use the `ipython` module from the command line to enter into an interactive console, or from within a script to debug it using an interactive console.
+Use the `ipython` package from the command line to enter into an interactive console, or from within a script to debug it using an interactive console.
 
-#### Interactive Console with `ipython`
+### Interactive Console with `ipython`
 
 From the command-line:
 
@@ -39,7 +39,7 @@ ipython
 #> In [2]:
 ```
 
-#### Debugging Scripts with `ipython`
+### Debugging Scripts with `ipython`
 
 Drop an interactive break-point onto any line in a Python script by inserting an `embed()` statement. Once you run the script, it will stop at the break-point to allow further investigation.
 

@@ -1,6 +1,6 @@
 # Python Language Overview
 
-### The `json` Module
+## The `json` Module
 
 Reference: https://docs.python.org/3/library/json.html.
 
@@ -18,3 +18,5 @@ person = {
 
 json.dumps(person)
 ```
+
+... or vice-versa using `json.loads()` to convert a JSON string into a dictionary.

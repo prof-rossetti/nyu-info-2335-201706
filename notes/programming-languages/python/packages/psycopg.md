@@ -44,12 +44,14 @@ import psycopg2
 
 PSQL_USERNAME = "mjr" # <<--- Actually specify your own psql username. If you installed PostgreSQL via Homebrew on a Mac, there should be user named after your computer's username.
 PSQL_DATABASE = "mjr" # <<--- Actually use the value of some existing psql database. If you installed PostgreSQL via Homebrew on a Mac, there should be database named after your PostgreSQL username.
+#PSQL_Password = "mjr" <<--- When downloading PostgresSQL via Enterprise DB the setup wizard will prompt you to enter a password for the superuser.  Then the conneciton will require an additional variable password. 
 
 # OPEN DATABASE CONNECTION
 
 connection = psycopg2.connect(
-    dbname=PSQL_USERNAME,
-    user=PSQL_DATABASE
+    dbname=PSQL_DATABASE,
+    user=PSQL_USERNAME
+    password=PSQL_Password
 )
 
 # PERFORM A DATABASE OPERATION

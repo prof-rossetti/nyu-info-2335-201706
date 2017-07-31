@@ -56,6 +56,7 @@
 
   + [Classes and Inheritance in Python](/notes/programming-languages/python/datatypes/classes.md) and Object-oriented Programming
   + [APIs](/notes/software/apis.md)
+  + [Environment Variables](/notes/environment-variables/notes.md)
   + ["Freestyle" Project](/projects/freestyle/project.md) - Proposal Phase
   + [Survey of Open Source Python Packages](/notes/programming-languages/python/packages)
   + [Hardware Overview](/notes/hardware/notes.md), including [Remote Servers Overview](/notes/hardware/servers.md) and [Heroku Overview](/notes/hardware/heroku.md)
@@ -66,9 +67,9 @@
 
 ### Class 11 - Wednesday 2017-08-02
 
-  + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
   + "Retrospective" Exercise
   + Final Exam Preparation
+  + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
 
 ### Class 12 - Monday 2017-08-07
 

@@ -67,6 +67,7 @@
 
 ### Class 11 - Wednesday 2017-08-02
 
+  + [Malware Overview](/notes/software/malware.md)
   + "Retrospective" Exercise
   + Final Exam Preparation
   + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
@@ -74,3 +75,9 @@
 ### Class 12 - Monday 2017-08-07
 
   + Final Exam
+
+### After the Semester
+
+  +  Please fill out the NYU Course Faculty Evaluation (CFE) between 08/08/2017 and 08/14/2017.
+
+> We will send an email to your students on the day the CFE begins (whichever timing you choose) to give them the start and end dates, the weblink for the evaluation, and instructions.  Please post the instructions below and the start and end dates in NYU Classes or on your course Web page.  Please assure your students that their responses are completely confidential and anonymous and remind any non-Stern students in your class that they will need to activate their Stern email accounts to gain access to the evaluation. - Office of Records and Registration (gradcfe@stern.nyu.edu)

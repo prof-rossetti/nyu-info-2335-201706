@@ -68,13 +68,13 @@
 ### Class 11 - Wednesday 2017-08-02
 
   + [Malware Overview](/notes/software/malware.md)
-  + "Retrospective" Exercise
+  + ["Retrospective" Exercise](/exercises/retrospective/exercise.md)
   + Final Exam Preparation
   + ["Freestyle" Project](/projects/freestyle/project.md) - Implementation Phase
 
 ### Class 12 - Monday 2017-08-07
 
-  + Final Exam
+  + [Final Exam](/exams/final/exam.md)
 
 ### After the Semester
 

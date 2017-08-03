@@ -1,6 +1,6 @@
 # Freestyle Project
 
-Create an information system which uses application software to satisfy your own personal or professional interests.
+You've finally finished implementing software projects to help the corner grocery store modernize its systems, and you've earned some valuable time to yourself. In your free time, create an information system which uses application software to satisfy your own personal or professional interests.
 
 Preliminary example project ideas include:
 

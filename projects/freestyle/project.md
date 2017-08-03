@@ -77,7 +77,7 @@ If the software has tests, they should exist in a directory called `test` or `te
 
 To earn credit for the Proposal Phase deliverable, submit the [Proposal Form](https://goo.gl/forms/VuwbJiR7Q1JTSYG03) by the specified due date. If working on a team, only one member should submit the form on behalf of all teammates, and the "Contributor(s)" section should list the email addresses of all official team members.
 
-To earn credit the Implementation Phase deliverable: edit the [submissions.csv file](submissions.csv) by adding a new row to include your GitHub username(s) and your project's GitHub repository URL; then commit your changes and submit a Pull Request for your changes to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
+To earn credit for the Implementation Phase deliverable: edit the [submissions.csv file](submissions.csv) by adding a new row to include your GitHub username(s) and your project's GitHub repository URL; then commit your changes and submit a Pull Request for your changes to be included in the course repository. See the [Contributor Guide](/CONTRIBUTING.md) for instructions. At this time, you are encouraged to use the Git CLI to submit your work.
 
 ## Evaluation
 

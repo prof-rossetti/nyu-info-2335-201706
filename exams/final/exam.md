@@ -11,7 +11,6 @@ The exam consists primarily of free-response questions, but may also contain mul
 Details about the contents of the final exam will be announced during a final exam preparation session.
 
 > UPDATE: suggested study material includes:
-
 > + [Course Objectives](/README.md#objectives), but not the ones we didn't cover
 > + [Software Notes](/notes/software)
 > + [Python Language Overview](/notes/programming-languages/python/notes.md), focusing on datatypes and functions

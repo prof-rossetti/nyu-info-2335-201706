@@ -63,7 +63,7 @@ The system must perform its functions using software written in Python. The soft
 
 The software's source code should be hosted on GitHub.com in its own repository which uses the following conventions:
 
-  + Contains a file named `README.md` which provides instructions for how to install and use the software. It must also specify which Python version to run it on (2.x vs 3.x).
+  + Contains a file named `README.md` which provides instructions for how to install and use the software (ideally using a `requirements.txt` file). It must also specify which Python version to run it on (2.x vs 3.x).
   + Contains a license named `LICENSE.md` or `LICENSE.txt` or `LICENSE` which specifies copyright holder(s) and terms of use. You are recommended to choose from one of the standard licenses available within the GitHub.com user interface when you create a new repository.
   + Contains a file named `PLANNING.md` which restates your system's objectives, information inputs, and information outputs. If you would also like to share images and/or other artifacts resulting from the research, planning, and proposal processes, place these artifacts inside a directory called `planning`.
   + Contains a directory called `app` (or some other name of choice) to include one or more Python scripts which perform the application's functionality. The Python scripts may exist within various sub-directories of the `app` directory, if appropriate. Ask the professor if you're not sure how this applies to your program.

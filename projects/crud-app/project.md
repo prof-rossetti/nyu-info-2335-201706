@@ -123,7 +123,7 @@ Create in the project repository the following files:
 
   + `README.md`
   + `app/products_app.py`
-  + `data/.gigitnore`
+  + `data/.gitignore`
 
 In the `README.md` file, place some markdown syntax or normal text content to identify your application and instruct someone else how to download and run it:
 

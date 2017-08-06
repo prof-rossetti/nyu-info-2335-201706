@@ -35,7 +35,7 @@ Spoiler Alert...
 
 <hr>
 
-An **Information System** processes information inputs into information outputs for a specific purpose. Thus its primary conceptual components are **Information Inputs**, **Information Outputs**, and an objective or purpose.
+An **Information System** processes **information inputs** into **information outputs** for a specific purpose.
 
 ![A "data flow diagram" depicting a system with inputs flowing in and outputs flowing out.](example-data-flow-diagram.png)
 
@@ -67,7 +67,7 @@ Information systems may or may not leverage technology. Examples of non-tech inf
  A computer-based information system uses
  a related group of computer components working together
  to process information inputs into information outputs
- for a specific purpose. Technology components of a computer-based information system generally include:
+ for a specific purpose.  Components of a computer-based information system generally include:
 
 component | description
 --- | ---

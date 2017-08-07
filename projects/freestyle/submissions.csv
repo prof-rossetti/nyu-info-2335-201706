@@ -1,4 +1,7 @@
 github_username, repository_url
+<<<<<<< HEAD
+NarcissuYY,https://github.com/NarcissuYY/freestyle
+=======
 "first_user, second_user, third_user", https://github.com/one_of_the_users/our_repo
 aeg486, https://github.com/aeg486/freestyle
 brianguirnalda1, https://github.com/Brianguirnalda1/Freestyle
@@ -23,3 +26,4 @@ srw390, https://github.com/srw390/freestyle-stock-api
 swanm89, https://github.com/swanm89/Freestyle-Project
 tadub, https://github.com/tadub/freestyle
 etc., etc.
+>>>>>>> f886cdb766b2b6b4fd5d6195cfdadc21f26523b7

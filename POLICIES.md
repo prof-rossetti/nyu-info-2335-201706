@@ -27,3 +27,19 @@ Any student requiring learning accommodations, such as longer exam periods, must
 ### Audio-Visual Recordings
 
 All regularly-scheduled class periods will be recorded using NYU's Virtual EMS technology. The videos will be used by instructors to assess instructional methods, and will most likely be shared with students when they become available. Links to the videos may be added to this repository. Students should be aware their likenesses may appear in these recordings, especially if they are sitting near the center aisle.
+
+### Grade Guidelines and Restrictions
+
+The following Stern MBA Grading Guidelines were shared with the professor via email on 8/8/17:
+
+> Letter Grades | Meaning
+> --- | ---
+> A, A- | excellent
+> B+, B, B- | good
+> C+, C, C- | fair
+> D+, D | work satisfying minimum requirements for credit
+> F | failing
+>
+> *Grades of A,A- in MBA core courses may not exceed > 35%.
+>
+> *Please note that A+ and D- are not valid grades.

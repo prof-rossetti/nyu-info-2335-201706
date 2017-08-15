@@ -79,9 +79,6 @@ Student performance will be evaluated by assignments, projects, and a final exam
 
 
 
-
-
-
 ## Materials
 
 ### Texts

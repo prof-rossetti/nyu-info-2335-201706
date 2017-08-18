@@ -1,5 +1,9 @@
 # Schedule
 
+This document lists topics and activities in focus during each class. It also contains links to audiovisual recordings of each class to help you better follow-along from home.
+
+## Topics and Activities
+
 ### Class 1 - Wednesday 2017-06-28
 
   + [Student Survey](/assignments/survey/assignment.md)
@@ -81,3 +85,20 @@
   +  Please fill out the NYU Course Faculty Evaluation (CFE) between 08/08/2017 and 08/14/2017.
 
 > We will send an email to your students on the day the CFE begins (whichever timing you choose) to give them the start and end dates, the weblink for the evaluation, and instructions.  Please post the instructions below and the start and end dates in NYU Classes or on your course Web page.  Please assure your students that their responses are completely confidential and anonymous and remind any non-Stern students in your class that they will need to activate their Stern email accounts to gain access to the evaluation. - Office of Records and Registration (gradcfe@stern.nyu.edu)
+
+## Audiovisual Recordings
+
+You are encouraged to watch these videos at 1.4x or 1.6x or 2x speed. The professor speaks slow!
+
+ + [Class 1](http://nyustern.mediasite.com/Mediasite/Play/852ee4c7260c40ffba0046bbe74c0c8e1d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 2](http://nyustern.mediasite.com/Mediasite/Play/acee30959188412abdcbb6ec9095300d1d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 3](http://nyustern.mediasite.com/Mediasite/Play/741da65597984011afc7ded18bc3ffde1d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 4](http://nyustern.mediasite.com/Mediasite/Play/a4139bd6df754299873e87a6da50ff891d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 5](http://nyustern.mediasite.com/Mediasite/Play/3919ba612d844ea2a7b02209f69e6fe21d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 6](http://nyustern.mediasite.com/Mediasite/Play/a6b54a136a304fc9a26c5152f3e73eda1d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 7](http://nyustern.mediasite.com/Mediasite/Play/28e2309cb92848189267b48c59fc9ff61d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 8](http://nyustern.mediasite.com/Mediasite/Play/ca2c471cf1e84056984b4a73caa05a3b1d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 9](http://nyustern.mediasite.com/Mediasite/Play/81f2a1b8551947f3b4d5c92077e49ca71d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 10](http://nyustern.mediasite.com/Mediasite/Play/6eae3be17cce4b2ba9235f67a05edad61d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 11](http://nyustern.mediasite.com/Mediasite/Play/25ed8596b7ba4a96b093a279c4e8f5551d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
+ + [Class 12](http://nyustern.mediasite.com/Mediasite/Play/8cd78cfcf8e84990955de506129c31331d?catalog=0596bdd2-fa02-4ef4-b22f-26aa4aa6075a)
